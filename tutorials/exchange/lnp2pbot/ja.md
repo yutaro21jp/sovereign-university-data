@@ -1,22 +1,22 @@
 ---
 name: LN P2P Bot
 
-description: LN P2P Botの設定ガイド
+description: LN P2P Bot設定ガイド
 ---
 
 ![cover](assets/cover.webp)
 
-Bitcoinはアクセスしやすく公平な貯蓄技術であり、検閲に抵抗する交換手段です。Lightningは、Bitcoinがアクセス可能な最良のお金である理由を全て失うことなく、非常に低いコストで即座にBitcoinにアクセスできるようにします。
+ビットコインはアクセスしやすく公平な価値貯蓄技術であり、検閲に強い価値交換手段です。ライトニングは、ビットコインがアクセス可能な最良のお金である理由を全て失うことなく、非常に低いコストで即座にビットコインにアクセスできるようにします。
 
-website: https://lnp2pbot.com/
+ウェブサイト：https://lnp2pbot.com/
 
-GitHub: https://github.com/lnp2pBot/bot
+GitHub：https://github.com/lnp2pBot/bot
 
-すべてのリソース: https://lnp2pbot.com/learn/
+すべてのリソース：https://lnp2pbot.com/learn/
 
 ## クイックスタートガイド
 
-- Lightning Network互換のウォレットをダウンロードしてください（breez、phoenix、blixt）。
+- ライトニングネットワークに互換のあるウォレットをダウンロードしてください（breez、phoenix、blixt）。
 
 - Telegramのユーザー名を取得してください。
 
