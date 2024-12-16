@@ -129,7 +129,6 @@ La preistoria di Bitcoin è profondamente radicata nel movimento cypherpunk e ne
 
 Il Bitcoin è quindi un protocollo che si inserisce in tempi lunghi e ci spinge a interrogarci sul nostro rapporto con l'energia, il tempo e la moneta. Ma il Bitcoin è una "vera" moneta? Cos'è una moneta? Esiste in diverse forme? Questo è ciò che vedremo nel prossimo capitolo.
 
-![La preistoria di Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
 Se desiderate esplorare più nel dettaglio la storia di Bitcoin, vi consiglio vivamente il nostro corso HIS 201. Scoprirete le origini e la lenta ascesa di Bitcoin, nonché i primi passi della sua storia e della sua comunità. Questo corso è completamente documentato e corredato di fonti, con ovviamente numerose aneddoti :
 
@@ -745,9 +744,7 @@ A questo punto, la transazione è considerata valida, il minatore a sua volta pr
 
 > Attenzione: Anche se Alice nota di aver ricevuto bitcoin su uno dei suoi indirizzi, si consiglia di considerare la transazione come immutabile solo quando ha 6 conferme. Ciò significa che altri 6 blocchi sono stati minati sopra il blocco in cui si trova la transazione di Bob. In altre parole, più una transazione è antica nella blockchain, più è immutabile.
 
-### Breve riassunto in un poster!
 
-![Spiegazione di una transazione](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Perché tutto questo?
 
@@ -809,9 +806,7 @@ Questa situazione non è così ipotetica perché il 2017 è stato segnato da una
 
 In seguito a questa vittoria, i nodi hanno attivato un aggiornamento chiamato SegWit, aprendo la strada all'implementazione di Lightning Network, una rete di pagamento Bitcoin istantanea che utilizza la blockchain di Bitcoin. Questa situazione dimostra che gli utenti, grazie ai loro nodi, hanno un potere reale all'interno di Bitcoin, che permette loro di affrontare le grandi istituzioni.
 
-### Riassunto nel poster!
 
-![i nodi Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## I minatori
 
@@ -882,7 +877,6 @@ Anche nel caso di un attacco del 51%, cioè quando un agente possiede più della
 
 La teoria dei giochi applicata a Bitcoin esclude i minatori disonesti. I minatori utilizzano macchine ASIC per estrarre e ricevono una ricompensa in caso di successo. Inoltre, spesso si uniscono in pool di mining per condividere la potenza di calcolo ed ottenere ricompense minori ma più regolari. Il mining di Bitcoin è un processo con un alto costo energetico, ma essenziale per il funzionamento e la sicurezza della rete Bitcoin. La prova del lavoro e la blockchain risolvono il problema della doppia spesa e garantiscono l'autenticità delle informazioni senza bisogno di terze parti di fiducia. La spesa energetica è necessaria per produrre le informazioni, ma la verifica delle informazioni ha un costo trascurabile. Questa asimmetria garantisce la sicurezza della rete. Pertanto, è più economicamente conveniente seguire le regole del consenso piuttosto che infrangerle.
 
-![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
 Se desideri approfondire l'argomento specifico del mining su Bitcoin, puoi consultare il nostro corso MIN 201. Scoprirai il funzionamento e il ruolo del Proof-of-Work, nonché i meccanismi dell'industria del mining. Ti spieghiamo anche come trasformare un ASIC in un sistema di riscaldamento, per minare i tuoi primi satoshi riscaldando la tua casa!
 
@@ -934,7 +928,6 @@ La tecnologia di Bitcoin è spesso fraintesa e le critiche al suo impatto ecolog
 
 > Seguite una delle massime di Bitcoin: non fidarti, verificalo! (Dont trust, verify!)
 
-![Bitcoin & écologie](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Breve riassunto degli aspetti tecnici di Bitcoin
 
@@ -1246,7 +1239,6 @@ In conclusione, Lightning Network apre una moltitudine di entusiasmanti casi d'u
 
 Come diceva Morpheus a Neo: "Prendi la pillola blu, la storia finisce qui, ti svegli nel tuo letto e puoi credere quello che vuoi. Prendi la pillola rossa, resti nel Paese delle Meraviglie e ti mostro fino a che punto arriva la tana del coniglio." Siete pronti ad esplorare la tana del coniglio di Bitcoin? Fate attenzione, potreste ritrovare la vostra libertà finanziaria!
 
-![pillola rossa](assets/posters/fr/2_pilluleorange.webp)
 
 ### Il futuro tecnologico e le sue implicazioni
 

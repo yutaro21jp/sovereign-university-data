@@ -123,7 +123,6 @@ Tiền sử của Bitcoin gắn liền với phong trào cypherpunk và một n�
 
 Do đó, Bitcoin là một giao thức kéo dài qua nhiều thời kỳ và khuyến khích chúng ta đặt câu hỏi về mối quan hệ của mình với năng lượng, thời gian và tiền bạc. Nhưng Bitcoin có phải là một "tiền tệ" thực sự không? Tiền bạc là gì? Nó có tồn tại ở nhiều hình thức không? Chúng ta sẽ khám phá những câu hỏi này trong chương tiếp theo.
 
-![Lịch sử Tiền của Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
 Nếu bạn muốn tìm hiểu chi tiết hơn về lịch sử của Bitcoin, tôi rất khuyến nghị khóa học HIS 201 của chúng tôi. Tại đây, bạn sẽ khám phá nguồn gốc và sự nổi lên chậm chạp của Bitcoin, cũng như những khởi đầu của lịch sử và cộng đồng của nó. Khóa học này được tài liệu hóa và có nguồn, tất nhiên cũng có rất nhiều giai thoại :
 
@@ -190,9 +189,7 @@ Ngày nay, các đồng tiền vẫn đang phát triển, thích nghi hình th�
 
 Mặt khác, Bitcoin mang lại những khả năng mới. Do các tính chất của nó, như nguồn cung cực kỳ hạn chế, nó cung cấp một khoản đầu tư giữ giá trị xuất sắc. Hơn nữa, với tư cách là một đồng tiền trung lập trên internet, nó đại diện cho một phương tiện trao đổi tốt không biết đến biên giới. Tuy nhiên, nó vẫn chưa được chấp nhận rộng rãi trong thương mại ngày nay, bất chấp việc [tiếp tục được chấp nhận](https://btcmap.org/map).
 
-### Tóm tắt nhanh trên một poster!
 
-![v](assets/posters/en/3._money.webp)
 
 ## Các đồng tiền tín dụng
 
@@ -242,9 +239,7 @@ Việc in tiền dẫn đến lạm phát, dần dần làm cho dân chúng ngh�
 Đồng thời, sự xuất hiện của các đồng tiền số do ngân hàng trung ương phát hành, hay CBDCs, dường như là không thể tránh khỏi. Dạng tiền tệ mới này sẽ cung cấp một nền kinh tế được lập kế hoạch trung ương hóa, có thể cản trở tự do tài chính của cá nhân và tạo điều kiện cho những lạm dụng độc tài.
 Chúng ta có thể kết thúc chương này với lời trích dẫn từ người đoạt giải Nobel F.A Hayek vào năm 1984: "Tôi không tin rằng chúng ta sẽ bao giờ tìm thấy một loại tiền tệ tốt cho đến khi chúng ta lấy nó ra khỏi tay của chính phủ. Tuy nhiên, chúng ta không thể lấy nó một cách bạo lực; tất cả những gì chúng ta có thể làm là giới thiệu một thứ mà họ không thể ngăn chặn thông qua những mánh khóe tinh vi."
 
-### Tóm tắt nhanh trên một poster!
 
-![Văn bản thay thế](assets/posters/en/4._fiat_currency.webp)
 
 Nếu bạn muốn tìm hiểu thêm về các ngụy biện kinh tế và tự do, tôi mời bạn khám phá khóa học ECO 102 của chúng tôi. Khóa học này theo dõi cuộc đời và ý tưởng của Frédéric Bastiat, một nhà tư tưởng người Pháp thế kỷ 19, người chắc chắn sẽ trân trọng sự ra đời của Bitcoin:
 
@@ -328,9 +323,7 @@ Giai đoạn 4 - Một loại tiền tệ mới xuất hiện
 Kết luận, lạm phát cao có tác động làm giảm giá trị của tiền tệ một cách nhanh chóng, dẫn đến sự xói mòn tiết kiệm và mất niềm tin vào hệ thống tiền tệ. Như Voltaire từng gợi ý, một loại tiền tệ fiat luôn cuối cùng sẽ mất giá trị nội tại và hướng tới giá trị bằng không.
 'Một loại tiền tệ dựa vào một bên thứ ba đáng tin cậy như một tổ chức tài chính, về mặt thực hành và lâu dài, là một loại tiền tệ có khuyết điểm vì nó không thể đảm bảo sức mua hoặc bảo toàn tiết kiệm.
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/5._hyperinflation.webp)
 
 Để tìm hiểu sâu hơn về chủ đề siêu lạm phát, tôi khuyên bạn nên tham gia khóa học ECO 204 của David St-Onge. Bạn sẽ học được chu kỳ siêu lạm phát là gì và tác động thực sự của nó đối với cuộc sống của chúng ta. Bạn cũng sẽ khám phá sự tương đồng giữa các chu kỳ này và, quan trọng nhất, cách bảo vệ bản thân:
 
@@ -420,9 +413,7 @@ Bitcoin, bằng thiết kế của mình, đảm bảo quản lý tiền tệ ch
 
 Tóm lại, Bitcoin, với bản chất phi tập trung, sự khan hiếm được lập trình, và tính minh bạch, cung cấp một lựa chọn thay thế độc đáo cho các hệ thống tiền tệ truyền thống. Nó minh họa cách công nghệ có thể được sử dụng để tạo ra một loại tiền tệ không chỉ hữu ích và có thể kiểm chứng, mà còn bảo toàn giá trị tiết kiệm của người dùng bằng cách hạn chế chặt chẽ nguồn cung.
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/6._21_millions.webp)
 
 ### Kết luận của phần 1!
 
@@ -486,9 +477,7 @@ Do đó, khả năng bị hack ví Bitcoin của bạn là cực kỳ thấp n�
 
 Chọn một ví phù hợp với nhu cầu và cách sử dụng của bạn. Các hướng dẫn chi tiết về việc sử dụng và bảo mật các loại ví khác nhau có sẵn trong [phần hướng dẫn của trường đại học của chúng tôi](https://planb.network/tutorials/wallet).
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/8._what_is_a_bitcoin_wallet.webp)
 
 Nếu trong hành trình xuống hang thỏ, bạn muốn tìm hiểu thêm về việc xây dựng một ví Bitcoin, từ entropy đến địa chỉ nhận, tôi khuyên bạn nên tham gia khóa học CYP 201 dành riêng cho chủ đề này:
 
@@ -558,9 +547,7 @@ Kết luận, việc sở hữu trực tiếp bitcoin của mình là một yế
 
 Giờ đây, khi chúng ta đã hiểu rõ về điều này, hãy chuyển sang phần tiếp theo để xem các bước tạo ví Bitcoin. Tuy nhiên, nếu bạn muốn khám phá thêm về chủ đề bảo mật, bạn có thể đọc [bài viết này của DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/9._choose_the_right_wallet.webp)
 
 ## Thiết lập ví
 
@@ -598,9 +585,7 @@ Ví "lạnh" thường có những danh sách từ này, giống như ví "nóng
 
 **CHÚ Ý: Sự vắng mặt của danh sách 24 từ nên làm bạn cảnh giác.**
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
 
 Nếu bạn muốn tìm hiểu từng bước cách thiết lập ví của riêng mình và có được những bitcoin đầu tiên, tôi cũng khuyên bạn nên tham gia khóa học này:
 
@@ -636,9 +621,7 @@ Về quyền riêng tư, điều quan trọng là tránh nói với mọi ngư�
 
 Cùng một lý do, tránh tiết lộ hệ thống bảo mật của bạn một cách ồn ào trong các cuộc gặp gỡ bitcoin hoặc khi gặp gỡ người lạ...
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/19._think_long_term.webp)
 
 ### Tóm tắt về bảo mật ví Bitcoin
 
@@ -708,9 +691,7 @@ Mỗi người có cách nhìn nhận Bitcoin một cách khác nhau. Đối v�
 
 Giờ đây, khi chúng ta đã có một số nền tảng, hãy xem xét cách một giao dịch Bitcoin hoạt động nói chung.
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/7._lancement_bitcoin.webp)
 
 ## Giao dịch Bitcoin
 
@@ -760,9 +741,7 @@ Tại giai đoạn này, giao dịch được coi là hợp lệ, thợ mỏ sau
 
 > Lưu ý: Ngay cả khi Alice thấy rằng cô ấy đã nhận được bitcoin trên một trong số các địa chỉ của mình, nó được khuyến nghị coi giao dịch là không thể thay đổi chỉ khi nó có 6 xác nhận. Điều này có nghĩa là 6 khối khác đã được khai thác trên khối chứa giao dịch của Bob. Nói cách khác, càng lâu một giao dịch tồn tại trong blockchain, nó càng trở nên không thể thay đổi.
 
-### Tóm tắt nhanh trong một poster!
 
-![Giải thích về một giao dịch](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Ý nghĩa của tất cả điều này là gì?
 
@@ -820,9 +799,7 @@ Tình huống này không phải là giả định vì năm 2017 đã chứng ki
 
 Sau chiến thắng này, các nút đã kích hoạt một bản cập nhật gọi là SegWit, mở đường cho việc triển khai Lightning Network, một mạng lưới thanh toán Bitcoin tức thì sử dụng blockchain Bitcoin. Tình huống này chứng minh rằng người dùng, thông qua các nút của họ, giữ quyền lực thực sự trong Bitcoin, cho phép họ đứng lên chống lại các tổ chức lớn.
 
-### Tóm tắt trong một poster!
 
-![Nút Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Thợ Đào
 
@@ -890,9 +867,7 @@ Ngay cả trong trường hợp của một cuộc tấn công 51%, nghĩa là m
 
 Lý thuyết trò chơi áp dụng cho Bitcoin loại bỏ các thợ mỏ không trung thực. Các thợ mỏ sử dụng máy ASIC để khai thác và nhận phần thưởng trong trường hợp thành công. Ngoài ra, họ thường tham gia vào các hồ bơi khai thác để chia sẻ sức mạnh tính toán của mình và nhận được phần thưởng nhỏ nhưng đều đặn hơn. Khai thác Bitcoin là một quá trình có chi phí năng lượng cao nhưng là cần thiết cho việc hoạt động và an ninh của mạng lưới Bitcoin. Bằng chứng công việc và blockchain giải quyết vấn đề chi tiêu gấp đôi và đảm bảo tính xác thực của thông tin mà không cần bất kỳ bên thứ ba đáng tin cậy nào. Chi phí năng lượng là cần thiết để sản xuất thông tin, nhưng việc xác minh thông tin có chi phí không đáng kể. Sự không đối xứng này đảm bảo an ninh của mạng. Do đó, việc tuân theo các quy tắc đồng thuận kinh tế hợp lý hơn là vi phạm chúng.
 
-### Tóm tắt nhanh trên một poster!
 
-![miners](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
 Nếu bạn muốn tìm hiểu sâu hơn về chủ đề khai thác Bitcoin, bạn có thể tham khảo khóa học MIN 201 của chúng tôi. Bạn sẽ tìm hiểu về cách hoạt động và vai trò của Proof-of-Work, cũng như các cơ chế của ngành khai thác. Chúng tôi cũng giải thích cách biến ASIC thành lò sưởi, để bạn có thể khai thác satoshi đầu tiên trong khi sưởi ấm ngôi nhà của mình!
 
@@ -941,9 +916,7 @@ Công nghệ của Bitcoin thường bị hiểu lầm, và những chỉ trích
 
 > Tuân theo một trong những châm ngôn của Bitcoin: Đừng tin, hãy tự mình kiểm chứng!
 
-### Tóm tắt nhanh trên một poster!
 
-![Bitcoin & sinh thái](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Tóm tắt ngắn gọn về các khía cạnh kỹ thuật của Bitcoin
 
@@ -1008,9 +981,7 @@ Những chu kỳ bong bóng đầu cơ này khá độc đáo trên thế giới
 Hôm nay, vào năm 2023, Bitcoin tiếp tục tồn tại và phát triển thêm nữa bằng cách hòa nhập ngày càng nhiều vào thị trường truyền thống. Sự xuất hiện sắp tới của Bitcoin ETFs, quy định rõ ràng hơn, và các công cụ mua hoặc lưu trữ tốt hơn chỉ khuyến khích xu hướng này. Bitcoin đã MỘT LẦN NỮA sống sót qua bong bóng đầu cơ của mình, vậy có lẽ nó không phải là chuyện vô nghĩa!
 ![image](assets/en/chapter14/3.webp)
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/15._bitcoinr_never_sleeps.webp)
 
 ## Kiếm Bitcoin bằng cách làm việc
 
@@ -1050,9 +1021,7 @@ https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-e
 
 https://planb.network/courses/btc305
 
-### Tóm tắt nhanh trong một poster!
 
-![Alt text](assets/posters/en/17._earn_your_bitcoin.webp)
 
 ## Tiết kiệm với Bitcoin
 
@@ -1143,9 +1112,7 @@ Ngoài ra, có một số [thị trường](https://planb.network/tutorials/exch
 
 Cũng quan trọng là phải lưu ý rằng thuế có thể được áp dụng trong quyền hạn của bạn. Chúng tôi mời bạn tham khảo quy định của quốc gia mình trước khi thực hiện bất kỳ hành động nào có thể đặt bạn vào rủi ro.
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/16._saving_in_bitcoin.webp)
 
 ## Hyper-bitcoinization
 
@@ -1169,9 +1136,7 @@ Nếu bạn muốn mở rộng kiến thức về Bitcoin, một số lượng l
 
 > Milton Friedman, một nhà kinh tế học nổi tiếng, đã dự đoán vào năm 1999: "Tôi nghĩ rằng Internet sẽ trở thành một trong những lực lượng chính giảm bớt vai trò của chính phủ. Điều duy nhất còn thiếu, nhưng sẽ sớm được phát triển, là một phương thức e-cash đáng tin cậy - một phương thức mà trên Internet bạn có thể chuyển tiền từ A sang B mà không cần A biết B hoặc B biết A."
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/18._hyperbitcoinization.webp)
 
 # Tương Lai của Bitcoin: Mạng Lưới Lightning
 
@@ -1214,9 +1179,7 @@ Giao dịch được bảo mật thông qua mã hóa và gián tiếp thông qua
 
 Tóm lại, Mạng lưới Lightning là một nỗ lực hứa hẹn để triển khai một hệ thống thanh toán hiệu quả cho việc giao dịch bằng Bitcoin. Đã có nhiều ví Lightning khác nhau có sẵn, mà bạn có thể khám phá trong phần hướng dẫn của chúng tôi hoặc qua đào tạo Mạng lưới Lightning của chúng tôi.
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/20._lightning_network.webp)
 
 Nếu bạn muốn tìm hiểu sâu hơn ngoài phần giới thiệu này và hiểu tất cả các cơ chế của Lightning Network, tôi khuyên bạn nên tham gia khóa học xuất sắc này của Fanis Michalakis về chủ đề này:
 
@@ -1254,9 +1217,7 @@ Trong một hệ thống như vậy, tiền được tự động chia, dựa tr
 
 Kết luận, Lightning Network mở ra một loạt các trường hợp sử dụng thú vị cho người dùng Bitcoin. Các mô hình kinh tế và cơ hội kinh doanh phát sinh là nhiều và đa dạng. Chúng tôi khuyến khích bạn tự mình thử nghiệm bằng cách thử ứng dụng podcast [Fountain](https://www.fountain.fm/), cho phép bạn được thưởng một vài sats cho việc nghe các podcast yêu thích của mình!
 
-### Tóm tắt nhanh trên một poster!
 
-![Alt text](assets/posters/en/21._ln_use_cases.webp)
 
 ## Viên thuốc đỏ hay viên thuốc xanh?
 
@@ -1264,7 +1225,6 @@ Kết luận, Lightning Network mở ra một loạt các trường hợp sử d
 
 Như Morpheus đã nói với Neo: "Bạn uống viên thuốc xanh, câu chuyện kết thúc, bạn thức dậy trên giường của mình, và bạn tin vào bất cứ điều gì bạn muốn tin. Bạn uống viên thuốc đỏ, bạn ở lại Wonderland, và tôi sẽ cho bạn thấy con thỏ hố sâu như thế nào." Bạn đã sẵn sàng để khám phá con thỏ hố của Bitcoin? Hãy cẩn thận, vì bạn có thể tái khám phá tự do tài chính của mình!
 
-![red pill](assets/posters/fr/2_pilluleorange.webp)
 
 ### Tương lai công nghệ và những hệ quả của nó
 

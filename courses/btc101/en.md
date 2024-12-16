@@ -11,7 +11,7 @@ objectives:
 
 # Your First Bitcoin Adventure
 
-In this course, I will explain the basics of Bitcoin in 25 chapters, so that you can understand this technology in a simple and effective way. The course explores the basics of the industry as a whole, including topics like mining, wallets, buying/selling platforms, and more. Additional educational material will be available throughout the journey, and we also invite you to check the "21 Posters" in the resources section after you finish this course.
+In this course, we will explain the basics of Bitcoin in 25 chapters, so that you can understand this technology in a simple and effective way. The course explores the basics of the industry as a whole, including topics like mining, wallets, buying/selling platforms, and more. Additional educational material will be available throughout the journey, and we also invite you to check the "21 Posters" in the resources section after you finish this course.
 
 You don't need any specific knowledge to get started. In fact, the following content is accessible to students of all levels, and it should take approximately 15 hours to finish. 
 
@@ -29,7 +29,7 @@ You don't need any specific knowledge to get started. In fact, the following con
 
 Bitcoin is a technological and a monetary revolution, capable of making us question our relationship with money and society. In fact, Bitcoin (referred to as BTC) is a **neutral** and **decentralized** currency, which means that it is not controlled by any entity or institution. It is an innovation that goes beyond a mere "internet currency": it is both a computer protocol (Bitcoin) and a monetary unit (bitcoin).
 
-The protocol uses underlying technologies such as cryptography, network communication, and the famous "blockchain", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorans and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
+The protocol uses underlying technologies such as cryptography, network communication, and the famous "blockchain", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
 
 ### A comprehensive yet accessible curriculum
 
@@ -37,7 +37,7 @@ In this course, we will discuss some monetary aspects of Bitcoin, including how 
 
 ![image](assets/en/chapter0/4.webp)
 
-It is essential to understand that Bitcoin is a new monetary system that completely changes our relationship with money. Learning how to use Bitcoin is a necessary skill for anyone who wants to be in control of their own money.
+It is essential to understand that Bitcoin is a new monetary system that completely changes our relationship with money, so learning how to use it is a necessary skill for anyone who wants to be in control of their own funds.
 
 **Section 1 - Money**
 
@@ -72,7 +72,7 @@ It is essential to understand that Bitcoin is a new monetary system that complet
 - Chapter 17 - Introduction to the Lightning Network
 - Chapter 18 - Use cases for the Lightning Network
 
-Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology that is different to anything else. It is therefore normal not to understand everything about it all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
+Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology that is different to anything else. It is therefore normal not to understand everything about it, all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
 
 ![image](assets/en/chapter0/3.webp)
 
@@ -82,7 +82,7 @@ The important point here is to understand this new technology in a general way, 
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
-Before the term "Bitcoin" became synonymous with digital currency and financial transformation, the groundwork for its creation was laid by a series of ideas, innovations, and social movements. Among these, the cypherpunk movement stands out as a key element in the prehistory of Bitcoin."
+Before the term "Bitcoin" became synonymous with digital currency and financial transformation, the groundwork for its creation was laid by a series of ideas, innovations, and social movements. Among these, the cypherpunk movement stands out as a key element in the prehistory of Bitcoin.
 
 ### Cypherpunks: visionaries of the digital world
 
@@ -98,13 +98,13 @@ Iconic figures such as Julian Assange, Wei Dai, Tim May, and David Chaum played 
 The cypherpunk movement, deeply rooted in digital activism and cryptography, drew upon several foundational texts to articulate its principles and vision for the future. Among these writings, three stand out in particular:
 
 - The "Cypherpunk Manifesto":
-  Written by Eric Hughes in 1993, the "Cypherpunk Manifesto" asserts that privacy is a fundamental right. The author argues that the ability to communicate freely and confidentially is essential for a free society. The manifesto states: "We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy [...]. We must defend our own privacy if we expect to have any".
+  written by Eric Hughes in 1993, the "Cypherpunk Manifesto" asserts that privacy is a fundamental right. The author argues that the ability to communicate freely and confidentially is essential for a free society. The manifesto states: "We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy [...]. We must defend our own privacy if we expect to have any".
 
 - The "Crypto-Anarchist Manifesto":
-  Written by Timothy C. May in 1992, this document explains how the use of cryptography could lead to an era of cryptographic anarchy where governments would be powerless to interfere in the private affairs of citizens. May envisioned a future where people anonymously exchange information and money without the intervention of a third party.
+  written by Timothy C. May in 1992, this document explains how the use of cryptography could lead to an era of cryptographic anarchy where governments would be powerless to interfere in the private affairs of citizens. May envisioned a future where people anonymously exchange information and money without the intervention of a third party.
 
 - The "Declaration of the Independence of Cyberspace":
-  Although not exclusively cypherpunk, this text reflects the sentiments of many participants in the movement. Written in 1996 by John Perry Barlow, it is a response to the increasing regulation of the Internet by governments. The declaration asserts that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws. As it states, "We have no elected government, nor are we likely to have one".
+  although not exclusively cypherpunk, this text reflects the sentiments of many participants in the movement. Written in 1996 by John Perry Barlow, it is a response to the increasing regulation of the Internet by governments. The declaration asserts that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws. As it states, "We have no elected government, nor are we likely to have one".
 
 ### The predecessors of Bitcoin
 
@@ -116,7 +116,7 @@ Another important precursor is Wei Dai's "B-money". Although it was never implem
 
 It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. In this document, he combined several ideas from the cypherpunk movement, such as proof of work and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
 
-Bitcoin was more than just a digital currency: it represented the achievement of the cypherpunk ideals. Beyond its technology, it symbolized a revolution against traditional financial systems and offered an alternative based on transparency, decentralization, and individual sovereignty.
+However, Bitcoin was more than just that: it represented the achievement of the cypherpunk ideals. Beyond its technology, it symbolized a revolution against traditional financial systems and offered an alternative based on transparency, decentralization, and individual sovereignty.
 
 ### Conclusion
 
@@ -126,9 +126,7 @@ Therefore, Bitcoin is a protocol that stretches over long periods of time, and e
 
 However, is Bitcoin a "real" currency? To understand this, we first need to understand the concept of money and its various forms, which we will explore in the next chapter.
 
-![The Prehistory of Bitcoin](./assets/posters/en/1._bitcoin_prehistory.webp)
-
-If you want to explore Bitcoin's history in more detail, I highly recommend our HIS 201 course. You will discover the origins and the slow emergence of Bitcoin, as well as the beginnings of its history and community. This course is fully documented and sourced, with, of course, many anecdotes:
+If you want to explore Bitcoin's history in more details, we highly recommend our HIS 201 course, where you will discover the origins and the slow emergence of Bitcoin, as well as the beginnings of its history and community. This course is fully documented and sourced, with, of course, many anecdotes:
 
 https://planb.network/courses/his201
 
@@ -155,11 +153,11 @@ Thus, as civilizations advanced and trade expanded to new regions, the need for 
 
 Money is a highly sophisticated communication tool:
 
-- It allows communication between the present and the future, because it transforms our time and energy into an asset that can be reused in the future without the risk of devaluation.
+- It allows for communication between the present and the future, because it transforms our time and energy into an asset that can be reused in the time to come without the risk of devaluation.
 
 - It facilitates communication in a universal language: without knowing each other or speaking the same tongue, two strangers can exchange, trade, and agree on the value of things.
 
-Its function in our world is difficult to artificially replicate. In fact, no individual or group can create money, as it is a natural phenomenon that must emerge from the market and voluntary consensus. Prices serve as signals and pieces of information that guide society in allocating resources.
+Its function in our world is difficult to artificially replicate. In fact, no individual or group can create money, as it is a natural phenomenon that must emerge from the market and voluntary consensus. In this sense, prices serve as signals and pieces of information that guide society in allocating resources.
 
 For these reasons, gold as money is the result of 4,000 years of monetary Darwinism based on three key functions:
 
@@ -173,7 +171,7 @@ For these reasons, gold as money is the result of 4,000 years of monetary Darwin
 
 ### The characteristics of money
 
-Gold ideally meets the criteria of an efficient currency: its natural rarity makes it valuable, while its chemical properties ensure it does not erode over time. These features have made gold a great store of value, but not a common currency, because this form of money is not easily divisible or transportable over long distances. In a globalized and digital world, gold struggles to keep pace and requires a central entity to make it divisible and easily exchangeable (i.e. through minted coins).
+Gold ideally meets the criteria of an efficient currency: its natural rarity makes it valuable, while its chemical properties ensure it does not erode over time. These features have made gold a great **store of value**, but not a common currency, because this form of money is not easily divisible or transportable over long distances. In a globalized and digital world, gold struggles to keep pace and requires a central entity to make it divisible and easily exchangeable (i.e. through minted coins).
 
 On the opposite, state fiduciary currencies (fiat) are easily usable, but are constantly devalued by the entities that control them (kings, central banks, emperors, dictators).
 
@@ -191,21 +189,23 @@ In order to meet these criteria, currency has historically evolved by taking dif
 - Banknote -> Bank card
 - Blockchain -> Lightning Network
 
-Currencies are still evolving to this day, adapting their forms to meet different use cases. For example, while gold is an excellent store of value, it is no longer suitable for the current globalized economy. Similarly, fiduciary currencies such as the dollar and the euro are very liquid and easily transportable because they are now mostly digital, but their value is constantly lowered by monetary inflation.
+Currencies are still evolving to this day, adapting their forms to meet different use cases. As we said, while gold is an excellent store of value, it is no longer suitable for the current globalized economy. Similarly, fiduciary currencies such as the dollar and the euro are very liquid and easily transportable because they are now mostly digital, but their value is constantly lowered by monetary inflation.
 
-On the other hand, Bitcoin presents new possibilities. Its properties, such as a strictly limited supply, make it an excellent store of value. Moreover, as a neutral internet currency, it serves as a viable means of exchange that transcends borders. However, it is still not widely accepted in commerce today, despite its [constant adoption](https://btcmap.org/map).
+On the other hand, Bitcoin presents new possibilities. Its properties, such as the strictly limited supply, make it an excellent store of value. Moreover, as a neutral internet currency, it serves as a viable **medium of exchange** that transcends borders. However, it is still not widely accepted in commerce today, despite its [constant adoption](https://btcmap.org/map).
 
 ## Fiduciary currencies
 
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
-"Those who cannot remember the past are condemned to repeat it" said George Santayana. A truth that resonates soundly when it comes to the current monetary system.
+>"Those who cannot remember the past are condemned to repeat it" said George Santayana.
+
+A truth that resonates soundly when it comes to the current monetary system.
 
 ### Fiduciary = Trust
 
 Today, major currencies such as the Euro and the Dollar are considered fiduciary. This means they lack intrinsic value and depend entirely on the trust and confidence we place in the institutions that govern them.
 
-'A fiduciary currency is a form of money that is decreed as such by an institution, i.e. a state, like China with the Yuan, or a political-economic union, such as the European Union with the Euro. The entity in charge of its issuance is the central bank (For example, we can mention the People's Bank of China, the Federal Reserve of the United States, or the Central Bank of the Republic of Guinea). It is precisely these entities that are in charge of deciding monetary policy and therefore how much money should be put into circulation or printed.
+A fiduciary currency is a form of money that is decreed as such by an institution, i.e. a state, like China with the Yuan, or a political-economic union, such as the European Union with the Euro. The entity in charge of its issuance is the central bank (For example, we can mention the People's Bank of China, the Federal Reserve of the United States, or the Central Bank of the Republic of Guinea). It is precisely these entities that are in charge of formulating the monetary policy and therefore how much money should be put into circulation or printed.
 
 ![image](assets/en/chapter2/1.webp)
 
@@ -237,15 +237,16 @@ Because of these premises, the Bitcoin revolution is gaining momentum. Contrary 
 
 ![image](assets/en/chapter2/2.webp)
 
-In fact, Bitcoin presents itself as a response to these systemic challenges by proposing a decentralized solution and a new parallel monetary system. Historically, if gold has been favored as a currency due to its resistance to counterfeiting, Bitcoin similarly cannot be falsified and is limited to 21 million units, thanks to its decentralized and cryptographic nature. Bitcoin is a currency that relies on transparency and neutrality, offering an attractive alternative to the current centralized monetary system.
+In fact, Bitcoin presents itself as a response to these systemic challenges by proposing a decentralized solution and a new parallel monetary system. Historically, if gold has been favored as a currency due to its resistance to counterfeiting, Bitcoin similarly cannot be falsified. Moreover, it is limited to 21 million units, thanks to its decentralized and cryptographic nature. Bitcoin is a currency that relies on transparency and neutrality, offering an attractive alternative to the current centralized monetary system.
 
 ![image](assets/en/chapter2/0.webp)
 
 Another reason why Bitcoin has acquired attention is the emergence of central bank digital currencies, or CBDCs, which seems inevitable. This new form of money would develop a more centrally planned economy, and could both hinder individuals' financial freedom and facilitate authoritarian abuses.
-We can conclude this chapter with the quote from the Nobel Prize winner F.A Hayek in 1984: "I don't believe that we should ever have a good money again, before we take the thing out of the hands of the government. If we can't take them violently out of the hands of the government, all we can do is by some sly or roundabout way introduce something they can't stop."
+We can conclude this chapter with the quote from the Nobel Prize winner F.A Hayek in 1984:
 
+>"I don't believe that we should ever have a good money again, before we take the thing out of the hands of the government. If we can't take them violently out of the hands of the government, all we can do is by some sly or roundabout way introduce something they can't stop."
 
-To learn more about economic fallacies and freedom, I invite you to discover our ECO 102 course. This course traces the life and ideas of Frédéric Bastiat, a 19th-century French thinker who would surely have appreciated the emergence of Bitcoin:
+To learn more about economic fallacies and freedom, we invite you to discover our ECO 102 course, which traces the life and ideas of Frédéric Bastiat, a 19th-century French thinker who would surely have appreciated the emergence of Bitcoin:
 
 https://planb.network/courses/eco102
 
@@ -265,7 +266,7 @@ In order to understand the impact of inflation on savings, we need to take diffe
 
 When hyperinflation occurs, we are no longer talking about 20% per year, but rather 20% per month or, at its peak, even per DAY. Experiencing a 100% inflation per day over three days is a realistic scenario that has occurred and continues to happen in our world.
 
-It is crucial to understand that hyperinflation does not happen by chance, by capitalism, or by political attacks from opponents. Hyperinflation is the direct consequence of bad monetary decisions made by central bankers and politicians. Its aftermaths affect every citizen and even impacts next generations. We kindly invite you to spend five minutes reading the following table to fully realize the real impact of this phenomenon (the ECO204 course further delves into this subject)." As you can see, no country or currency is potentially safe.
+It is crucial to understand that hyperinflation does not happen by chance, by capitalism, or by political attacks from opponents. Hyperinflation is the direct consequence of bad monetary decisions made by central bankers and politicians. Its aftermaths affect every citizen and even impacts next generations. We kindly invite you to spend five minutes reading the following table to fully realize the real impact of this phenomenon (the ECO204 course further delves into this subject). As you can see, no country or currency is potentially safe.
 
 ![image](assets/en/chapter3/1.webp)
 
@@ -281,7 +282,7 @@ Phase 1 - Loss of confidence
 
 Phase 2 - Currency collapse and price increase
 
-- As governments lose control of trust, individuals begin to exchange their currency for a more stable one, like what happened in Venezuela with the US dollar. This circumstance leads to a rise in prices, creating a vicious circle where goods and services become increasingly expensive. To meet these needs and correct monetary policy, the state prints more money, resulting in exponential inflation.
+- As governments lose control of trust, individuals begin to exchange their currency for a more stable one, like what happened in Venezuela with the US dollar. This circumstance leads to a rise in prices, creating a vicious circle where goods and services become increasingly expensive. To meet these needs and correct the monetary policy, the state prints more money, resulting in exponential inflation.
 
 Phase 3 - The vicious circle of money printing
 
@@ -334,7 +335,7 @@ In conclusion, hyperinflation has the effect of rapidly degrading the value of t
 A currency that relies on a trusted third party like a financial institution is, in practice and in the long term, a defective one, because it is unable to guarantee purchasing power or preserve savings.
 
 
-To delve deeper into the subject of hyperinflations, I recommend David St-Onge's ECO 204 course. You will learn what hyperinflationary cycles are and their real impacts on our lives. You will also discover the similarities between these cycles and, most importantly, how to protect yourself from them:
+To delve deeper into the subject of hyperinflations, we recommend David St-Onge's ECO 204 course, where you will learn what hyperinflationary cycles are and their real impacts on our lives. You will also discover the similarities between these cycles and, most importantly, how to protect yourself from them.
 
 https://planb.network/courses/eco204
 
@@ -420,13 +421,9 @@ In fact, anyone can do this through a Bitcoin node (i.e. a transaction validator
 }
 ```
 
-Bitcoin guarantees a sound monetary management by limiting its creation by design, which makes it very different from other currencies because it can protect users' savings. Aligned with the principles of Austrian economics, its stable quantity and predictable distribution protect it from the inherent risks of inflation that traditional currencies have to face (see the course ECO201 to know more).
+Bitcoin guarantees a sound monetary management by limiting its creation by design, which makes it very different from other currencies because it can protect users' savings. Aligned with the principles of Austrian economics, its stable quantity and predictable distribution protect it from the inherent risks of inflation that traditional currencies have to face (see the ECO201 course to know more).
 
 In summary, Bitcoin, with its decentralized nature, programmed scarcity, and transparency, offers a unique alternative to traditional monetary systems. It illustrates how technology can be used to create a currency that not only is useful and verifiable, but also preserves the value of users' savings by strictly limiting its supply.
-
-### Quick recap in a poster!
-
-![Alt text](assets/posters/en/6._21_millions.webp)
 
 ### Conclusion of section 1!
 
@@ -494,9 +491,7 @@ Thus, the probability of hacking your Bitcoin wallet is astronomically low if yo
 
 Keep in mind to choose the right wallet for your needs and usage: detailed tutorials on managing and securing different wallets are available in the [tutorial section of our university](https://planb.network/tutorials/wallet).
 
-
-
-If, during your journey down the rabbit hole, you want to learn more about building a Bitcoin wallet, from entropy to receiving addresses, I recommend the CYP 201 course dedicated to this topic:
+If, during your journey down the rabbit hole, you want to learn more about building a Bitcoin wallet, from entropy to receiving addresses, we recommend the CYP 201 course dedicated to this topic:
 
 https://planb.network/courses/cyp201
 
@@ -589,12 +584,12 @@ When you set up a wallet, the software usually creates your private key, usually
 - Never leave your words unattended on your desk.
 - Never hide your word list in an unusual place.
 
-You should literally take a blank sheet of paper or print this [template](https://bitcoiner.guide/backup.pdf), and write the word list with a pen, following the presented order neatly and clearly. Be aware that if the ink fades over time, you may lose your funds. Therefore, it is important to keep this paper protected from those environmental factors that could potentially damage the paper, like moisture or fire.
+You should literally take a blank sheet of paper or print this [template](https://bitcoiner.guide/backup.pdf), and write the word list with a pen, following the presented order neatly and clearly. Be aware that if the ink fades over time, you may lose your funds. Therefore, it is important to keep this piece of paper protected from those environmental factors that could potentially damage it, like moisture or fire.
 
 ![image](assets/en/chapter7/0.webp)
 
 ### Our tips for doing it right
-Besides, make sure not to make a mistake during the copy, otherwise your heirs may struggle to read it and could be unable to recover the funds. Besides, once you have saved the words, it’s advisable to create a second copy and store it in a different location from the first. This ensures you have a backup in case the original is lost or damaged.
+Besides, make sure not to make any mistake during the copy, otherwise your heirs may struggle to read it and could be unable to recover the funds. Besides, once you have saved the words, it’s advisable to create a second copy and store it in a different location from the first. This ensures you have a backup in case the original is lost or damaged.
 
 ![image](assets/en/chapter7/1.webp)
 
@@ -606,10 +601,7 @@ Both 'cold' and 'hot' wallets use the word list method as the standard for backi
 
 **ATTENTION: The absence of a list of 12/24 words should alert you.**
 
-
-![Alt text](assets/posters/en/10._set_up_your_wallet.webp)
-
-If you then wish to discover, step by step, how to set up your own wallet and get your first bitcoins, I also recommend taking this other course:
+If you then wish to discover, step by step, how to set up your own wallet and get your first bitcoins, we also recommend taking this other course:
 
 https://planb.network/courses/btc102
 
@@ -1221,7 +1213,7 @@ Transactions are secured through cryptography and indirectly through the energy 
 In summary, Lightning Network is a promising attempt to deploy an efficient payment system to buy and sell in Bitcoin. There are already numerous Lightning wallets available, which you can discover in our tutorial section or through our Lightning Network courses.
 
 
-If you want to go beyond this introduction and understand all the workings of the Lightning Network, I recommend taking this excellent course by Fanis Michalakis on the subject:
+If you want to go beyond this introduction and understand all the workings of the Lightning Network, we recommend taking this excellent course by Fanis Michalakis on the subject:
 
 https://planb.network/courses/lnp201
 

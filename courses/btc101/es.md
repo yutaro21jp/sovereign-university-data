@@ -129,7 +129,6 @@ La prehistoria de Bitcoin está profundamente arraigada en el movimiento cypherp
 
 Por lo tanto, Bitcoin es un protocolo que abarca largos períodos de tiempo y nos insta a cuestionar nuestra relación con la energía, el tiempo y el dinero. Pero, ¿es Bitcoin una "verdadera" moneda? ¿Qué es una moneda? ¿Existen en varias formas? Esto es lo que veremos en el próximo capítulo.
 
-![La prehistoria de Bitcoin](./assets/posters/es/1_bitcoin_prehistoria.webp)
 
 Si desea explorar la historia de Bitcoin en mayor detalle, le recomiendo encarecidamente nuestro curso HIS 201. Allí descubrirá los orígenes y la lenta aparición de Bitcoin, así como los inicios de su historia y su comunidad. Este curso está completamente documentado y referenciado, con, por supuesto, muchas anécdotas:
 
@@ -199,9 +198,7 @@ Hoy en día, las monedas siguen evolucionando, adaptando sus formas para satisfa
 
 Bitcoin, por otro lado, presenta nuevas posibilidades. Debido a sus propiedades, como su oferta estrictamente limitada, ofrece una excelente reserva de valor. Además, como moneda neutral de Internet, representa una buena forma de intercambio que no conoce fronteras. Sin embargo, todavía no es ampliamente aceptado en los comercios hoy en día, a pesar de su [adopción constante](https://btcmap.org/map).
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/3_moneda.webp)
 
 ## Las monedas fiduciarias
 
@@ -253,9 +250,7 @@ Al mismo tiempo, la aparición de las monedas digitales de los bancos centrales,
 
 Podemos conlcuir este capítulo con la cita del premio Nobel de Economía F.A Hayek en 1984: "No creo que alguna vez se encuentre una buena moneda hasta que no se la quite del gobierno. Sin embargo, no podemos arrancársela violentamente, lo único que podemos hacer es introducir algo ingeniosamente que ellos no puedan detener".
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/4_las_monedas_fiduciarias.webp)
 
 Para conocer más sobre falacias económicas y libertad, lo invito a descubrir nuestro curso ECO 102. Este curso recorre la vida y las ideas de Frédéric Bastiat, un pensador francés del siglo XIX que, sin duda, habría apreciado el surgimiento de Bitcoin:
 
@@ -340,9 +335,7 @@ En conclusión, la hiperinflación tiene el efecto de degradar rápidamente el v
 
 Una moneda que depende de un tercero de confianza, como una entidad financiera, resulta en la práctica y a largo plazo una moneda defectuosa porque es incapaz de garantizar el poder adquisitivo ni preservar el ahorros.
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/5_las_hiperinflaciones.webp)
 
 Para profundizar en el tema de las hiperinflaciones, le recomiendo el curso ECO 204 de David St-Onge. Allí aprenderá qué son los ciclos hiperinflacionarios y cuáles son sus impactos reales en nuestras vidas. También descubrirá las similitudes entre estos ciclos y, sobre todo, cómo protegerse de ellos:
 
@@ -432,9 +425,7 @@ Bitcoin, por su diseño, garantiza una gestión monetaria saludable al limitar s
 
 En resumen, Bitcoin, debido a su naturaleza descentralizada, su escasez programada y su transparencia, ofrece una alternativa única a los sistemas monetarios tradicionales. Ilustra cómo la tecnología puede ser utilizada para crear una moneda que no solo es útil y verificable, sino que también preserva el valor de los ahorros de los usuarios al limitar estrictamente su oferta.
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/6_21_millones_de_bitcoins.webp)
 
 ### ¡Conclusión de la sección 1!
 
@@ -508,9 +499,7 @@ Por lo tanto, la probabilidad de que tu billetera de Bitcoin sea pirateada es as
 
 Elije una billetera que se adapte a tus necesidades y uso. Hay tutoriales detallados sobre el uso y la seguridad de diferentes billeteras disponibles en la sección [tutoriales / billetera](https://planb.network/tutorials/wallet).
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/8_que_es_un_wallet.webp)
 
 Si durante su viaje por la madriguera del conejo desea aprender más sobre la construcción de una billetera de Bitcoin, desde la entropía hasta las direcciones de recepción, le recomiendo el curso CYP 201 dedicado a este tema:
 
@@ -580,9 +569,7 @@ En conclusión, la posesión directa de tus Bitcoins es un elemento esencial par
 
 Ahora que tenemos esto en mente, vamos a ver en la próxima sección los pasos para crear una billetera Bitcoin. Sin embargo, si deseas explorar más sobre el tema de la seguridad, puedes leer este [artículo de DarthCoin](https://darthcoin.substack.com/p/bitcoin-proprio-banco).
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/9_que_wallet_elegir.webp)
 
 ## Configuración de una billetera
 
@@ -619,9 +606,7 @@ Las billeteras "frías" generalmente tienen estas listas de palabras, al igual q
 
 **ATENCIÓN: La falta de una lista de 24 palabras debe alertarte.**
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/10_configurar_tu_monedero.webp)
 
 Si desea luego descubrir, paso a paso, cómo configurar su propia billetera y obtener sus primeros bitcoins, le recomiendo también seguir este otro curso:
 
@@ -657,9 +642,7 @@ En cuanto a la privacidad, es vital evitar hablar a todo el mundo de tus bitcoin
 
 Del mismo modo, evita revelar tu sistema de seguridad a los cuatro vientos en reuniones sobre bitcoins o cuando quedes con desconocidos...
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/19_la_prueba_del_tiempo.webp)
 
 ### Resumen de la seguridad del monedero Bitcoin
 
@@ -730,9 +713,7 @@ Para profundizar en tus conocimientos sobre los escritos de Satoshi Nakamoto, te
 
 Ahora que tenemos algunos elementos de contexto, veamos cómo funciona en general una transacción de Bitcoin.
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/7_bitcoin_emepeza.webp)
 
 ## Las transacciones de Bitcoin
 
@@ -782,9 +763,7 @@ En este punto, la transacción se considera válida, el minero propagará a su v
 
 > Atención: Incluso si Alice nota que ha recibido bitcoins en una de sus direcciones, se recomienda considerar la transacción como inmutable solo cuando tenga 6 confirmaciones. Esto significa que se han minado otros 6 bloques encima del bloque en el que se encuentra la transacción de Bob. En otras palabras, cuanto más antigua sea una transacción en la cadena de bloques, más inmutable será.
 
-### ¡Un pequeño resumen en un póster!
 
-![Explicación de una transacción](./assets/posters/es/11_explicacion_de_una_transaccion.webp)
 
 ### ¿Para qué sirve todo esto?
 
@@ -846,9 +825,7 @@ Esta situación no es tan hipotética, ya que el año 2017 estuvo marcado por un
 
 Después de esta victoria, los nodos activaron una actualización llamada SegWit, abriendo el camino para la implementación de Lightning Network, una red de pago instantáneo de Bitcoin que utiliza la cadena de bloques de Bitcoin. Esta situación demuestra que los usuarios, a través de sus nodos, tienen un poder real dentro de Bitcoin, lo que les permite enfrentarse a las grandes instituciones.
 
-### ¡Resumen en un póster!
 
-![los nodos de Bitcoin](./assets/posters/es/12_nodos_bitcoin.webp)
 
 ## Los mineros
 
@@ -917,9 +894,7 @@ Incluso en el caso de un ataque del 51%, es decir, cuando un agente posee más d
 
 La teoría del juego aplicada a Bitcoin descarta a los mineros deshonestos. Los mineros utilizan máquinas ASIC para minar y reciben una recompensa en caso de éxito. Además, a menudo se agrupan en grupos de minería para compartir su poder de cálculo y obtener recompensas más pequeñas pero más regulares. La minería de Bitcoin es un proceso con un alto costo energético pero esencial para el funcionamiento y la seguridad de la red de Bitcoin. La prueba de trabajo y la cadena de bloques resuelven el problema del doble gasto y garantizan la veracidad de la información sin necesidad de un tercero de confianza. El gasto energético es necesario para producir la información, pero la verificación de la información tiene un costo insignificante. Esta asimetría garantiza la seguridad de la red. Por lo tanto, es más económicamente viable seguir las reglas de consenso que infringirlas.
 
-### ¡Un pequeño resumen en un póster!
 
-![les mineurs](./assets/posters/es/13_los_minero.webp)
 
 Si desea profundizar en el tema específico de la minería en Bitcoin, puede consultar nuestro curso MIN 201. Descubrirá el funcionamiento y el papel de la Prueba de Trabajo, así como los entresijos de la industria minera. También le explicamos cómo convertir un ASIC en calefacción, para que pueda minar sus primeros satoshis mientras calienta su hogar!
 
@@ -971,9 +946,7 @@ La tecnología de Bitcoin suele ser malinterpretada, y las críticas sobre su im
 
 > Sigue uno de los lemas de Bitcoin: ¡No confíes, verifica por ti mismo!
 
-### ¡Un pequeño resumen en un póster!
 
-![Bitcoin & écologie](./assets/posters/es/14_minage_et_ecologie_crop.webp)
 
 ### Breve resumen de los aspectos técnicos de Bitcoin
 
@@ -1043,9 +1016,7 @@ Hoy, en 2024, Bitcoin sigue sobreviviendo y creciendo cada vez más al integrars
 
 ![image](assets/es/chapter14/3.webp)
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/15_el_precio_de_bitcoin.webp)
 
 ## Obtener bitcoins trabajando
 
@@ -1087,9 +1058,7 @@ https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-e
 
 https://planb.network/courses/btc305
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/17_trabajor_por_tener_bitcoin.webp)
 
 ## Ahorrar con Bitcoin
 
@@ -1181,9 +1150,7 @@ Además, hay diversas [formas de mercado](https://planb.network/tutorials/exchan
 
 También es importante tener en cuenta que es posible que se implementen impuestos en tu jurisdicción. Te recomendamos que consultes la regulación de tu país antes de tomar cualquier acción que pueda ponerte en riesgo.
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/16_agorrar_en_bitcoin.webp)
 
 ## Hiper-bitcoinización
 
@@ -1209,9 +1176,7 @@ Si deseas ampliar tus conocimientos sobre Bitcoin, muchos autores, pensadores y 
 
 > Milton Friedman, un economista renombrado, predijo en 1999: "Creo que Internet será una de las principales fuerzas para reducir el papel del gobierno. Lo único que falta, pero que pronto se desarrollará, es un dinero electrónico confiable: un método mediante el cual en Internet se puedan transferir fondos de A a B sin que A conozca a B o B conozca a A". Hoy en día, Bitcoin cumple con esta predicción.
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/18_hyper_bitcoinizacion.webp)
 
 # El futuro de Bitcoin: Lightning Network
 
@@ -1255,9 +1220,7 @@ Las transacciones están aseguradas mediante criptografía e indirectamente por 
 
 En resumen, la Lightning Network es un intento prometedor de implementar un sistema de pago eficiente para transacciones en Bitcoin. Ya existen numerosas billeteras Lightning que puedes descubrir en nuestra sección de tutoriales o a través de nuestros cursos sobre la Lightning Network.
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/20_lightning_network.webp)
 
 Si desea ir más allá de esta introducción y comprender todos los detalles de la Lightning Network, le recomiendo seguir este excelente curso de Fanis Michalakis sobre el tema:
 
@@ -1296,9 +1259,7 @@ En un sistema como este, el dinero se divide automáticamente, según un porcent
 
 En conclusión, la Lightning Network abre una multitud de casos de uso emocionantes para los usuarios de Bitcoin. Los modelos económicos y las oportunidades comerciales que surgen de esto son numerosos y variados. Te animamos a probar por ti mismo la aplicación de podcast [Fountain](https://www.fountain.fm/), que te permite ser recompensado con algunos sats por escuchar tus podcasts favoritos.
 
-### ¡Un pequeño resumen en un póster!
 
-![Alt text](assets/posters/es/21_ln_exemplo_de_eso.webp)
 
 ## ¿Píldora azul o píldora roja?
 
@@ -1306,7 +1267,6 @@ En conclusión, la Lightning Network abre una multitud de casos de uso emocionan
 
 Como dijo Morfeo a Neo: "Si tomas la píldora azul, la historia termina, despiertas en tu cama y crees lo que quieras creer. Si tomas la píldora roja, te quedas en el País de las Maravillas y te muestro hasta dónde llega la madriguera". ¿Estás listo para explorar la madriguera de Bitcoin? ¡Ten cuidado, podrías encontrar tu libertad financiera!
 
-![píldora roja](./assets/posters/es/2_la_pastilla_bitcoin.webp)
 
 ### El futuro tecnológico y sus implicaciones
 

@@ -127,7 +127,6 @@ A pré-história do Bitcoin está profundamente enraizada no movimento cypherpun
 
 Portanto, o Bitcoin é um protocolo que se insere em longos períodos de tempo e nos faz questionar nossa relação com energia, tempo e moeda. Mas o Bitcoin é uma "verdadeira" moeda? O que é uma moeda? Ela existe em várias formas? É isso que veremos no próximo capítulo.
 
-![A pré-história do Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
 Se você deseja explorar mais detalhadamente a história do Bitcoin, recomendo fortemente o nosso curso HIS 201. Nele, você descobrirá as origens e a lenta emergência do Bitcoin, bem como os primórdios de sua história e de sua comunidade. Este curso é totalmente documentado e referenciado, com, é claro, muitas anedotas :
 
@@ -753,9 +752,7 @@ Neste ponto, a transação é considerada válida, o minerador irá propagar o n
 
 > Atenção: Mesmo que Alice perceba que recebeu bitcoins em um de seus endereços, é recomendado considerar a transação como imutável apenas quando ela possui 6 confirmações. Isso significa que outros 6 blocos foram minerados acima do bloco em que a transação de Bob está localizada. Em outras palavras, quanto mais antiga a transação na blockchain, mais imutável ela é.
 
-### Pequeno resumo em pôster!
 
-![Explicação de uma transação](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Para que tudo isso?
 
@@ -819,9 +816,7 @@ Essa situação não é tão hipotética assim, pois o ano de 2017 foi marcado p
 
 Após essa vitória, os nós ativaram uma atualização chamada SegWit, abrindo caminho para a implementação da Lightning Network, uma rede de pagamento instantâneo do Bitcoin usando a blockchain do Bitcoin. Essa situação demonstra que os usuários, por meio de seus nós, possuem um poder real dentro do Bitcoin, permitindo que enfrentem as grandes instituições.
 
-### Resumo em pôster!
 
-![os nós do Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Os mineradores
 
@@ -893,7 +888,6 @@ Mesmo no caso de um ataque de 51%, ou seja, quando um agente possui mais da meta
 
 A teoria dos jogos aplicada ao Bitcoin afasta os mineradores desonestos. Os mineradores usam máquinas ASIC para minerar e recebem uma recompensa em caso de sucesso. Além disso, eles frequentemente se agrupam em pools de mineração para compartilhar seu poder de computação e obter recompensas menores, mas mais regulares. A mineração de Bitcoin é um processo com alto custo energético, mas essencial para o funcionamento e segurança da rede Bitcoin. A prova de trabalho e a blockchain resolvem o problema de gastos duplos e garantem a veracidade das informações sem a necessidade de terceiros confiáveis. O gasto energético é necessário para produzir a informação, mas a verificação das informações tem um custo negligenciável. Essa assimetria garante a segurança da rede. Portanto, é economicamente mais viável seguir as regras de consenso do que violá-las.
 
-![os mineradores](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
 Se você deseja se aprofundar no tema específico da mineração de Bitcoin, pode consultar nosso curso MIN 201. Nele, você descobrirá o funcionamento e o papel do Proof-of-Work, assim como os mecanismos da indústria de mineração. Explicamos também como transformar um ASIC em um aquecedor, para minerar seus primeiros satoshis enquanto aquece sua casa!
 
@@ -945,7 +939,6 @@ A tecnologia do Bitcoin é frequentemente mal compreendida, e as críticas em re
 
 > Siga um dos lemas do Bitcoin: Não confie, verifique por si mesmo!
 
-![Bitcoin & meio ambiente](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Breve resumo dos aspectos técnicos do Bitcoin
 
@@ -1255,7 +1248,6 @@ Em conclusão, a Lightning Network abre uma infinidade de casos de uso empolgant
 
 Como Morpheus disse a Neo: "Se você tomar a pílula azul, a história acaba, você acorda na sua cama e acredita no que quiser. Se você tomar a pílula vermelha, fica no País das Maravilhas e eu te mostro até onde vai a toca do coelho." Você está pronto para explorar a toca do coelho do Bitcoin? Tome cuidado, pois você pode encontrar sua liberdade financeira!
 
-![pílula vermelha](assets/posters/fr/2_pilluleorange.webp)
 
 ### O futuro tecnológico e suas implicações
 
