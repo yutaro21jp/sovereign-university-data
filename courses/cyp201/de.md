@@ -138,6 +138,8 @@ $$
 
 Daher ist die Resistenz gegen Second Preimage in gewisser Weise ähnlich zur Kollisionsresistenz, außer hier ist der Angriff schwieriger, weil der Angreifer $m_1$ nicht frei wählen kann.
 
+![CYP201](assets/fr/005.webp)
+
 ### Anwendungen von Hash-Funktionen in Bitcoin
 
 Die am häufigsten verwendete Hash-Funktion in Bitcoin ist **SHA256** ("_Secure Hash Algorithm 256 bits"_). Entwickelt Anfang der 2000er Jahre vom NSA und standardisiert durch das NIST, erzeugt sie einen 256-Bit-Hash-Ausgang.
@@ -781,6 +783,9 @@ Die Tatsache, dass dieser Punkt $G$ allen öffentlichen Schlüsseln auf Bitcoin 
 ![CYP201](assets/fr/017.webp)
 
 Die Hauptcharakteristik dieser Operation ist, dass sie eine Einwegfunktion ist. Es ist einfach, den öffentlichen Schlüssel $K$ zu berechnen, wenn man den privaten Schlüssel $k$ und den Generatorpunkt $G$ kennt, aber es ist praktisch unmöglich, den privaten Schlüssel $k$ zu berechnen, wenn man nur den öffentlichen Schlüssel $K$ und den Generatorpunkt $G$ kennt. $k$ aus $K$ und $G$ zu finden, entspricht der Lösung des diskreten Logarithmusproblems auf elliptischen Kurven, ein mathematisch schwieriges Problem, für das kein effizienter Algorithmus bekannt ist. Selbst die leistungsfähigsten aktuellen Rechner sind nicht in der Lage, dieses Problem in einer vernünftigen Zeit zu lösen.
+
+![CYP201](assets/fr/018.webp)
+
 ### Addition und Verdopplung von Punkten auf elliptischen Kurven
 
 Das Konzept der Addition auf elliptischen Kurven ist geometrisch definiert. Wenn wir zwei Punkte $P$ und $Q$ auf der Kurve haben, wird die Operation $P + Q$ berechnet, indem eine Linie gezeichnet wird, die durch $P$ und $Q$ verläuft. Diese Linie wird die Kurve notwendigerweise an einem dritten Punkt $R'$ schneiden. Wir nehmen dann das Spiegelbild dieses Punktes bezüglich der x-Achse, um den Punkt $R$ zu erhalten, der das Ergebnis der Addition ist:

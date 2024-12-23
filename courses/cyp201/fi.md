@@ -726,6 +726,8 @@ Se, että tämä piste $G$ on yhteinen kaikille Bitcoinin julkisille avaimille, 
 
 Tämän toiminnon pääominaisuus on, että se on yksisuuntainen funktio. Julkisen avaimen $K$ laskeminen on helppoa tietäen yksityisen avaimen $k$ ja generaattoripisteen $G$, mutta yksityisen avaimen $k$ laskeminen tietäen vain julkisen avaimen $K$ ja generaattoripisteen $G$ on käytännössä mahdotonta. $k$:n löytäminen $K$:sta ja $G$:stä tarkoittaa elliptisten käyrien diskreetin logaritmin ongelman ratkaisemista, matemaattisesti vaikeaa ongelmaa, jolle ei tunneta tehokasta algoritmia. Edes tehokkaimmat nykyiset laskimet eivät pysty ratkaisemaan tätä ongelmaa kohtuullisessa ajassa.
 
+![CYP201](assets/fr/018.webp)
+
 ### Pisteiden yhteenlasku ja kaksinkertaistaminen elliptisillä käyrillä
 
 Elliptisten käyrien yhteenlaskun käsite määritellään geometrisesti. Jos meillä on kaksi pistettä $P$ ja $Q$ käyrällä, operaatio $P + Q$ lasketaan piirtämällä viiva, joka kulkee $P$:n ja $Q$:n kautta. Tämä viiva leikkaa käyrän kolmannessa pisteessä $R'$. Otamme sitten tämän pisteen peilikuvan x-akselin suhteen saadaksemme pisteen $R$, joka on yhteenlaskun tulos:
@@ -1904,6 +1906,8 @@ Teknisesti P2TR-skripti lukitsee bitcoinit yksilölliselle Schnorrin julkiselle 
 - Tyydyttämällä yksi Merkle-puussa olevista skripteistä (*script path*).
 P2TR tarjoaa siis suuren joustavuuden, sillä se mahdollistaa bitcoinien lukitsemisen joko ainutlaatuisella julkisella avaimella, useilla valinnaisilla skripteillä tai molemmilla samanaikaisesti. Tämän Merkle-puun rakenteen etu on, että vain käytetty kulutusskripti paljastetaan transaktion aikana, mutta kaikki muut vaihtoehtoiset skriptit pysyvät salassa.
 
+![CYP201](assets/fr/063.webp)
+
 P2TR vastaa version 1 SegWit-tuloja, mikä tarkoittaa, että P2TR-syötteiden allekirjoitukset tallennetaan transaktion *Witness*-osioon, eikä *scriptSig*-osioon. P2TR-osoitteet käyttävät *bech32m*-koodausta ja alkavat `bc1p`:llä, mutta ne ovat melko ainutlaatuisia, koska niiden rakentamiseen ei käytetä hajautusfunktiota. Ne edustavat suoraan julkista avainta $Q$, joka on yksinkertaisesti muotoiltu metatiedoilla. Se on siis skriptimalli, joka on lähellä P2PK:ta.
 
 Nyt kun olemme käsitelleet teoriaa, siirrytään käytäntöön! Seuraavassa luvussa ehdotan, että johdamme sekä SegWit v0 -osoitteen että SegWit v1 -osoitteen avainparista.
@@ -1922,6 +1926,9 @@ Suoritettuamme kaikki johdantoaskeleet pääavaimesta syvyyteen 5 käyttäen asi
 Ensimmäinen askel on julkisen avaimen $K$ pakkaaminen. Ymmärtääksemme tämän prosessin hyvin, palautetaan ensin mieliin joitakin perusteita, jotka käsiteltiin osassa 3.
 Bitcoinin julkinen avain on piste $K$, joka sijaitsee elliptisellä käyrällä. Se esitetään muodossa $(x, y)$, missä $x$ ja $y$ ovat pisteen koordinaatit. Sen pakkaamattomassa muodossa tämä julkinen avain on 520 bittiä: 8 bittiä etuliitteelle (alkuarvo `0x04`), 256 bittiä $x$-koordinaatille ja 256 bittiä $y$-koordinaatille.
 Elliptisillä käyrillä on kuitenkin symmetriaominaisuus x-akselin suhteen: annetulle $x$-koordinaatille on vain kaksi mahdollista arvoa $y$:lle: $y$ ja $-y$. Nämä kaksi pistettä sijaitsevat x-akselin kummallakin puolella. Toisin sanoen, jos tiedämme $x$:n, riittää määrittää, onko $y$ parillinen vai pariton tunnistaaksemme tarkan pisteen käyrällä.
+
+![CYP201](assets/fr/064.webp)
+
 Julkisen avaimen tiivistämisessä koodataan vain $x$, joka vie 256 bittiä, ja lisätään etuliite, joka määrittää $y$:n pariteetin. Tämä menetelmä pienentää julkisen avaimen kokoa 264 bittiin alkuperäisen 520 sijaan. Etuliite `0x02` osoittaa, että $y$ on parillinen, ja etuliite `0x03` osoittaa, että $y$ on pariton.
 Otetaan esimerkki ymmärtääksemme paremmin, käyttäen raakaa julkista avainta pakkaamattomassa esitysmuodossa:
 

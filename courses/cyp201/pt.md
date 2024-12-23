@@ -138,6 +138,8 @@ $$
 
 Portanto, a resistência à segunda pré-imagem é um pouco semelhante à resistência à colisão, exceto que aqui, o ataque é mais difícil porque o atacante não pode escolher livremente $m_1$.
 
+![CYP201](assets/fr/005.webp)
+
 ### Aplicações de Funções Hash no Bitcoin
 
 A função hash mais usada no Bitcoin é **SHA256** ("_Secure Hash Algorithm 256 bits"_). Projetada no início dos anos 2000 pela NSA e padronizada pelo NIST, ela produz uma saída de hash de 256 bits.
@@ -763,6 +765,9 @@ O fato de que este ponto $G$ é comum a todas as chaves públicas no Bitcoin nos
 ![CYP201](assets/fr/017.webp)
 
 A principal característica desta operação é que ela é uma função unidirecional. É fácil calcular a chave pública $K$ conhecendo a chave privada $k$ e o ponto gerador $G$, mas é praticamente impossível calcular a chave privada $k$ conhecendo apenas a chave pública $K$ e o ponto gerador $G$. Encontrar $k$ a partir de $K$ e $G$ equivale a resolver o problema do logaritmo discreto em curvas elípticas, um problema matematicamente difícil para o qual não se conhece algoritmo eficiente. Mesmo os calculadores mais poderosos atuais são incapazes de resolver este problema em um tempo razoável.
+
+![CYP201](assets/fr/018.webp)
+
 ### Adição e Dobramento de Pontos em Curvas Elípticas
 
 O conceito de adição em curvas elípticas é definido geometricamente. Se temos dois pontos $P$ e $Q$ na curva, a operação $P + Q$ é calculada desenhando uma linha que passa por $P$ e $Q$. Esta linha necessariamente intersectará a curva em um terceiro ponto $R'$. Em seguida, tomamos a imagem espelhada deste ponto em relação ao eixo x para obter o ponto $R$, que é o resultado da adição:

@@ -139,6 +139,8 @@ $$
 
 Por lo tanto, la resistencia a la segunda preimagen es algo similar a la resistencia a colisiones, excepto que aquí, el ataque es más difícil porque el atacante no puede elegir libremente $m_1$.
 
+![CYP201](assets/fr/005.webp)
+
 ### Aplicaciones de las Funciones Hash en Bitcoin
 
 La función hash más utilizada en Bitcoin es **SHA256** ("_Secure Hash Algorithm 256 bits"_). Diseñada a principios de los años 2000 por la NSA y estandarizada por el NIST, produce una salida hash de 256 bits.
@@ -764,6 +766,8 @@ El hecho de que este punto $G$ sea común a todas las claves públicas en Bitcoi
 ![CYP201](assets/fr/017.webp)
 
 La principal característica de esta operación es que es una función unidireccional. Es fácil calcular la clave pública $K$ conociendo la clave privada $k$ y el punto generador $G$, pero es prácticamente imposible calcular la clave privada $k$ conociendo solo la clave pública $K$ y el punto generador $G$. Encontrar $k$ a partir de $K$ y $G$ equivale a resolver el problema del logaritmo discreto en curvas elípticas, un problema matemáticamente difícil para el cual no se conoce ningún algoritmo eficiente. Incluso los calculadores más potentes actuales son incapaces de resolver este problema en un tiempo razonable.
+
+![CYP201](assets/fr/018.webp)
 
 ### Adición y Duplicación de Puntos en Curvas Elípticas
 

@@ -139,6 +139,8 @@ $$
 
 Do đó, khả năng chống preimage thứ hai tương tự như khả năng chống va chạm, ngoại trừ ở đây, cuộc tấn công khó hơn bởi vì kẻ tấn công không thể tự do chọn $m_1$.
 
+![CYP201](assets/fr/005.webp)
+
 ### Ứng Dụng của Hàm Băm trong Bitcoin
 
 Hàm băm được sử dụng nhiều nhất trong Bitcoin là **SHA256** ("_Secure Hash Algorithm 256 bits"_). Được thiết kế vào đầu những năm 2000 bởi NSA và được chuẩn hóa bởi NIST, nó tạo ra một đầu ra băm 256-bit.
@@ -744,6 +746,9 @@ Việc điểm $G$ này chung cho tất cả các khóa công khai trên Bitcoin
 ![CYP201](assets/fr/017.webp)
 
 Đặc điểm chính của phép toán này là nó là một hàm một chiều. Việc tính toán khóa công khai $K$ khi biết khóa riêng $k$ và điểm sinh $G$ là dễ dàng, nhưng việc tính toán khóa riêng $k$ khi chỉ biết khóa công khai $K$ và điểm sinh $G$ là gần như không thể. Tìm $k$ từ $K$ và $G$ tương đương với việc giải quyết vấn đề logarit rời rạc trên đường cong elliptic, một vấn đề toán học khó mà không có thuật toán hiệu quả nào được biết đến. Ngay cả những máy tính mạnh mẽ nhất hiện nay cũng không thể giải quyết vấn đề này trong một khoảng thời gian hợp lý.
+
+![CYP201](assets/fr/018.webp)
+
 ### Phép Cộng và Nhân Đôi Điểm trên Đường Cong Elliptic
 
 Khái niệm về phép cộng trên đường cong elliptic được định nghĩa một cách hình học. Nếu chúng ta có hai điểm $P$ và $Q$ trên đường cong, phép toán $P + Q$ được tính bằng cách vẽ một đường thẳng đi qua $P$ và $Q$. Đường thẳng này sẽ nhất thiết cắt đường cong tại một điểm thứ ba $R'$. Sau đó, chúng ta lấy ảnh phản chiếu của điểm này qua trục x để thu được điểm $R$, là kết quả của phép cộng:
@@ -1937,6 +1942,8 @@ Về mặt kỹ thuật, một kịch bản P2TR khóa bitcoins trên một khó
 - Bằng cách thỏa mãn một trong các kịch bản chứa trong cây Merkle (*script path*).
 P2TR do đó mang lại sự linh hoạt lớn, khi nó cho phép khóa bitcoin bằng một khóa công khai duy nhất, với nhiều script tùy chọn, hoặc cả hai cùng một lúc. Lợi ích của cấu trúc cây Merkle này là chỉ có script sử dụng để chi tiêu được tiết lộ trong giao dịch, nhưng tất cả các script thay thế khác vẫn được giữ bí mật.
 
+![CYP201](assets/fr/063.webp)
+
 P2TR tương ứng với đầu ra SegWit phiên bản 1, điều này có nghĩa là chữ ký cho các đầu vào P2TR được lưu trữ trong phần *Witness* của giao dịch, và không phải trong *scriptSig*. Địa chỉ P2TR sử dụng mã hóa *bech32m* và bắt đầu với `bc1p`, nhưng chúng khá đặc biệt vì không sử dụng hàm băm cho việc xây dựng của chúng. Thực tế, chúng trực tiếp đại diện cho khóa công khai $Q$ được định dạng đơn giản với metadata. Do đó, đây là một mô hình script gần với P2PK.
 
 Bây giờ chúng ta đã nắm được lý thuyết, hãy chuyển sang thực hành! Trong chương tiếp theo, tôi đề xuất việc tạo ra cả địa chỉ SegWit v0 và địa chỉ SegWit v1 từ một cặp khóa.
@@ -1955,6 +1962,9 @@ Sau khi thực hiện tất cả các bước phát sinh từ khóa chính đế
 Bước đầu tiên là nén khóa công khai $K$. Để hiểu rõ quá trình này, hãy trước hết nhớ lại một số nguyên tắc cơ bản được đề cập trong phần 3.
 Một khóa công khai trên Bitcoin là một điểm $K$ nằm trên một đường cong elliptic. Nó được biểu diễn dưới dạng $(x, y)$, nơi $x$ và $y$ là tọa độ của điểm. Trong dạng không nén, khóa công khai này có kích thước 520 bit: 8 bit cho tiền tố (giá trị ban đầu là `0x04`), 256 bit cho tọa độ $x$, và 256 bit cho tọa độ $y$.
 Tuy nhiên, đường cong elliptic có tính chất đối xứng đối với trục x: cho một tọa độ $x$ cụ thể, chỉ có hai giá trị có thể cho $y$: $y$ và $-y$. Hai điểm này nằm ở hai bên của trục x. Nói cách khác, nếu chúng ta biết $x$, chỉ cần chỉ rõ $y$ là chẵn hay lẻ để xác định chính xác điểm trên đường cong.
+
+![CYP201](assets/fr/064.webp)
+
 Để nén một khóa công khai, chỉ cần mã hóa $x$, chiếm 256 bit, và thêm một tiền tố để chỉ định tính chẵn lẻ của $y$. Phương pháp này giảm kích thước của khóa công khai xuống còn 264 bit thay vì 520 bit ban đầu. Tiền tố `0x02` chỉ ra rằng $y$ là số chẵn, và tiền tố `0x03` chỉ ra rằng $y$ là số lẻ.
 Hãy lấy một ví dụ để hiểu rõ hơn, với một khóa công khai chưa nén:
 

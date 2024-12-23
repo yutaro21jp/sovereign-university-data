@@ -137,6 +137,8 @@ $$
 
 Tedy odolnost proti druhému preobrazu je do jisté míry podobná odolnosti proti kolizím, kromě toho, že zde je útok obtížnější, protože útočník nemůže volně vybírat $m_1$.
 
+![CYP201](assets/fr/005.webp) 
+
 ### Aplikace hašovacích funkcí v Bitcoinu
 
 Nejpoužívanější hašovací funkcí v Bitcoinu je **SHA256** ("_Secure Hash Algorithm 256 bits"_). Navržena na začátku 2000s NSA a standardizována NIST, produkuje 256-bitový hašovací výstup.
@@ -723,6 +725,8 @@ Fakt, že tento bod $G$ je společný pro všechny veřejné klíče na Bitcoinu
 ![CYP201](assets/fr/017.webp)
 
 Hlavní charakteristikou této operace je, že jde o jednosměrnou funkci. Je snadné vypočítat veřejný klíč $K$ znalostí soukromého klíče $k$ a generátorového bodu $G$, ale je prakticky nemožné vypočítat soukromý klíč $k$ znalostí pouze veřejného klíče $K$ a generátorového bodu $G$. Najít $k$ z $K$ a $G$ znamená řešit problém diskrétního logaritmu na eliptických křivkách, matematicky obtížný problém, pro který není znám žádný efektivní algoritmus. Ani nejsilnější současné kalkulačky nejsou schopny tento problém vyřešit v rozumném čase.
+
+![CYP201](assets/fr/018.webp)
 
 ### Sčítání a zdvojení bodů na eliptických křivkách
 
@@ -1869,6 +1873,8 @@ Technicky skript P2TR zamyká bitcoiny na unikátním veřejném klíči Schnorr
 - Splněním jednoho ze skriptů obsažených v Merkleově stromu (*script path*).
 P2TR tedy nabízí velkou flexibilitu, protože umožňuje uzamknout bitcoiny buď s unikátním veřejným klíčem, s několika vybranými skripty, nebo s obojím současně. Výhodou této struktury Merkleova stromu je, že během transakce je odhalen pouze použitý výdajový skript, ale všechny ostatní alternativní skripty zůstávají tajné.
 
+![CYP201](assets/fr/063.webp)
+
 P2TR odpovídá výstupům SegWit verze 1, což znamená, že podpisy pro vstupy P2TR jsou uloženy v sekci *Witness* transakce, a ne v *scriptSig*. Adresy P2TR používají kódování *bech32m* a začínají na `bc1p`, ale jsou poměrně unikátní tím, že pro jejich konstrukci nepoužívají hashovací funkci. Skutečně přímo reprezentují veřejný klíč $Q$, který je jednoduše formátován s metadaty. Je to tedy model skriptu blízký P2PK.
 
 Nyní, když jsme probrali teorii, pojďme přejít k praxi! V následující kapitole navrhuji odvození jak adresy SegWit v0, tak adresy SegWit v1 z páru klíčů.
@@ -1887,6 +1893,9 @@ Po provedení všech kroků odvození od hlavního klíče k hloubce 5 pomocí v
 Prvním krokem je komprese veřejného klíče $K$. Abychom tento proces dobře pochopili, připomeňme si nejprve některé základy, které byly pokryty v části 3.
 Veřejný klíč v Bitcoinu je bod $K$ umístěný na eliptické křivce. Je reprezentován ve formě $(x, y)$, kde $x$ a $y$ jsou souřadnice bodu. Ve své neskomprimované formě má tento veřejný klíč 520 bitů: 8 bitů pro prefix (počáteční hodnota `0x04`), 256 bitů pro souřadnici $x$ a 256 bitů pro souřadnici $y$.
 Eliptické křivky však mají vlastnost symetrie vzhledem k ose x: pro danou souřadnici $x$ existují pouze dvě možné hodnoty pro $y$: $y$ a $-y$. Tyto dva body se nacházejí na obou stranách osy x. Jinými slovy, pokud známe $x$, stačí specifikovat, zda je $y$ sudé nebo liché, abychom identifikovali přesný bod na křivce.
+
+![CYP201](assets/fr/064.webp)
+
 Pro kompresi veřejného klíče se kóduje pouze $x$, které zabírá 256 bitů, a přidá se prefix, který specifikuje paritu $y$. Tato metoda redukuje velikost veřejného klíče na 264 bitů namísto původních 520. Prefix `0x02` indikuje, že $y$ je sudé, a prefix `0x03` indikuje, že $y$ je liché.
 Pojďme si vzít příklad pro lepší pochopení, s nekomprimovanou reprezentací veřejného klíče:
 

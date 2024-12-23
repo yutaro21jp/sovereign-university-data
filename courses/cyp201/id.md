@@ -139,6 +139,8 @@ $$
 
 Oleh karena itu, ketahanan terhadap preimage kedua agak mirip dengan ketahanan terhadap tabrakan, kecuali di sini, serangannya lebih sulit karena penyerang tidak dapat bebas memilih $m_1$.
 
+![CYP201](assets/fr/005.webp)
+
 ### Aplikasi Fungsi Hash dalam Bitcoin
 
 Fungsi hash yang paling banyak digunakan dalam Bitcoin adalah **SHA256** ("_Secure Hash Algorithm 256 bits"_). Dirancang pada awal tahun 2000-an oleh NSA dan distandarisasi oleh NIST, fungsi ini menghasilkan output hash 256-bit.
@@ -726,6 +728,8 @@ Fakta bahwa titik $G$ ini umum untuk semua kunci publik di Bitcoin memungkinkan 
 
 Karakteristik utama dari operasi ini adalah bahwa itu adalah fungsi satu arah. Mudah untuk menghitung kunci publik $K$ dengan mengetahui kunci privat $k$ dan titik generator $G$, tetapi praktis tidak mungkin untuk menghitung kunci privat $k$ dengan hanya mengetahui kunci publik $K$ dan titik generator $G$. Menemukan $k$ dari $K$ dan $G$ berarti menyelesaikan masalah logaritma diskrit pada kurva eliptik, sebuah masalah matematika yang sulit untuk mana tidak ada algoritma efisien yang diketahui. Bahkan kalkulator paling kuat saat ini tidak mampu menyelesaikan masalah ini dalam waktu yang wajar.
 
+![CYP201](assets/fr/018.webp)
+
 ### Penambahan dan Penggandaan Titik pada Kurva Eliptik
 
 Konsep penambahan pada kurva eliptik didefinisikan secara geometris. Jika kita memiliki dua titik $P$ dan $Q$ pada kurva, operasi $P + Q$ dihitung dengan menggambar garis yang melewati $P$ dan $Q$. Garis ini akan selalu berpotongan dengan kurva di titik ketiga $R'$. Kemudian kita mengambil citra cermin dari titik ini terhadap sumbu-x untuk mendapatkan titik $R$, yang merupakan hasil dari penambahan:
@@ -776,6 +780,8 @@ $$
 $$
 
 Secara grafis, ini akan diwakili sebagai berikut:
+
+![CYP201](assets/fr/022.webp)
 
 ### Fungsi Satu Arah
 
@@ -1901,6 +1907,8 @@ Secara teknis, skrip P2TR mengunci bitcoin pada kunci publik Schnorr unik, yang 
 - Dengan memenuhi salah satu skrip yang terkandung dalam pohon Merkle (*script path*).
 P2TR menawarkan fleksibilitas yang besar, karena memungkinkan penguncian bitcoin baik dengan kunci publik unik, dengan beberapa skrip pilihan, atau keduanya secara bersamaan. Keuntungan dari struktur pohon Merkle ini adalah hanya skrip pengeluaran yang digunakan yang diungkapkan selama transaksi, tetapi semua skrip alternatif lainnya tetap rahasia.
 
+![CYP201](assets/fr/063.webp)
+
 P2TR sesuai dengan output SegWit versi 1, yang berarti bahwa tanda tangan untuk input P2TR disimpan di bagian *Witness* transaksi, dan tidak di *scriptSig*. Alamat P2TR menggunakan pengkodean *bech32m* dan dimulai dengan `bc1p`, tetapi mereka cukup unik karena tidak menggunakan fungsi hash untuk konstruksinya. Memang, mereka secara langsung mewakili kunci publik $Q$ yang hanya diformat dengan metadata. Oleh karena itu, ini adalah model skrip yang dekat dengan P2PK.
 
 Sekarang setelah kita telah membahas teorinya, mari kita lanjutkan ke praktik! Dalam bab berikut, saya mengusulkan untuk menurunkan baik alamat SegWit v0 maupun alamat SegWit v1 dari sepasang kunci.
@@ -1917,6 +1925,9 @@ Karena proses penghasilan alamat bergantung pada model skrip yang diadopsi, mari
 Setelah melakukan semua langkah turunan dari kunci induk ke kedalaman 5 menggunakan indeks yang sesuai, kita memperoleh sepasang kunci ($k$, $K$) dengan $K = k \cdot G$. Meskipun mungkin untuk menggunakan kunci publik ini apa adanya untuk mengunci dana dengan standar P2PK, itu bukan tujuan kita di sini. Sebaliknya, kita bertujuan untuk membuat alamat dalam P2WPKH dalam contoh pertama, dan kemudian dalam P2TR untuk contoh lainnya.
 
 Langkah pertama adalah mengompres kunci publik $K$. Untuk memahami proses ini dengan baik, mari kita ingat kembali beberapa dasar yang dibahas di bagian 3. Kunci publik pada Bitcoin adalah titik $K$ yang terletak pada kurva eliptik. Ini diwakili dalam bentuk $(x, y)$, di mana $x$ dan $y$ adalah koordinat titik. Dalam bentuknya yang tidak dikompres, kunci publik ini berukuran 520 bit: 8 bit untuk awalan (nilai awal `0x04`), 256 bit untuk koordinat $x$, dan 256 bit untuk koordinat $y$. Namun, kurva eliptik memiliki properti simetri terhadap sumbu x: untuk koordinat $x$ yang diberikan, hanya ada dua nilai yang mungkin untuk $y$: $y$ dan $-y$. Kedua titik ini terletak di kedua sisi sumbu x. Dengan kata lain, jika kita tahu $x$, cukup untuk menentukan apakah $y$ genap atau ganjil untuk mengidentifikasi titik yang tepat pada kurva.
+
+![CYP201](assets/fr/064.webp)
+
 Untuk mengompres kunci publik, hanya $x$ yang dikodekan, yang menempati 256 bit, dan sebuah prefiks ditambahkan untuk menentukan paritas dari $y$. Metode ini mengurangi ukuran kunci publik menjadi 264 bit daripada awalnya 520. Prefiks `0x02` menunjukkan bahwa $y$ genap, dan prefiks `0x03` menunjukkan bahwa $y$ ganjil.
 Mari kita ambil contoh untuk memahami dengan baik, dengan kunci publik mentah dalam representasi tidak terkompresi:
 

@@ -138,6 +138,8 @@ $$
 
 Pertanto, la resistenza alla seconda preimmagine è in qualche modo simile alla resistenza alle collisioni, eccetto che qui, l'attacco è più difficile perché l'attaccante non può scegliere liberamente $m_1$.
 
+![CYP201](assets/fr/005.webp)
+
 ### Applicazioni delle Funzioni Hash in Bitcoin
 
 La funzione hash più utilizzata in Bitcoin è **SHA256** ("_Secure Hash Algorithm 256 bits"_). Progettata all'inizio degli anni 2000 dalla NSA e standardizzata dal NIST, produce un output hash di 256 bit.
@@ -389,6 +391,8 @@ Con:
 In questo caso, $x$ è uguale a $W_{i-15}$ per $\sigma_0(x)$ e $W_{i-2}$ per $\sigma_1(x)$.
 
 Una volta determinate tutte le parole $W_i$ per il nostro pezzo di 512 bit, possiamo passare alla funzione di compressione, che consiste nell'eseguire 64 round.
+
+![CYP201](assets/fr/009.webp)
 
 Per ogni round $i$ da 0 a 63, abbiamo tre diversi tipi di input. Primo, il $W_i$ che abbiamo appena determinato, in parte costituito dal nostro pezzo di messaggio $P_n$. Successivamente, le 64 costanti $K_i$. Infine, usiamo le variabili di stato $A$, $B$, $C$, $D$, $E$, $F$, $G$ e $H$, che evolveranno durante il processo di hashing e saranno modificate con ogni funzione di compressione. Tuttavia, per il primo pezzo $P_1$, usiamo le costanti iniziali date in precedenza.
 Eseguiamo quindi le seguenti operazioni sui nostri input:
@@ -671,6 +675,9 @@ y^2 = x^3 + 7
 $$
 
 La sua rappresentazione grafica sul campo dei numeri reali appare così:
+
+![CYP201](assets/fr/015.webp)
+
 Tuttavia, in crittografia, lavoriamo con insiemi finiti di numeri. Più specificamente, lavoriamo sul campo finito $\mathbb{F}_p$, che è il campo degli interi modulo un numero primo $p$.
 **Definizione**: Un numero primo è un intero naturale maggiore o uguale a 2 che ha solo due distinti divisori interi positivi: 1 e se stesso. Per esempio, il numero 7 è un numero primo poiché può essere diviso solo per 1 e 7. D'altra parte, il numero 8 non è primo perché può essere diviso per 1, 2, 4 e 8.
 In Bitcoin, il numero primo $p$ utilizzato per definire il campo finito è molto grande. È scelto in modo tale che l'ordine del campo (cioè, il numero di elementi in $\mathbb{F}_p$) sia sufficientemente grande da garantire la sicurezza crittografica.
@@ -749,6 +756,8 @@ Il fatto che questo punto $G$ sia comune a tutte le chiavi pubbliche su Bitcoin 
 
 La caratteristica principale di questa operazione è che si tratta di una funzione unidirezionale. È facile calcolare la chiave pubblica $K$ conoscendo la chiave privata $k$ e il punto generatore $G$, ma è praticamente impossibile calcolare la chiave privata $k$ conoscendo solo la chiave pubblica $K$ e il punto generatore $G$. Trovare $k$ a partire da $K$ e $G$ equivale a risolvere il problema del logaritmo discreto sulle curve ellittiche, un problema matematicamente difficile per il quale non è noto alcun algoritmo efficiente. Anche i calcolatori più potenti attuali non sono in grado di risolvere questo problema in un tempo ragionevole.
 
+![CYP201](assets/fr/018.webp)
+
 ### Addizione e Raddoppio dei Punti sulle Curve Ellittiche
 
 Il concetto di addizione sulle curve ellittiche è definito geometricamente. Se abbiamo due punti $P$ e $Q$ sulla curva, l'operazione $P + Q$ viene calcolata tracciando una linea che passa per $P$ e $Q$. Questa linea intersecherà necessariamente la curva in un terzo punto $R'$. Prendiamo poi l'immagine speculare di questo punto rispetto all'asse x per ottenere il punto $R$, che è il risultato dell'addizione:
@@ -799,6 +808,8 @@ $$
 $$
 
 Graficamente, ciò sarebbe rappresentato come segue:
+
+![CYP201](assets/fr/022.webp)
 
 ### Funzione Unidirezionale
 
@@ -1920,6 +1931,8 @@ Tecnicamente, uno script P2TR blocca i bitcoin su una unica chiave pubblica Schn
 - Soddisfacendo uno degli script contenuti nell'albero di Merkle (*script path*).
 P2TR offre quindi grande flessibilità, poiché consente di bloccare bitcoin sia con una chiave pubblica unica, sia con diversi script a scelta, o entrambi simultaneamente. Il vantaggio di questa struttura ad albero di Merkle è che solo lo script di spesa utilizzato viene rivelato durante la transazione, ma tutti gli altri script alternativi rimangono segreti.
 
+![CYP201](assets/fr/063.webp)
+
 P2TR corrisponde agli output di versione 1 di SegWit, il che significa che le firme per gli input P2TR sono memorizzate nella sezione *Witness* della transazione, e non nello *scriptSig*. Gli indirizzi P2TR utilizzano la codifica *bech32m* e iniziano con `bc1p`, ma sono piuttosto unici perché non utilizzano una funzione hash per la loro costruzione. Infatti, rappresentano direttamente la chiave pubblica $Q$ che è semplicemente formattata con metadati. È, quindi, un modello di script vicino a P2PK.
 
 Ora che abbiamo coperto la teoria, passiamo alla pratica! Nel capitolo seguente, propongo di derivare sia un indirizzo SegWit v0 che un indirizzo SegWit v1 da una coppia di chiavi.
@@ -1938,6 +1951,9 @@ Dopo aver eseguito tutti i passaggi di derivazione dalla chiave maestra alla pro
 Il primo passo è comprimere la chiave pubblica $K$. Per comprendere bene questo processo, ricordiamo prima alcuni fondamenti trattati nella parte 3.
 Una chiave pubblica su Bitcoin è un punto $K$ situato su una curva ellittica. È rappresentata nella forma $(x, y)$, dove $x$ e $y$ sono le coordinate del punto. Nella sua forma non compressa, questa chiave pubblica misura 520 bit: 8 bit per un prefisso (valore iniziale di `0x04`), 256 bit per la coordinata $x$ e 256 bit per la coordinata $y$.
 Tuttavia, le curve ellittiche hanno una proprietà di simmetria rispetto all'asse x: per una data coordinata $x$, ci sono solo due valori possibili per $y$: $y$ e $-y$. Questi due punti si trovano su entrambi i lati dell'asse x. In altre parole, se conosciamo $x$, è sufficiente specificare se $y$ è pari o dispari per identificare il punto esatto sulla curva.
+
+![CYP201](assets/fr/064.webp)
+
 Per comprimere una chiave pubblica, viene codificato solo $x$, che occupa 256 bit, e viene aggiunto un prefisso per specificare la parità di $y$. Questo metodo riduce la dimensione della chiave pubblica a 264 bit invece dei 520 iniziali. Il prefisso `0x02` indica che $y$ è pari, e il prefisso `0x03` indica che $y$ è dispari.
 Prendiamo un esempio per capire bene, con una chiave pubblica grezza in rappresentazione non compressa:
 

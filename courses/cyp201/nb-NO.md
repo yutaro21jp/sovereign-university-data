@@ -138,6 +138,8 @@ $$
 
 Derfor er motstand mot sekundært prebilde noe lik kollisjonsresistens, bortsett fra at her er angrepet vanskeligere fordi angriperen ikke fritt kan velge $m_1$.
 
+![CYP201](assets/fr/005.webp)
+
 ### Bruk av Hashfunksjoner i Bitcoin
 
 Den mest brukte hashfunksjonen i Bitcoin er **SHA256** ("_Secure Hash Algorithm 256 bits"_). Designet på begynnelsen av 2000-tallet av NSA og standardisert av NIST, produserer den et 256-bit hashresultat.
@@ -724,6 +726,8 @@ Det faktum at dette punktet $G$ er felles for alle offentlige nøkler på Bitcoi
 ![CYP201](assets/fr/017.webp)
 
 Hovedkarakteristikken til denne operasjonen er at det er en enveisfunksjon. Det er enkelt å beregne den offentlige nøkkelen $K$ ved å kjenne den private nøkkelen $k$ og generatorelementet $G$, men det er praktisk talt umulig å beregne den private nøkkelen $k$ ved å kun kjenne den offentlige nøkkelen $K$ og generatorelementet $G$. Å finne $k$ fra $K$ og $G$ tilsvarer å løse det diskrete logaritmeproblemet på elliptiske kurver, et matematisk vanskelig problem for hvilket det ikke er kjent noen effektiv algoritme. Selv de kraftigste nåværende kalkulatorene er ute av stand til å løse dette problemet på en rimelig tid.
+
+![CYP201](assets/fr/018.webp)
 
 ### Addisjon og Dobling av Punkter på Elliptiske Kurver
 

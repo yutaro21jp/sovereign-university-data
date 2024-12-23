@@ -788,6 +788,8 @@ The fact that this point $G$ is common to all public keys on Bitcoin allows us t
 
 The main characteristic of this operation is that it is a one-way function. It is easy to calculate the public key $K$ knowing the private key $k$ and the generator point $G$, but it is practically impossible to calculate the private key $k$ knowing only the public key $K$ and the generator point $G$. Finding $k$ from $K$ and $G$ amounts to solving the discrete logarithm problem on elliptic curves, a mathematically difficult problem for which no efficient algorithm is known. Even the most powerful current calculators are unable to solve this problem in a reasonable time.
 
+![CYP201](assets/fr/018.webp)
+
 ### Addition and Doubling of Points on Elliptic Curves
 
 The concept of addition on elliptic curves is defined geometrically. If we have two points $P$ and $Q$ on the curve, the operation $P + Q$ is calculated by drawing a line passing through $P$ and $Q$. This line will necessarily intersect the curve at a third point $R'$. We then take the mirror image of this point with respect to the x-axis to obtain the point $R$, which is the result of the addition:

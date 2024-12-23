@@ -726,6 +726,8 @@ Asjaolu, et see punkt $G$ on kõigile Bitcoin'i avalikele võtmetele ühine, võ
 
 Selle operatsiooni peamine omadus on see, et see on ühesuunaline funktsioon. Avaliku võtme $K$ arvutamine on lihtne, teades privaatvõtit $k$ ja generaatorpunkti $G$, kuid privaatvõtme $k$ arvutamine, teades ainult avalikku võtit $K$ ja generaatorpunkti $G$, on praktiliselt võimatu. $k$ leidmine $K$ ja $G$ põhjal tähendab diskreetse logaritmi probleemi lahendamist elliptilistel kõveratel, mis on matemaatiliselt keeruline probleem, mille jaoks ei ole teada ühtegi efektiivset algoritmi. Isegi kõige võimsamad praegused arvutid ei suuda seda probleemi mõistliku aja jooksul lahendada.
 
+![CYP201](assets/fr/018.webp)
+
 ### Punkti Lisamine ja Kahekordistamine Elliptilistel Kõveratel
 
 Lisamine elliptilistel kõveratel on määratletud geomeetriliselt. Kui meil on kõveral kaks punkti $P$ ja $Q$, siis operatsiooni $P + Q$ arvutatakse joonestades joon, mis läbib punkte $P$ ja $Q$. See joon lõikub kõveraga kindlasti kolmandas punktis $R'$. Seejärel võtame selle punkti peegelpildi x-telje suhtes, et saada punkt $R$, mis on lisamise tulemus:
@@ -1931,6 +1933,8 @@ Tehniliselt lukustab P2TR skript bitcoine unikaalse Schnorri avaliku võtmega, m
 
 P2TR pakub suurt paindlikkust, kuna see võimaldab bitcoine lukustada kas unikaalse avaliku võtmega, mitme valitud skriptiga või mõlemaga korraga. Selle Merkle puu struktuuri eelis on see, et tehingu ajal paljastatakse ainult kasutatud kulutamise skript, kuid kõik teised alternatiivsed skriptid jäävad saladuseks.
 
+![CYP201](assets/fr/063.webp)
+
 P2TR vastab versiooni 1 SegWit väljunditele, mis tähendab, et P2TR sisendite allkirjad salvestatakse tehingu _Witness_ sektsiooni, mitte _scriptSig_-i. P2TR aadressid kasutavad _bech32m_ kodeeringut ja algavad `bc1p`-ga, kuid need on üsna unikaalsed, kuna nende konstrueerimiseks ei kasutata räsi funktsiooni. Tegelikult esindavad nad otse avalikku võtit $Q$, mis on lihtsalt vormindatud metateabega. Seega on see skripti mudel lähedane P2PK-le.
 
 Nüüd, kui oleme teooria läbi käinud, liigume praktika juurde! Järgmises peatükis pakun välja nii SegWit v0 aadressi kui ka SegWit v1 aadressi tuletamise võtmepaarist.
@@ -1952,6 +1956,8 @@ Esimene samm on avaliku võtme $K$ kompressioon. Selle protsessi mõistmiseks me
 Bitcoinis on avalik võti punkt $K$, mis asub elliptilisel kõveral. See on esitatud kujul $(x, y)$, kus $x$ ja $y$ on punkti koordinaadid. Oma lahtipakitud kujul mõõdab see avalik võti 520 bitti: 8 bitti prefiksi jaoks (algväärtus `0x04`), 256 bitti $x$ koordinaadi jaoks ja 256 bitti $y$ koordinaadi jaoks.
 
 Siiski, elliptilistel kõveratel on sümmeetriaomadus x-telje suhtes: antud $x$ koordinaadi jaoks on $y$ jaoks võimalikud ainult kaks väärtust: $y$ ja $-y$. Need kaks punkti asuvad x-telje mõlemal küljel. Teisisõnu, kui me teame $x$, piisab sellest, kui määrata, kas $y$ on paaris või paaritu, et tuvastada täpne punkt kõveral.
+
+![CYP201](assets/fr/064.webp)
 
 Avaliku võtme kokkusurumiseks kodeeritakse ainult $x$, mis hõivab 256 bitti, ja lisatakse prefiks, et määrata $y$ paarsus. See meetod vähendab avaliku võtme suurust 264 bitini algse 520 asemel. Prefiks `0x02` näitab, et $y$ on paaris, ja prefiks `0x03` näitab, et $y$ on paaritu.
 Vaatame näidet, et paremini aru saada, kasutades toorest avalikku võtit kokkusurumata esituses:
