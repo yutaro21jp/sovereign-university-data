@@ -169,14 +169,14 @@ Có nhiều lựa chọn để sử dụng Whirlpool. Lựa chọn mà tôi mu�
 Thực hiện coinjoins qua Samourai Wallet sử dụng Dojo của riêng bạn, theo ý kiến của tôi, là chiến lược hiệu quả nhất để thực hiện coinjoins trên Bitcoin đến thời điểm hiện tại. Cách tiếp cận này đòi hỏi một khoản đầu tư ban đầu về cài đặt, nhưng một khi đã hoàn tất, nó cung cấp khả năng trộn và remix bitcoin của bạn liên tục, 24 giờ một ngày, 7 ngày một tuần, mà không cần phải giữ ứng dụng Samourai hoạt động suốt thời gian. Thực sự, nhờ vào Whirlpool CLI hoạt động trên một nút Bitcoin, bạn luôn sẵn sàng tham gia vào coinjoins. Sau đó, ứng dụng Samourai cho bạn cơ hội chi tiêu tiền đã trộn của mình bất cứ lúc nào, ở bất cứ đâu, trực tiếp từ điện thoại thông minh của bạn. Hơn nữa, phương pháp này có lợi thế là không bao giờ kết nối bạn với các máy chủ do đội ngũ Samourai quản lý, do đó bảo vệ `xpub` của bạn khỏi bất kỳ sự phơi bày bên ngoài nào.
 
 Kỹ thuật này do đó là lý tưởng cho những ai tìm kiếm sự riêng tư tối đa và các chu kỳ coinjoin chất lượng cao nhất. Tuy nhiên, nó đòi hỏi phải có một nút Bitcoin sẵn có và, như chúng ta sẽ thấy sau, đòi hỏi một số cài đặt. Do đó, nó phù hợp hơn với người dùng trung cấp đến nâng cao. Đối với người mới bắt đầu, tôi khuyên nên làm quen với coinjoin thông qua hai hướng dẫn khác, cho thấy cách thực hiện từ Sparrow Wallet hoặc Samourai Wallet (không có Dojo):
-- **[Hướng dẫn coinjoin Sparrow Wallet](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet)**;
-- **[Hướng dẫn coinjoin Samourai Wallet (không có Dojo)](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet)**.
+- **[Hướng dẫn coinjoin Sparrow Wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- **[Hướng dẫn coinjoin Samourai Wallet (không có Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 ### Hiểu về Cài Đặt
 Để bắt đầu, bạn sẽ cần một Dojo! Dojo là một triển khai nút Bitcoin dựa trên Bitcoin Core, được phát triển bởi các đội ngũ Samourai.
 
 Để chạy Dojo của riêng bạn, bạn có tùy chọn hoặc là tự cài đặt một nút Dojo một cách độc lập, hoặc tận dụng Dojo trên một giải pháp nút Bitcoin "node-in-box" khác. Hiện tại, các tùy chọn có sẵn là:
-- [RoninDojo](https://ronindojo.io/), là một Dojo được nâng cấp với các công cụ bổ sung, bao gồm trợ lý cài đặt và trợ lý quản lý. Tôi chi tiết quy trình cài đặt và sử dụng RoninDojo trong hướng dẫn khác này: [RONINDOJO V2](https://planb.network/en/tutorials/node/ronin-dojo-v2);
+- [RoninDojo](https://ronindojo.io/), là một Dojo được nâng cấp với các công cụ bổ sung, bao gồm trợ lý cài đặt và trợ lý quản lý. Tôi chi tiết quy trình cài đặt và sử dụng RoninDojo trong hướng dẫn khác này: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) với ứng dụng "Samourai Server";
 - [MyNode](https://mynodebtc.com/) với ứng dụng "Dojo";
 - [Nodl](https://www.nodl.eu/) với ứng dụng "Dojo";
@@ -364,3 +364,6 @@ Các tài khoản Whirlpool dễ dàng được nhận diện trên Samourai Wal
 
 ![coinjoin](assets/notext/53.webp)
 Để theo dõi các giao dịch coinjoin tự động của bạn, tôi cũng khuyên bạn nên thiết lập một ví chỉ xem thông qua ứng dụng Sentinel. Thêm ZPUB của tài khoản **Postmix** của bạn và theo dõi tiến trình của các chu kỳ coinjoin của bạn theo thời gian thực. Nếu bạn muốn hiểu cách sử dụng Sentinel, tôi khuyên bạn nên tham khảo hướng dẫn khác này trên PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+
+
+
