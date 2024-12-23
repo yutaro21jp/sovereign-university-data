@@ -90,10 +90,10 @@ Instead, if you want to have a bird-eye view of our published contents and propo
 
 ## Incentive model: Value-4-Value
 
-We believe in the power of Proof Of Work and how it enables a value-4-value model. In the words of one of the greatest poets of our times, DerGigi, we consider time, talent and treasure. Thus, we are commited to give back to those who enrich us with their time and talent.
+We believe in the power of Proof Of Work and how it enables a value-4-value model. In the words of one of the greatest poets of our times, DerGigi, we consider time, talent and treasure. Thus, we are committed to give back to those who enrich us with their time and talent.
 
 In practical terms, it means that any task (content creation, peer-reviewing,
-proofreading), explicited as an individual Github issue, is correlated to a
+proofreading), explicitly as an individual Github issue, is correlated to a
 reward in sats. And when the issue is closed, the reward is sent to the contributor who completed the task.
 
 If you want to learn more about it, go have a [look here](#why-value-4-value-PoW-model?)
@@ -161,7 +161,7 @@ Therefore, we have implemented this incentive model. First, you will get paid
 per task (content creation, translation/proofreading): there is a whole payment system set in place by Asi0 -- if
 you are curious about it, you will find some details in the [documentation](./docs/value-4-value-model.md). In short,
 each content type has a formula based on various parameters like the number of
-words, the content difficulty, and other critera, so the reward associated to each task is
+words, the content difficulty, and other criteria, so the reward associated to each task is
 defined in the assigned issue.
 
 ## How will it be in the following months?
