@@ -146,7 +146,7 @@ socket: process.env.LND_GRPC_HOST,
 const info = await lnservice.getWalletInfo({ lnd });
 
     // 情報をjson形式で表示
-    res.send(`
+    res.send(`/
       <h1>Node info</h1>
       <pre>${JSON.stringify(info, null, 2)}</pre>
     `);
@@ -246,12 +246,12 @@ html
   form
     h2 記事を書く
     .form-group
-      label(for="name") Nombre
+      label(for="name") Name
       input(id="name").form-control
     .form-group
-      label(for="content") Contenido
+      label(for="content") Content
       textarea(id="content").form-control
-    button.btn.btn-primary#send-btn(type="button") Enviar
+    button.btn.btn-primary#send-btn(type="button") Send
 ```
 
 ## フロントエンド内のJavascript
@@ -276,7 +276,7 @@ App.sendBtn = () => {
 $(() => App.init());
 ```
 
-"Enviar（送信）"ボタンをクリックすると、すべてが正しければコンソールに"!hola"というメッセージが表示されるはずです。これで、App.sendBtn()メソッドを変更して、情報をAPIに送信することができます。
+"Send（送信）"ボタンをクリックすると、すべてが正しければコンソールに"!hola"というメッセージが表示されるはずです。これで、App.sendBtn()メソッドを変更して、情報をAPIに送信することができます。
 
 ```
 App.sendBtn = async () => {
