@@ -293,8 +293,12 @@ Disse inngangspunktene er nesten uunngåelige i bruken av Bitcoin. Selv om man k
 Dermed er det også nødvendig å kunne møte blokkjedeanalyse i vår bruk av Bitcoin. Ved å gå frem på denne måten, kan vi minimere aggregasjonen av våre aktiviteter og begrense innvirkningen av et inngangspunkt på vårt personvern.
 ![BTC204](assets/notext/31/5.webp)
 
-Faktisk, for å bedre motvirke blokkjedeanalyse, hva er vel en bedre tilnærming enn å gjøre seg kjent med metodene som brukes i blokkjedeanalyse? Hvis du vil vite hvordan du kan forbedre ditt personvern på Bitcoin, må du forstå disse metodene. Dette vil tillate deg å bedre forstå teknikker som [coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) eller [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (teknikker som vi vil studere i de siste delene av opplæringen), og å redusere feilene du kanskje gjør.
+Faktisk, for å bedre motvirke blokkjedeanalyse, hva er vel en bedre tilnærming enn å gjøre seg kjent med metodene som brukes i blokkjedeanalyse? Hvis du vil vite hvordan du kan forbedre ditt personvern på Bitcoin, må du forstå disse metodene. Dette vil tillate deg å bedre forstå teknikker som coinjoin eller payjoin (teknikker som vi vil studere i de siste delene av opplæringen), og å redusere feilene du kanskje gjør.
 I dette kan vi trekke en analogi med kryptografi og kryptoanalyse. En god kryptograf er først og fremst en god kryptoanalytiker. For å forestille seg en ny krypteringsalgoritme, må man vite hvilke angrep den må stå imot, og også studere hvorfor tidligere algoritmer ble brutt. Det samme prinsippet gjelder for personvern på Bitcoin. Å forstå metodene for blokkjedeanalyse er nøkkelen til å beskytte mot det. Det er derfor jeg foreslår en hel seksjon om blokkjedeanalyse i denne opplæringen.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Metodene for blokkjedeanalyse
 
@@ -1084,7 +1088,7 @@ Alle disse metodene for automatisk UTXO-valg kan være effektive i å redusere t
 
 Hvis du vil lære hvordan du merker UTXOene dine, har vi laget en komplett veiledning om den viktigste eksisterende Bitcoin-lommebokprogramvaren:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC og Nøkkelidentifikasjon
 
@@ -1206,18 +1210,28 @@ Igjen er en annen ulempe med P2P-kjøp at prisen ofte er høyere enn det som ses
 
 Når det gjelder løsninger, har jeg personlig alltid brukt [Bisq](https://bisq.network/) og er veldig fornøyd med det. Deres system er godt etablert og virker pålitelig. Imidlertid er Bisq kun tilgjengelig på PC, og grensesnittet kan være for komplekst for nybegynnere. En annen ulempe er at Bisq opererer utelukkende med onchain-transaksjoner, noe som kan bli kostbart i perioder med høye transaksjonsgebyrer på Bitcoin.
 
-[-> Oppdag vår opplæring på Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+-> Oppdag vår opplæring på Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 For et enklere alternativ kan du prøve [Peach](https://peachbitcoin.com/), en mobilapp som letter forbindelsen mellom kjøpere og selgere med et integrert tvisteløsningssystem. Prosessen er mer intuitiv enn den hos Bisq.
 
-[-> Oppdag vår opplæring på Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+-> Oppdag vår opplæring på Peach.
 Et annet online alternativ er [HodlHodl](https://hodlhodl.com/), en veletablert plattform som tilbyr god likviditet, selv om jeg personlig ikke har testet den.
-[-> Oppdag vår opplæring på HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+-> Oppdag vår opplæring på HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 For løsninger basert på Lightning Network, kan du prøve [RoboSats](https://learn.robosats.com/) og [LNP2PBot](https://lnp2pbot.com/). RoboSats er tilgjengelig via en nettside og er relativt enkel å bruke. LNP2PBot er mer atypisk, da den opererer gjennom et utvekslingssystem på Telegram meldingsapp.
 
-[-> Oppdag vår opplæring på RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Oppdag vår opplæring på LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+-> Oppdag vår opplæring på RoboSats.
+-> Oppdag vår opplæring på LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1225,9 +1239,11 @@ For løsninger basert på Lightning Network, kan du prøve [RoboSats](https://le
 
 Avhengig av landet du bor i, kan du ha tilgang til regulerte plattformer som ikke krever en KYC-prosedyre for å kjøpe eller selge bitcoins. I Sveits, for eksempel, kan du bruke plattformer som [Relai](https://relai.app/) og [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Oppdag vår opplæring på Relai.](https://planb.network/en/tutorials/exchange/relai)
+-> Oppdag vår opplæring på Relai.
 Som vi så i det forrige kapittelet, sparer denne typen plattform deg for risikoene forbundet med KYC-prosedyrer, men de presenterer et høyere nivå av risiko for nøkkelidentifikasjon. Når det gjelder personvern på Bitcoin, tilbyr disse plattformene derfor bedre beskyttelse enn kjøpsmetoder med KYC, men de er mindre interessante enn P2P-utvekslinger.
 Imidlertid, når det gjelder personlig sikkerhet, er bruk av disse plattformene betydelig mindre risikofylt enn P2P-utvekslinger. De er også ofte enklere å bruke enn plattformer som legger til rette for P2P-utvekslinger.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Minibanker
 
@@ -1245,6 +1261,8 @@ Den beste måten å bruke BTC på er åpenbart å bruke Bitcoin direkte eller Li
 
 Flere plattformer som ikke krever en KYC-prosedyre tilbyr muligheten til å veksle bitcoins mot gavekort som kan brukes i store butikker. Blant disse plattformene finner vi [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), og [Bitrefill](https://www.bitrefill.com/). Disse plattformene letter den daglige bruken av dine bitcoins ved å tillate deg å få tilgang til et bredt spekter av produkter og tjenester uten å måtte gå gjennom en konvertering til fiatvaluta.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Andre Anskaffelsesmetoder
@@ -1253,7 +1271,9 @@ Blant andre metoder for å skaffe bitcoins samtidig som du beskytter ditt person
 
 En annen metode består i å jobbe i bytte mot bitcoins. Denne anskaffelsesmetoden kan være interessant, men graden av identifikasjon som kreves varierer sterkt avhengig av omstendighetene.
 
-\_For å skrive dette kapittelet, brukte jeg kurset [BTC205](https://planb.network/fr/courses/btc205) skapt av [@pivi\_\_\_](https://x.com/pivi___) på PlanB Network (tilgjengelig kun på fransk for øyeblikket).\_
+\_For å skrive dette kapittelet, brukte jeg kurset BTC205 skapt av [@pivi\_\_\_](https://x.com/pivi___) på Plan ₿ Network (tilgjengelig kun på fransk for øyeblikket).\_
+
+
 
 ## Konsolidering, UTXO-håndtering, og CIOH
 
@@ -1814,11 +1834,11 @@ Vi følger nøye med på utviklingen av denne saken samt utviklingen angående t
 
 I neste kapittel vil vi oppdage hva "anonsets" er, hvordan disse indikatorene beregnes, og hvordan de kan hjelpe oss med å estimere effektiviteten av coinjoin-sykluser.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Anonymitetssett
 
@@ -1884,7 +1904,7 @@ Det er mulig å manuelt beregne ens anonsets ved bruk av en blokkutforsker for s
 
 Som vi har sett i dette kapittelet, kan anonsets bare beregnes hvis det er en viss homogenitet i strukturen av coinjoins. Og nettopp, i neste kapittel, vil vi oppdage hvordan man kvantifiserer denne homogeniteten i en Bitcoin-transaksjon, enten det er en coinjoin eller en mer tradisjonell transaksjon.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entropi
 
@@ -2111,7 +2131,7 @@ Det var også mulig å bruke nettstedet KYCP.org for disse analysene:
 Dessverre, etter arrestasjonen av grunnleggerne av Samourai, er disse verktøyene for øyeblikket ikke operative.
 Nå som vi har diskutert coinjoins i detalj, vil vi utforske andre personvernsteknikker tilgjengelige på Bitcoin i den siste delen av opplæringen vår. Vi vil se på payjoins, spesifikke transaksjonstyper pseudo-coinjoins, statiske adresseprotokoller, samt tiltak rettet mot å forbedre personvern ikke på transaksjonsnivå, men på nettverket av noder-nivå.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Forståelse av innsatsen for andre avanserte personvernsteknikker
 
@@ -2190,9 +2210,9 @@ Den mest avanserte implementeringen av payjoin var kun Stowaway på Samourai Wal
 
 Vanskeligheten med å bruke payjoin ligger i dens avhengighet av handlernes deltakelse. Som kunde er det umulig å bruke en payjoin hvis handelsmannen ikke støtter det. Dette legger til en ekstra vanskelighet under et kjøp: ikke bare er det komplisert å finne handelsmenn som aksepterer bitcoin, men hvis man også ser etter de som støtter payjoins, blir det enda mer komplisert.
 En løsning ville være å bruke transaksjonsstrukturer som introduserer tvetydighet i kjedeanalysen uten å kreve samarbeid fra mottakeren. Dette ville tillate oss å forbedre personvernet til betalingene våre uten å være avhengig av aktiv deltakelse fra handelsmenn. Dette er nettopp det vi vil studere i neste kapittel.
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Betalings Mini-Coinjoins
 
@@ -2303,9 +2323,9 @@ Det er også mulig å manuelt utføre denne typen transaksjon fra hvilken som he
 
 I neste kapittel vil vi studere en annen personvernsteknikk som er relativt ukjent, men som er veldig nyttig i tillegg til det vi allerede har studert.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -2368,7 +2388,7 @@ Ricochet innebærer ganske enkelt å sende bitcoins til seg selv. Det er fullt m
 
 I det følgende kapittelet utforsker vi ulike teknikker for hemmelige eiendomsoverføringer. Disse metodene skiller seg radikalt fra de vi har undersøkt så langt, både med hensyn til drift og resultater.
 
-https://planb.network/tutorials/privacy/ricochet
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Hemmelige Eiendomsoverføringer
 
@@ -2591,7 +2611,16 @@ Disse avatarer kan også representeres i form av bilder:
 ![BTC204](assets/notext/66/6.webp)
 
 Selv om disse robotene ikke har en spesifikk teknisk funksjonalitet innenfor rammen av BIP47, spiller de en rolle i å lette interaksjoner mellom brukere ved å tilby en lett gjenkjennelig visuell identitet.
-I de følgende avsnittene av dette kapittelet dedikert til BIP47, vil vi undersøke i detalj hvordan det fungerer, med spesiell vekt på de kryptografiske metodene som brukes. For å fullt ut forstå disse noe tekniske forklaringene, er det essensielt å først forstå strukturen til HD-lommebøker, nøkkelavledningsprosessene og de grunnleggende prinsippene for kryptografi basert på elliptiske kurver. Hvis du ønsker å fordype deg i disse konseptene, er et annet gratis kurs tilgjengelig på PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Jeg råder deg likevel til å følge dem, da forståelsen av den tekniske funksjonen til BIP47 vil gjøre det mye enklere for deg å forstå andre lignende forslag som vi vil diskutere i de følgende kapitlene.
+
+---
+*I de følgende delene av dette kapittelet viet til BIP47, vil vi undersøke hvordan det fungerer i detalj, med spesielt fokus på de kryptografiske metodene som brukes. For å forstå disse noe tekniske forklaringene fullt ut, er det viktig først å forstå strukturen til HD-lommebøker, nøkkelavledningsprosesser og de grunnleggende prinsippene for elliptisk kurve-kryptografi. Hvis du ønsker å fordype deg i disse konseptene, er et annet gratis kurs tilgjengelig på Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*Jeg anbefaler på det sterkeste å ta kurset, fordi forståelse av den tekniske funksjonen til BIP47 vil gjøre det mye enklere å forstå andre lignende forslag vi vil diskutere i de følgende kapitlene.*
+
+---
+
 
 ### Gjenbrukbar Betalingskode
 
@@ -3227,7 +3256,7 @@ Bob kan deretter refundere Alice på samme måte som hun sendte ham betalinger. 
 
 ![BTC204](assets/en/66/26.webp)
 _En stor takk til [Fanis Michalakis](https://x.com/FanisMichalakis) for hans gjennomgang og verdifulle ekspertise som inspirerte skrivingen av dette kapittelet!_
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Stille Betalinger
 
@@ -3591,8 +3620,10 @@ Siden denne funksjonen er ny, er det tilrådelig å utøve forsiktighet og unng�
 _For å lage dette kapittelet om Silent Payments, brukte jeg [nettstedet for forklaring av Silent Payments](https://silentpayments.xyz/) og [dokumentet for forklaring av BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)._
 
 # Konklusjon
+
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
-## Evaluer kurset
+
+## Evaluer dette kurset
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
@@ -3605,12 +3636,41 @@ _For å lage dette kapittelet om Silent Payments, brukte jeg [nettstedet for for
 ## Konklusjon
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Gratulerer med fullført opplæring om Bitcoin-personvern!
 
-Gratulerer med å ha fullført denne opplæringen om personvern i Bitcoin!
+I denne opplæringen har vi tatt for oss mange avanserte og tekniske emner, men det er ikke nødvendig å bruke alle verktøyene som er presentert. Hovedmålet var å gi deg muligheten til å velge hvilken informasjon du vil dele og hvilken du foretrekker å holde konfidensiell i din bruk av Bitcoin. Dette legemliggjør selve essensen av personvern. For å ta informerte valg om hvilken informasjon som skal deles eller skjules, må man være klar over konsekvensene av våre handlinger. Jeg håper denne opplæringen har hjulpet deg med å tilegne deg denne kunnskapen.
 
-Vi har dekket mange avanserte og tekniske emner i denne opplæringen, men det er ikke nødvendig å bruke alle verktøyene som er presentert. Hovedmålet var å gi deg muligheten til å velge hvilken informasjon du ønsker å avsløre og hvilken informasjon du foretrekker å holde konfidensiell i din bruk av Bitcoin. Dette er selve essensen av beskyttelse av personvern. For å ta informerte valg om informasjonen som skal deles eller skjules, er det nødvendig å være klar over implikasjonene av våre handlinger. Jeg håper denne opplæringen har hjulpet deg med å oppnå denne kunnskapen.
-Hvis jeg måtte velge den viktigste delen av denne opplæringen, ville jeg valgt seksjonen som er viet til kjedeanalyse. Å forstå teknikkene som potensielle angripere bruker, er den beste måten å beskytte seg selv på. Derfor ville mitt råd være å nøye gjennomgå denne delen og forsøke å forstå alle detaljene.
+Hvis jeg skulle velge den viktigste delen av denne opplæringen, ville jeg valgt seksjonen dedikert til kjedeanalyse. Å forstå teknikkene som brukes av potensielle angripere er den beste måten å beskytte seg mot dem. Mitt råd ville derfor være å gjennomgå denne delen nøye og prøve å forstå alle detaljene.
 
-I denne opplæringen fokuserte vi utelukkende på Bitcoins personvern på hovedkjeden. Personvernsproblemer på sekundærlagssystemer, som Lightning Network og sidekjeder, er også betydelige og har veldig spesifikke egenskaper. Selv om bruk av transaksjoner utenfor kjeden kan være en effektiv strategi for å omgå de mange sporbarhetsrisikoene på Bitcoin som vi har studert, eksponerer det deg for andre risikoer som også er essensielle å være klar over. Det er derfor disse emnene vil bli dekket i en fremtidig dedikert opplæring på PlanB Network.
+I denne opplæringen fokuserte vi utelukkende på Bitcoin-personvern på hovedkjeden. Personvernspørsmål på andrelags-systemer, som Lightning Network og sidekjeder, er også viktige og har svært spesifikke egenskaper. Mens bruk av off-chain-transaksjoner kan være en effektiv strategi for å omgå mange av Bitcoin-sporbarhetsrisikoene vi har studert, utsetter det deg for andre risikoer som det også er viktig å kjenne til. Det er derfor disse temaene vil bli dekket i en fremtidig dedikert opplæring på Plan ₿ Network.
 
-Hvis du likte denne opplæringen, ville jeg være veldig takknemlig hvis du kunne dele den med vennene dine og på sosiale medier. Takk! :)
+Hvis du likte denne opplæringen, ville jeg vært veldig takknemlig om du ville dele den med dine nærmeste og på sosiale medier. Takk! :)
+
+For å fortsette å fordype deg i Bitcoin-universet, inviterer vi deg til å utforske andre kurs tilgjengelig på Plan ₿ Network som:
+
+#### Forstå hvordan en Bitcoin-lommebok fungerer med
+
+https://planb.network/courses/cyp201
+
+#### Lær å skape ditt Bitcoin-fellesskap med
+
+https://planb.network/courses/btc302
+
+#### Oppdag historien om Bitcoins opprinnelse med
+
+https://planb.network/courses/his201
+
+#### Konfigurer en BTC-betalingsserver med
+
+https://planb.network/courses/btc305
+
+#### Oppdag Lightning Network med
+
+https://planb.network/courses/lnp201
+
+#### Oppdag frihetens utvikling gjennom tidene med
+
+https://planb.network/courses/phi201
+
+
+

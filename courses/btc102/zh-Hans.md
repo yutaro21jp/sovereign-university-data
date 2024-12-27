@@ -91,8 +91,8 @@ objectives:
 
 1. 一个意见领袖或一群投资者首先购买大量股票或其他资产。
 2. 他们随后会推广这一资产，制造市场热潮，并传播夸大或有误导性信息以吸引其他投资者。3. 这类炒作会引发人类投资者和投资机器人的FOMO（错失恐惧症），而他们就会开始大量购买这些资产。
-4. 一旦价格上涨，领头者就会大批量卖出他们的资产，从而获得可观的利润。
-5. 大规模的抛售导致资产价格急剧下跌，让许多投资者遭受重大损失。
+3. 一旦价格上涨，领头者就会大批量卖出他们的资产，从而获得可观的利润。
+4. 大规模的抛售导致资产价格急剧下跌，让许多投资者遭受重大损失。
 
 我们必须理解参与此类策略是违法的，并存在遭受操纵指控的相关后果的风险。此外，这些策略通常由收取会员费的有影响力团体策划。虽然一些参与者可能会获得短期收益，但拉高出货策略通常从长远来看并不盈利。
 因此，我们建议关注金融教育和负责任的投资，而不是被此类操纵策略所吸引。获取扎实的知识和采取长期方法是投资世界成功的关键。
@@ -404,15 +404,15 @@ VPN，或称虚拟专用网，将通过掩盖您的IP地址来保护您的隐私
 我们必须理解，99.8%的新“加密货币”是骗局的，这些骗局由营销人员设立，目的是窃取您的比特币。然而，对于其余0.2%的稀少而认真项目中，相关方已付出巨大努力来推进、进行测试并开发创新技术，这些技术可以为用户带来许多好处。随着时间的推移，该行业将取得改善，催生出提供真实产品的合法公司。这是否会发生在比特币之外的区块链上，这个问题仍然悬而未决。目前，这一点是肯定的：比特币是唯一真正去中心化、抗审查、自由且真正的加密货币，它证明了数千小时的工作效果是有价值的。
 
 | 特征             | 比特币         | 竞争币（其中99.9%） |
-| ---------------- | -------------- | --------------------- |
-| 流动性           | 高             | 低                    |
-| 采用率（真实的） | 高且全球化     | 低                    |
-| 团队             | 强大且去中心化 | 薄弱且中心化          |
-| 声誉             | 高且全球化     | 低                    |
-| 基础设施         | 强大且稳定     | 薄弱                  |
-| 去中心化         | 是             | 否                    |
-| 骗局？           | 否             | 可能                  |
-| 价值？           | 是             | 有争议                |
+| ---------------- | -------------- | ------------------- |
+| 流动性           | 高             | 低                  |
+| 采用率（真实的） | 高且全球化     | 低                  |
+| 团队             | 强大且去中心化 | 薄弱且中心化        |
+| 声誉             | 高且全球化     | 低                  |
+| 基础设施         | 强大且稳定     | 薄弱                |
+| 去中心化         | 是             | 否                  |
+| 骗局？           | 否             | 可能                |
+| 价值？           | 是             | 有争议              |
 
 不要轻信这样的话：
 
@@ -427,13 +427,13 @@ VPN，或称虚拟专用网，将通过掩盖您的IP地址来保护您的隐私
 
 在2017年的ICO泡沫之后，许多主要玩家开始使用“区块链”开发自己的数据库。政府和中央银行正在探索创建其法定货币数字版本的可能性（瑞典、欧洲、俄罗斯、中国等）。科技巨头也加入了这场竞赛。脸书已经推出了自己的稳定币项目，名为“Libra”。银行、公司和其他科技巨头正在用类似于Linux或IBM“Hyperledger”的解决方案试验“区块链”的替代方案。
 
-| 特征     | 比特币 | 竞争币 | 脸书币 | Fed币 |
-| -------- | ------ | -------- | ------------- | -------- |
-| 公开性   | 是     | 因币种而异     | 否            | 否       |
-| 开放性   | 是     | 因币种而异     | 否            | 否       |
-| 无国界性 | 是     | 因币种而异     | 否            | 否       |
-| 中立性   | 是     | 因币种而异    | 否            | 否       |
-| 抗审查性 | 是     | 因币种而异    | 否            | 否       |
+| 特征     | 比特币 | 竞争币     | 脸书币 | Fed币 |
+| -------- | ------ | ---------- | ------ | ----- |
+| 公开性   | 是     | 因币种而异 | 否     | 否    |
+| 开放性   | 是     | 因币种而异 | 否     | 否    |
+| 无国界性 | 是     | 因币种而异 | 否     | 否    |
+| 中立性   | 是     | 因币种而异 | 否     | 否    |
+| 抗审查性 | 是     | 因币种而异 | 否     | 否    |
 
 虽然它们声称与比特币竞争，这些项目仍然保持中心化，以确保控制并遵守当地法规。它们不会提供隐私保护，反而会增加大规模监视。脸书的“Libra”项目定位为与银行竞争，而不是比特币的竞争对手。此外，“Libra"没有工作量证明，使得其“区块链”没有真正的价值。应该注意的是，“Libra”已经被抛弃，而且在全球范围内，目前没有真正私有的区块链项目被使用，不同于比特币。
 
@@ -599,16 +599,16 @@ BTC可以被视为您旅行的一条道路。当您需要修理您的车、加�
 
 相关钱包教程：
 
-https://planb.network/tutorials/wallet/ledger
-https://planb.network/tutorials/wallet/bitbox02
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/trezor
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 交易选项：
 
-https://planb.network/tutorials/exchange/bitstamp
-https://planb.network/tutorials/exchange/bitfinex
-https://planb.network/tutorials/exchange/kraken
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 如果持币者想要进一步前进：实施一个DCA计划，就像堆叠者一样，并使用一个闪电热钱包来花费一些比特币。
 
@@ -654,21 +654,21 @@ https://planb.network/tutorials/exchange/kraken
 
 为快速积累的热钱包
 
-https://planb.network/tutorials/wallet/blue-wallet
-https://planb.network/tutorials/wallet/green-wallet
-https://planb.network/tutorials/wallet/phoenix
+https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 为长期安全的冷钱包
 
-https://planb.network/tutorials/wallet/ledger
-https://planb.network/tutorials/wallet/bitbox02
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/trezor
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 为积累比特币的DCA平台。
 
-https://planb.network/tutorials/exchange/relai
-https://planb.network/tutorials/exchange/bull-bitcoin
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 这类投资计划也可以通过使用经纪人的服务进行大量一次性购买，就像持币者的方式一样，但通常，堆叠的概念是定期将聪添加到您的钱包内。更常见的方法是学习如何以点对点的方式使用比特币，从而您可以直接使用现金与朋友或比特币社区的成员购买比特币。
 
@@ -715,21 +715,21 @@ https://planb.network/tutorials/exchange/bull-bitcoin
 
 闪电网络热钱包
 
-https://planb.network/tutorials/wallet/phoenix
-https://planb.network/tutorials/wallet/wallet-of-satoshi
-https://planb.network/tutorials/wallet/breez
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 冷钱包
 
-https://planb.network/tutorials/wallet/ledger
-https://planb.network/tutorials/wallet/bitbox02
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/trezor
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 购买平台
 
-https://planb.network/tutorials/exchange/robosats
-https://planb.network/tutorials/exchange/kraken
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 ### 这适合您吗？
 
@@ -765,19 +765,19 @@ https://planb.network/tutorials/exchange/kraken
 
 热钱包：
 
-https://planb.network/tutorials/wallet/samourai
+https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956
 
 冷钱包：
 
-https://planb.network/tutorials/wallet/coldcard
-https://planb.network/tutorials/wallet/seed-signer
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
 非KYC个人间购买：
 
-https://planb.network/tutorials/exchange/peach-wallet
-https://planb.network/tutorials/exchange/robosats
-https://planb.network/tutorials/exchange/bisq
-https://planb.network/tutorials/exchange/hodlhodl
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 ### 这适合您吗？
 
@@ -887,10 +887,10 @@ https://planb.network/tutorials/exchange/hodlhodl
 
 您需要考虑如何保护它们以及这些备份存放的地方。此时不必须有两个备份位置。目标是立即记录您当前的安全状况。我们稍后可以改进它！目前，这只是确保您安全的第一个版本，我们稍后会详细讨论。
 
-| 通用          | 软件 / 硬件          | 资产       | 位置       | 备份（私钥）           | 密码（PIN码，密码短语） | 备注                                                          |
-| ------------- | -------------------- | ---------- | ---------- | ---------------------- | ----------------------- | ------------------------------------------------------------- |
-| 交易平台      | Bitstamp             | BTC & 现金 | 可在线访问 | -                      | 家 & 银行保险箱         | 这是我购买和转移我的比特币的地方。我使用密码管理器和2FA登录。 |
-| 物理钱包      | Trezor model One     | BTC        | 安全       | Uncle Bob & 银行保险箱 | 家里 & 母亲               | 我有两个钱包，一个常规的和一个带密码短语的。                  |
+| 通用          | 软件 / 硬件           | 资产       | 位置       | 备份（私钥）           | 密码（PIN码，密码短语） | 备注                                                          |
+| ------------- | --------------------- | ---------- | ---------- | ---------------------- | ----------------------- | ------------------------------------------------------------- |
+| 交易平台      | Bitstamp              | BTC & 现金 | 可在线访问 | -                      | 家 & 银行保险箱         | 这是我购买和转移我的比特币的地方。我使用密码管理器和2FA登录。 |
+| 物理钱包      | Trezor model One      | BTC        | 安全       | Uncle Bob & 银行保险箱 | 家里 & 母亲             | 我有两个钱包，一个常规的和一个带密码短语的。                  |
 | Samourai 钱包 | 移动设备 - One Plus 6 | BTC        | 我身上     | Uncle Bob & 银行保险库 | 家里 & 母亲             | 该应用可以处于隐藏模式。                                      |
 
 不要分心！您可能需要转移这些资产，为了：
@@ -1003,21 +1003,51 @@ _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ
 
 无论如何，我们所有的课程都是免费的，许多资源或教程都可在我们的平台上找到，以陪伴您的学习过程。祝您学习顺利！
 
+# 结论
 
-## 评估课程
+<partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
+
+## 评价课程
+
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 期末考试
+
 <chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
 <isCourseExam>true</isCourseExam>
 
-
-## 后续跟进
+## 结论
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 
-这门课程以及在这所大学上可用的所有内容都是由我们的社区免费提供给您的。为了支持我们，您可以将它分享给他人，成为大学的成员，甚至通过GitHub为其发展做出贡献。我们全体团队向您表达感谢！
+恭喜您完成本课程！
 
+我们很高兴您在学习之旅中成功达到这个里程碑。通过您的dedication和参与，您获得了宝贵的知识和技能，这将对您的职业发展大有帮助。
 
+要继续深入了解比特币世界，我们邀请您探索 Plan ₿ Network 上提供的所有其他课程：
+
+#### 通过以下链接探索比特币及其基础知识
+
+https://planb.network/courses/btc101
+
+#### 通过以下链接更新您的在线安全
+
+https://planb.network/courses/scu101
+
+#### 通过以下链接探索闪电网络
+
+https://planb.network/courses/lnp201
+
+#### 通过以下链接了解奥地利经济学派
+
+https://planb.network/courses/eco201
+
+#### 通过以下链接了解比特币基础知识并建造您的家庭供暖系统
+
+https://planb.network/courses/min201
+
+#### 通过以下链接了解比特币钱包的工作原理
+
+https://planb.network/courses/cyp201
 

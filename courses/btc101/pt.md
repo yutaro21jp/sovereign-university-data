@@ -127,12 +127,10 @@ A pré-história do Bitcoin está profundamente enraizada no movimento cypherpun
 
 Portanto, o Bitcoin é um protocolo que se insere em longos períodos de tempo e nos faz questionar nossa relação com energia, tempo e moeda. Mas o Bitcoin é uma "verdadeira" moeda? O que é uma moeda? Ela existe em várias formas? É isso que veremos no próximo capítulo.
 
-![A pré-história do Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
 Se você deseja explorar mais detalhadamente a história do Bitcoin, recomendo fortemente o nosso curso HIS 201. Nele, você descobrirá as origens e a lenta emergência do Bitcoin, bem como os primórdios de sua história e de sua comunidade. Este curso é totalmente documentado e referenciado, com, é claro, muitas anedotas :
 
 https://planb.network/courses/his201
-
 
 # A moeda
 
@@ -250,7 +248,6 @@ Ao mesmo tempo, a emergência das moedas digitais dos bancos centrais, ou CBDC, 
 Se você deseja aprender mais sobre sofismas econômicos e liberdade, convido-o a conhecer nosso curso ECO 102. Este curso traça a vida e as ideias de Frédéric Bastiat, um pensador francês do século XIX que, sem dúvida, teria apreciado o surgimento do Bitcoin:
 
 https://planb.network/courses/eco102
-
 
 ## As hiperinflações
 
@@ -531,17 +528,17 @@ Vamos tentar aqui estabelecer vários níveis de segurança para os seus bitcoin
 
 Por exemplo, você pode usar o Sparrow Wallet como uma carteira quente:
 
-https://planb.network/tutorials/wallet/sparrow
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
 - **Nível 2**, você está usando uma carteira física e protegeu sua lista de 12 ou 24 palavras. Para realizar uma transação, você sempre precisará assinar com o seu dispositivo. Isso torna seus fundos menos acessíveis no dia a dia. Isso é frequentemente chamado de "Cold Wallet" porque suas chaves são armazenadas em um dispositivo que não está conectado à internet.
 
 Por exemplo, você pode usar uma Ledger, um Satochip ou um Tapsigner:
 
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/satochip
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/tapsigner
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/pt/chapter6/4.webp)
 
@@ -549,7 +546,7 @@ https://planb.network/tutorials/wallet/tapsigner
 
 Para saber mais sobre o uso e funcionamento da passphrase BIP39:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/pt/chapter6/5.webp)
 
@@ -755,9 +752,7 @@ Neste ponto, a transação é considerada válida, o minerador irá propagar o n
 
 > Atenção: Mesmo que Alice perceba que recebeu bitcoins em um de seus endereços, é recomendado considerar a transação como imutável apenas quando ela possui 6 confirmações. Isso significa que outros 6 blocos foram minerados acima do bloco em que a transação de Bob está localizada. Em outras palavras, quanto mais antiga a transação na blockchain, mais imutável ela é.
 
-### Pequeno resumo em pôster!
 
-![Explicação de uma transação](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Para que tudo isso?
 
@@ -821,9 +816,7 @@ Essa situação não é tão hipotética assim, pois o ano de 2017 foi marcado p
 
 Após essa vitória, os nós ativaram uma atualização chamada SegWit, abrindo caminho para a implementação da Lightning Network, uma rede de pagamento instantâneo do Bitcoin usando a blockchain do Bitcoin. Essa situação demonstra que os usuários, por meio de seus nós, possuem um poder real dentro do Bitcoin, permitindo que enfrentem as grandes instituições.
 
-### Resumo em pôster!
 
-![os nós do Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Os mineradores
 
@@ -895,7 +888,6 @@ Mesmo no caso de um ataque de 51%, ou seja, quando um agente possui mais da meta
 
 A teoria dos jogos aplicada ao Bitcoin afasta os mineradores desonestos. Os mineradores usam máquinas ASIC para minerar e recebem uma recompensa em caso de sucesso. Além disso, eles frequentemente se agrupam em pools de mineração para compartilhar seu poder de computação e obter recompensas menores, mas mais regulares. A mineração de Bitcoin é um processo com alto custo energético, mas essencial para o funcionamento e segurança da rede Bitcoin. A prova de trabalho e a blockchain resolvem o problema de gastos duplos e garantem a veracidade das informações sem a necessidade de terceiros confiáveis. O gasto energético é necessário para produzir a informação, mas a verificação das informações tem um custo negligenciável. Essa assimetria garante a segurança da rede. Portanto, é economicamente mais viável seguir as regras de consenso do que violá-las.
 
-![os mineradores](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
 Se você deseja se aprofundar no tema específico da mineração de Bitcoin, pode consultar nosso curso MIN 201. Nele, você descobrirá o funcionamento e o papel do Proof-of-Work, assim como os mecanismos da indústria de mineração. Explicamos também como transformar um ASIC em um aquecedor, para minerar seus primeiros satoshis enquanto aquece sua casa!
 
@@ -947,7 +939,6 @@ A tecnologia do Bitcoin é frequentemente mal compreendida, e as críticas em re
 
 > Siga um dos lemas do Bitcoin: Não confie, verifique por si mesmo!
 
-![Bitcoin & meio ambiente](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Breve resumo dos aspectos técnicos do Bitcoin
 
@@ -1049,16 +1040,15 @@ Vamos abordar esse assunto em detalhes em outro treinamento, mas para simplifica
 
 - Solução online simples: OpenNode
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solução para comerciantes amadores: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solução para grandes estruturas ou bitcoiners apaixonados: BTCpay Server
 
 https://planb.network/courses/btc305
-
 
 ## Poupar com Bitcoin
 
@@ -1258,7 +1248,6 @@ Em conclusão, a Lightning Network abre uma infinidade de casos de uso empolgant
 
 Como Morpheus disse a Neo: "Se você tomar a pílula azul, a história acaba, você acorda na sua cama e acredita no que quiser. Se você tomar a pílula vermelha, fica no País das Maravilhas e eu te mostro até onde vai a toca do coelho." Você está pronto para explorar a toca do coelho do Bitcoin? Tome cuidado, pois você pode encontrar sua liberdade financeira!
 
-![pílula vermelha](assets/posters/fr/2_pilluleorange.webp)
 
 ### O futuro tecnológico e suas implicações
 
@@ -1317,44 +1306,17 @@ Bitcoin não pode mais ser interrompido e não pode mais ser censurado. É uma r
 
 Mudar o sistema financeiro requer mudar a moeda. Satoshi criou o Bitcoin em 2008 como uma tentativa de suprir isso. Ter acesso a dinheiro fácil e "mágico" corrompe. Portanto, o Bitcoin é uma alternativa para construir um novo sistema monetário neutro. O Bitcoin permite a emancipação do sistema bancário. É um fenômeno social que nos leva a participar de uma revolução pacífica. Você está pronto para se juntar a ela?
 
-## Agradecimentos e continue a cavar a toca do coelho
+# Conclusão
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Vá mais fundo
-
-Parabéns por concluir este curso BTC 101! Espero sinceramente que você tenha gostado e que tenha aberto portas para você. Sua descoberta do bitcoin está apenas começando e convido você a explorar todos os outros cursos disponíveis na universidade.
-
-Para configurar seu plano de Bitcoin:
-
-https://planb.network/courses/btc102
-
-Para descobrir a Lightning Network, uma rede de pagamentos de segunda camada:
-
-https://planb.network/courses/lnp201
-
-Para explorar a economia austríaca:
-
-https://planb.network/courses/eco201
-
-Para atualizar sua segurança digital:
-
-https://planb.network/courses/scu101
-
-Para saber mais sobre mineração:
-
-https://planb.network/courses/min201
-
-e muito mais...
-
-
-
-## Avalie o curso
+## Avaliação do Curso
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Exame Final
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
@@ -1362,7 +1324,24 @@ e muito mais...
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**Parabéns por concluir este curso!**
+Parabéns por completar o treinamento BTC 101! Espero sinceramente que tenha gostado e que tenha aberto novas portas para você. Sua descoberta do Bitcoin está apenas começando e convido você a explorar todos os outros cursos disponíveis na Plan ₿ Network:
 
-Por favor, observe que este capítulo está atualmente em construção, e uma versão aprimorada chegará em breve. Enquanto isso, se você está ansioso para continuar sua jornada Bitcoin, convidamos você a explorar os outros cursos e tutoriais disponíveis em nossa plataforma. Continue com o bom trabalho e bons estudos!
+#### Obtenha e proteja seus primeiros bitcoins com
 
+https://planb.network/courses/btc102
+
+#### Descubra a Lightning Network com
+
+https://planb.network/courses/lnp201
+
+#### Conheça a Escola Austríaca de pensamento econômico com
+
+https://planb.network/courses/eco201
+
+#### Atualize sua segurança online com
+
+https://planb.network/courses/scu101
+
+#### Entenda os fundamentos do Bitcoin e construa seu aquecimento doméstico com
+
+https://planb.network/courses/min201

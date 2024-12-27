@@ -1,9 +1,0 @@
-question: Apa kelemahan umum dari solusi LNP2PBot dan RoboSat P2P?
-answer: Mereka memerlukan pengetahuan teknis dan pemahaman tentang privasi.
-wrong_answers:
-  - Mereka tidak memfasilitasi pembelian dan penjualan Bitcoin.
-  - Mereka tidak menggunakan Lightning Network.
-  - Mereka bukan sumber terbuka.
-explanation: |
-  Menurut bab tersebut, baik LNP2PBot maupun RoboSat memerlukan pengetahuan teknis dan pemahaman tentang privasi.
-reviewed: false

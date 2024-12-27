@@ -271,8 +271,12 @@ Titik masuk ini hampir tidak terhindarkan dalam penggunaan Bitcoin. Meskipun ses
 ### Membela Diri Terhadap Analisis Rantai
 Dengan demikian, juga perlu untuk dapat menghadapi analisis blockchain dalam penggunaan Bitcoin kita. Dengan cara ini, kita dapat meminimalkan agregasi aktivitas kita dan membatasi dampak titik masuk pada privasi kita.
 
-Memang, untuk lebih baik melawan analisis blockchain, pendekatan apa yang lebih baik selain mempelajari metode yang digunakan dalam analisis blockchain? Jika Anda ingin tahu cara meningkatkan privasi Anda pada Bitcoin, Anda harus memahami metode-metode ini. Ini akan memungkinkan Anda untuk lebih memahami teknik seperti [coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) atau [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (teknik yang akan kita pelajari di bagian terakhir pelatihan), dan untuk mengurangi kesalahan yang mungkin Anda buat.
+Memang, untuk lebih baik melawan analisis blockchain, pendekatan apa yang lebih baik selain mempelajari metode yang digunakan dalam analisis blockchain? Jika Anda ingin tahu cara meningkatkan privasi Anda pada Bitcoin, Anda harus memahami metode-metode ini. Ini akan memungkinkan Anda untuk lebih memahami teknik seperti coinjoin atau payjoin (teknik yang akan kita pelajari di bagian terakhir pelatihan), dan untuk mengurangi kesalahan yang mungkin Anda buat.
 Dalam hal ini, kita dapat membuat analogi dengan kriptografi dan kriptoanalisis. Seorang kriptografer yang baik pertama-tama adalah seorang kriptoanalis yang baik. Untuk membayangkan algoritma enkripsi baru, seseorang harus tahu serangan apa yang akan dihadapinya, dan juga mempelajari mengapa algoritma sebelumnya dapat dipecahkan. Prinsip yang sama berlaku untuk privasi pada Bitcoin. Memahami metode analisis blockchain adalah kunci untuk melindungi diri dari hal itu. Itulah mengapa saya mengusulkan sebuah bagian lengkap tentang analisis blockchain dalam pelatihan ini.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Metode Analisis Blockchain
 
@@ -1055,7 +1059,7 @@ Semua metode pemilihan UTXO otomatis ini dapat efektif dalam mengurangi biaya tr
 
 Jika Anda ingin belajar cara melabeli UTXO Anda, kami telah membuat tutorial lengkap tentang perangkat lunak dompet Bitcoin utama yang ada:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 
 ## KYC dan Identifikasi Kunci
@@ -1174,18 +1178,28 @@ Sekali lagi, salah satu kelemahan pembelian P2P adalah harga seringkali lebih ti
 
 Mengenai solusi, saya secara pribadi selalu menggunakan [Bisq](https://bisq.network/) dan sangat puas dengan itu. Sistem mereka sudah terbentuk dengan baik dan tampaknya dapat diandalkan. Namun, Bisq hanya tersedia di PC dan antarmukanya mungkin terlalu kompleks untuk pemula. Kelemahan lain adalah Bisq beroperasi hanya dengan transaksi onchain, yang dapat menjadi mahal selama periode biaya transaksi Bitcoin yang tinggi.
 
-[-> Temukan tutorial kami tentang Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+-> Temukan tutorial kami tentang Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Untuk opsi yang lebih sederhana, Anda dapat mencoba [Peach](https://peachbitcoin.com/), aplikasi seluler yang memfasilitasi koneksi antara pembeli dan penjual dengan sistem penyelesaian sengketa terintegrasi. Prosesnya lebih intuitif daripada Bisq.
 
-[-> Temukan tutorial kami tentang Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+-> Temukan tutorial kami tentang Peach.
 Opsi online lainnya adalah [HodlHodl](https://hodlhodl.com/), platform yang sudah terbentuk dengan baik yang menawarkan likuiditas yang baik, meskipun saya secara pribadi belum mencobanya.
-[-> Temukan tutorial kami tentang HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+-> Temukan tutorial kami tentang HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Untuk solusi berbasis Lightning Network, Anda dapat mencoba [RoboSats](https://learn.robosats.com/) dan [LNP2PBot](https://lnp2pbot.com/). RoboSats dapat diakses melalui situs web dan relatif sederhana untuk digunakan. LNP2PBot lebih atipikal, karena beroperasi melalui sistem pertukaran di aplikasi perpesanan Telegram.
 
-[-> Temukan tutorial kami tentang RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Temukan tutorial kami tentang LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+-> Temukan tutorial kami tentang RoboSats.
+-> Temukan tutorial kami tentang LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1193,9 +1207,11 @@ Untuk solusi berbasis Lightning Network, Anda dapat mencoba [RoboSats](https://l
 
 Tergantung pada negara tempat Anda tinggal, Anda mungkin memiliki akses ke platform teratur yang tidak memerlukan prosedur KYC untuk membeli atau menjual bitcoin. Di Swiss, misalnya, Anda dapat menggunakan platform seperti [Relai](https://relai.app/) dan [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Temukan tutorial kami tentang Relai.](https://planb.network/en/tutorials/exchange/relai)
+-> Temukan tutorial kami tentang Relai.
 Seperti yang kita lihat di bab sebelumnya, jenis platform ini menghindarkan Anda dari risiko yang terkait dengan prosedur KYC, tetapi mereka menyajikan tingkat risiko yang lebih tinggi untuk identifikasi kunci. Dalam hal privasi pada Bitcoin, platform ini oleh karena itu menawarkan perlindungan yang lebih baik daripada metode pembelian dengan KYC, tetapi mereka kurang menarik daripada pertukaran P2P.
 Namun, dalam hal keamanan pribadi, menggunakan platform ini secara signifikan kurang berisiko daripada pertukaran P2P. Mereka juga seringkali lebih sederhana untuk digunakan daripada platform yang memfasilitasi pertukaran P2P.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### ATM
 
@@ -1213,6 +1229,8 @@ Cara terbaik untuk menghabiskan BTC tentunya adalah menggunakan Bitcoin secara l
 
 Beberapa platform yang tidak memerlukan prosedur KYC menawarkan kemungkinan untuk menukar bitcoin dengan kartu hadiah yang dapat digunakan di toko besar. Di antara platform ini, kita temukan [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), dan [Bitrefill](https://www.bitrefill.com/). Platform ini sangat memudahkan penggunaan sehari-hari bitcoin Anda dengan memungkinkan Anda mengakses berbagai produk dan layanan tanpa harus melalui konversi ke mata uang fiat.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Metode Akuisisi Lainnya
@@ -1221,7 +1239,9 @@ Di antara metode lain untuk memperoleh bitcoin sambil melindungi privasi Anda, t
 
 Metode lain terdiri dari bekerja sebagai imbalan untuk bitcoin. Metode akuisisi ini bisa menarik, tetapi tingkat identifikasi yang diperlukan sangat bervariasi tergantung pada keadaannya.
 
-*Untuk menulis bab ini, saya menggunakan kursus [BTC205](https://planb.network/fr/courses/btc205) yang dibuat oleh [@pivi___](https://x.com/pivi___) di PlanB Network (hanya tersedia dalam bahasa Prancis untuk saat ini).*
+*Untuk menulis bab ini, saya menggunakan kursus BTC205 yang dibuat oleh [@pivi___](https://x.com/pivi___) di Plan ₿ Network (hanya tersedia dalam bahasa Prancis untuk saat ini).*
+
+
 
 ## Konsolidasi, Manajemen UTXO, dan CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -1755,11 +1775,11 @@ Kami mengikuti perkembangan kasus ini serta perkembangan terkait alat yang terka
 
 Dalam bab berikutnya, kita akan menemukan apa itu "anonsets", bagaimana indikator ini dihitung, dan bagaimana mereka dapat membantu kita memperkirakan efektivitas siklus coinjoin.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Set Anonimitas
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -1822,7 +1842,7 @@ Memungkinkan untuk secara manual menghitung anonset seseorang menggunakan block 
 
 Seperti yang telah kita lihat dalam bab ini, anonset hanya dapat dihitung jika ada homogenitas tertentu dalam struktur coinjoins. Dan tepatnya, dalam bab berikutnya, kita akan menemukan cara mengkuantifikasi homogenitas ini dalam transaksi Bitcoin, apakah itu coinjoin atau transaksi tradisional.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entropi
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
@@ -2033,7 +2053,7 @@ Juga dimungkinkan untuk menggunakan situs web KYCP.org untuk analisis ini:
 ![BTC204](assets/notext/56/06.webp)
 Sayangnya, menyusul penangkapan para pendiri Samourai, alat-alat ini saat ini tidak beroperasi. Sekarang setelah kita telah membahas coinjoins secara detail, kita akan menjelajahi teknik privasi lain yang tersedia di Bitcoin di bagian terakhir dari pelatihan kita. Kita akan meneliti payjoins, jenis transaksi tertentu pseudo-coinjoins, protokol alamat statis, serta langkah-langkah yang bertujuan untuk meningkatkan privasi tidak pada level transaksi, tetapi pada jaringan node.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Memahami taruhan teknik privasi lanjutan lainnya
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
@@ -2109,9 +2129,9 @@ Implementasi payjoin paling lanjut hanyalah Stowaway di Samourai Wallet. Namun, 
 
 Kesulitan menggunakan payjoin terletak pada ketergantungannya pada partisipasi pedagang. Sebagai pelanggan, menggunakan payjoin tidak mungkin jika pedagang tidak mendukungnya. Ini menambah kesulitan tambahan selama pembelian: tidak hanya sulit menemukan pedagang yang menerima bitcoin, tetapi jika seseorang juga mencari mereka yang mendukung payjoins, itu menjadi lebih rumit lagi.
 Solusi yang dapat digunakan adalah dengan menggunakan struktur transaksi yang memperkenalkan ambiguitas dalam analisis rantai tanpa memerlukan kerjasama dari penerima. Hal ini memungkinkan kita untuk meningkatkan privasi pembayaran kita tanpa bergantung pada partisipasi aktif dari para pedagang. Inilah yang akan kita pelajari di bab selanjutnya.
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Pembayaran Mini-Coinjoins
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2215,9 +2235,9 @@ Juga dimungkinkan untuk secara manual melakukan jenis transaksi ini dari perangk
 
 Di bab selanjutnya, kita akan mempelajari teknik privasi lain yang relatif tidak dikenal, tetapi sangat berguna sebagai tambahan dari apa yang telah kita pelajari.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -2278,8 +2298,8 @@ Ricochet pada dasarnya melibatkan pengiriman bitcoin kepada diri sendiri. Sangat
 
 Pada bab berikutnya, kami menjelajahi teknik berbeda untuk transfer properti rahasia. Metode-metode ini sangat berbeda dari yang telah kami periksa sejauh ini, baik dalam hal operasi maupun hasil.
 
-https://planb.network/tutorials/privacy/ricochet
- 
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+
 ## Transfer Properti Rahasia
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
@@ -2498,7 +2518,16 @@ Avatar-avatarnya juga dapat direpresentasikan dalam bentuk gambar:
 ![BTC204](assets/notext/66/6.webp)
 
 Meskipun robot-robot ini tidak memiliki fungsi teknis spesifik dalam kerangka BIP47, mereka memainkan peran dalam memfasilitasi interaksi antar pengguna dengan menawarkan identitas visual yang mudah dikenali.
-Dalam bagian-bagian berikut dari bab ini yang didedikasikan untuk BIP47, kita akan memeriksa secara detail cara kerjanya, dengan penekanan khusus pada metode kriptografi yang digunakan. Untuk sepenuhnya memahami penjelasan teknis ini, sangat penting untuk terlebih dahulu memahami struktur dompet HD, proses derivasi kunci, dan prinsip-prinsip dasar kriptografi berbasis kurva eliptik. Jika Anda ingin mendalami konsep-konsep ini, kursus gratis lainnya tersedia di PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Saya masih menyarankan Anda untuk mengikutinya, karena memahami cara kerja teknis BIP47 akan memudahkan Anda untuk memahami proposal serupa lainnya yang akan kita bahas di bab-bab berikutnya.
+
+---
+*Dalam bagian berikut dari bab ini yang didedikasikan untuk BIP47, kami akan memeriksa secara rinci cara kerjanya, dengan penekanan khusus pada metode kriptografi yang digunakan. Untuk sepenuhnya memahami penjelasan yang agak teknis ini, penting untuk terlebih dahulu memahami struktur dompet HD, proses derivasi kunci, dan prinsip-prinsip dasar kriptografi berbasis kurva elips. Jika Anda ingin mempelajari konsep-konsep ini lebih dalam, pelatihan gratis lainnya tersedia di Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*Saya sangat menyarankan Anda untuk mengikutinya, karena dengan memahami cara kerja teknis BIP47, Anda akan lebih mudah memahami proposal serupa lainnya yang akan kita bahas di bab-bab berikutnya.*
+
+---
+
 ### Kode Pembayaran yang Dapat Digunakan Kembali
 
 Seperti yang disebutkan sebelumnya, kode pembayaran yang dapat digunakan kembali terletak pada kedalaman 3 dari dompet HD, membuatnya sebanding dengan `xpub`, baik dalam posisinya dalam struktur dompet maupun dalam perannya.
@@ -3110,7 +3139,7 @@ Bob kemudian dapat mengembalikan dana kepada Alice dengan cara yang sama dia men
 
 ![BTC204](assets/en/66/26.webp)
 *Terima kasih banyak kepada [Fanis Michalakis](https://x.com/FanisMichalakis) atas tinjauannya dan saran ahli yang berharga mengenai artikel yang menginspirasi penulisan bab ini!*
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Pembayaran Rahasia
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
@@ -3452,12 +3481,10 @@ Kami akan segera menawarkan tutorial terperinci tentang cara mengatur alamat sta
 Mengingat fitur ini baru, disarankan untuk berhati-hati dan menghindari menggunakan Silent Payments untuk jumlah besar di mainnet.
 
 *Untuk membuat bab ini tentang Silent Payments, saya menggunakan [situs penjelasan Silent Payments](https://silentpayments.xyz/) dan [dokumen penjelasan BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
-
 # Kesimpulan
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-## Evaluasi kursus ini 
+## Evaluasi kursus ini
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -3465,14 +3492,37 @@ Mengingat fitur ini baru, disarankan untuk berhati-hati dan menghindari mengguna
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Kata Akhir
+## Kesimpulan
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Selamat atas penyelesaian pelatihan privasi Bitcoin ini!
 
-Selamat telah menyelesaikan pelatihan ini tentang privasi di Bitcoin!
-Kami telah membahas banyak topik lanjutan dan teknis dalam pelatihan ini, tetapi tidak wajib untuk menggunakan semua alat yang disajikan. Tujuan utama adalah untuk memberdayakan Anda dalam memilih informasi yang ingin Anda ungkapkan dan informasi yang Anda pilih untuk menjaga kerahasiaan dalam penggunaan Bitcoin Anda. Ini merupakan inti esensial dari perlindungan privasi. Untuk membuat pilihan yang tepat tentang informasi yang akan dibagikan atau disembunyikan, penting untuk menyadari implikasi dari tindakan kita. Saya berharap pelatihan ini telah membantu Anda mendapatkan pengetahuan ini.
+Dalam pelatihan ini, kita telah membahas banyak topik lanjutan dan teknis, tetapi tidak wajib menggunakan semua alat yang disajikan. Tujuan utamanya adalah memberi Anda kekuatan untuk memilih informasi apa yang ingin Anda ungkapkan dan mana yang lebih suka Anda jaga kerahasiaannya dalam penggunaan Bitcoin Anda. Ini mewujudkan esensi dari perlindungan privasi. Untuk membuat pilihan yang tepat tentang informasi apa yang akan dibagikan atau disembunyikan, Anda harus menyadari implikasi dari tindakan Anda. Saya berharap pelatihan ini telah membantu Anda memperoleh pengetahuan tersebut.
 
-Jika saya harus memilih bagian terpenting dari pelatihan ini, saya akan memilih bagian yang didedikasikan untuk analisis rantai. Memahami teknik yang digunakan oleh penyerang potensial Anda adalah cara terbaik untuk melindungi diri. Oleh karena itu, saran saya adalah untuk secara seksama meninjau bagian ini dan mencoba memahami semua detailnya.
+Jika saya harus memilih bagian terpenting dari pelatihan ini, saya akan mengambil bagian yang didedikasikan untuk analisis rantai. Memahami teknik yang digunakan oleh penyerang potensial Anda adalah cara terbaik untuk melindungi diri dari mereka. Jadi saran saya adalah untuk meninjau bagian ini dengan cermat dan mencoba memahami semua detailnya.
 
-Dalam pelatihan ini, kami secara eksklusif fokus pada privasi Bitcoin di rantai utama. Masalah privasi pada sistem lapis kedua, seperti Lightning Network dan sidechain, juga signifikan dan memiliki karakteristik yang sangat spesifik. Meskipun penggunaan transaksi off-chain bisa menjadi strategi efektif untuk menghindari banyak risiko pelacakan pada Bitcoin yang telah kami pelajari, ini mengekspos Anda pada risiko lain yang juga penting untuk diketahui. Itulah mengapa topik-topik ini akan dibahas dalam pelatihan khusus di masa depan di PlanB Network.
+Dalam pelatihan ini, kita fokus secara eksklusif pada privasi Bitcoin di rantai utama. Masalah privasi pada sistem lapisan kedua, seperti Lightning Network dan sidechains, juga penting dan memiliki karakteristik yang sangat spesifik. Meskipun menggunakan transaksi off-chain bisa menjadi strategi yang efektif untuk menghindari banyak risiko keterlacakan Bitcoin yang telah kita pelajari, hal ini membuat Anda terpapar pada risiko lain yang juga penting untuk diketahui. Itulah mengapa topik-topik ini akan dibahas dalam pelatihan khusus di masa depan di Plan ₿ Network.
 
-Jika Anda menikmati pelatihan ini, saya akan sangat berterima kasih jika Anda bisa membagikannya dengan teman-teman Anda dan di media sosial. Terima kasih! :)
+Jika Anda menikmati pelatihan ini, saya akan sangat berterima kasih jika Anda membagikannya dengan orang-orang terdekat dan di media sosial. Terima kasih! :)
+
+Untuk terus memperdalam pengetahuan Anda di dunia Bitcoin, kami mengundang Anda untuk mengeksplorasi kursus lain yang tersedia di Plan ₿ Network seperti:
+
+#### Pahami cara kerja dompet Bitcoin dengan
+https://planb.network/courses/cyp201
+
+#### Pelajari cara membuat komunitas Bitcoin Anda dengan
+https://planb.network/courses/btc302
+
+#### Temukan sejarah asal-usul Bitcoin dengan
+https://planb.network/courses/his201
+
+#### Konfigurasi server pembayaran BTC dengan
+https://planb.network/courses/btc305
+
+#### Temukan Lightning Network dengan
+https://planb.network/courses/lnp201
+
+#### Temukan evolusi kebebasan sepanjang masa dengan
+https://planb.network/courses/phi201
+
+
+

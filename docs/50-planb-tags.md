@@ -1,10 +1,10 @@
 #### List of PBN tags with description
 
  1. proof-of-work: referring to all things needed to prove some job has been done
- 2. software: regarding programs, services you use after being installed on servers, PCs
+ 2. software: regarding programs, services you use after being installed on servers, PCs and smartphones
  3. mining: all topics related to BTC mining
  4. fees: aspects referring to every cost when it comes to send BTC value (in any way)
- 5. hardware
+ 5. hardware: every hardware-related topic
  6. wallets: every tool allowing to manage or spend bitcoin
  7. investment: bitcoin is an investment, but in which way it's up to the topic of the content
  8. keys: every topic regarding storage of the secrets to spend bitcoin

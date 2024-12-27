@@ -1,9 +1,0 @@
-question: Apa kelemahan dari solusi RoboSat P2P?
-answer: Protokol tersebut rapuh dengan satu koordinator.
-wrong_answers:
-  - Memerlukan akun untuk beroperasi.
-  - Tidak menggunakan Lightning Network.
-  - Bukan open source.
-explanation: |
-  Bab tersebut menyebutkan bahwa salah satu kelemahan dari RoboSat adalah
-  protokolnya yang rapuh dengan hanya satu koordinator.

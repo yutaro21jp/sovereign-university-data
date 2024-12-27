@@ -129,12 +129,10 @@ La preistoria di Bitcoin è profondamente radicata nel movimento cypherpunk e ne
 
 Il Bitcoin è quindi un protocollo che si inserisce in tempi lunghi e ci spinge a interrogarci sul nostro rapporto con l'energia, il tempo e la moneta. Ma il Bitcoin è una "vera" moneta? Cos'è una moneta? Esiste in diverse forme? Questo è ciò che vedremo nel prossimo capitolo.
 
-![La preistoria di Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
 Se desiderate esplorare più nel dettaglio la storia di Bitcoin, vi consiglio vivamente il nostro corso HIS 201. Scoprirete le origini e la lenta ascesa di Bitcoin, nonché i primi passi della sua storia e della sua comunità. Questo corso è completamente documentato e corredato di fonti, con ovviamente numerose aneddoti :
 
 https://planb.network/courses/his201
-
 
 # La moneta
 
@@ -253,7 +251,6 @@ Se desiderate saperne di più sui sofismi economici e la libertà, vi invito a s
 
 https://planb.network/courses/eco102
 
-
 ## Le iperinflazioni
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -337,7 +334,6 @@ Una valuta che si basa su un terzo di fiducia come un istituto finanziario si ri
 Per approfondire il tema delle iperinflazioni, vi consiglio il corso ECO 204 di David St-Onge. Imparerete cosa sono i cicli iperinflazionistici e quali sono i loro impatti reali sulle nostre vite. Scoprirete anche le somiglianze tra questi cicli e, soprattutto, come proteggervi da essi:
 
 https://planb.network/courses/eco204
-
 
 ## 21 milioni di bitcoin
 
@@ -527,17 +523,17 @@ Proviamo qui a stabilire diversi livelli di sicurezza per i tuoi bitcoin:
 
 Ad esempio, puoi utilizzare Sparrow Wallet come portafoglio caldo:
 
-https://planb.network/tutorials/wallet/sparrow
+https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
 - **Livello 2**, stai utilizzando un portafoglio fisico e hai protetto la tua lista di 12 o 24 parole. Per poter effettuare una transazione, dovrai sempre firmare con il tuo dispositivo. Ciò rende i tuoi fondi meno accessibili nella vita quotidiana. Spesso si parla di "Cold Wallet" perché le tue chiavi sono memorizzate su un dispositivo non connesso a Internet.
 
 Ad esempio, potresti usare un Ledger, un Satochip o un Tapsigner:
 
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/satochip
+https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/tapsigner
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/it/chapter6/4.webp)
 
@@ -545,7 +541,7 @@ https://planb.network/tutorials/wallet/tapsigner
 
 Per saperne di più sull'uso e il funzionamento della passphrase BIP39:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/it/chapter6/5.webp)
 
@@ -748,9 +744,7 @@ A questo punto, la transazione è considerata valida, il minatore a sua volta pr
 
 > Attenzione: Anche se Alice nota di aver ricevuto bitcoin su uno dei suoi indirizzi, si consiglia di considerare la transazione come immutabile solo quando ha 6 conferme. Ciò significa che altri 6 blocchi sono stati minati sopra il blocco in cui si trova la transazione di Bob. In altre parole, più una transazione è antica nella blockchain, più è immutabile.
 
-### Breve riassunto in un poster!
 
-![Spiegazione di una transazione](assets/posters/fr/11_explication_d_une_transaction_crop.webp)
 
 ### Perché tutto questo?
 
@@ -812,9 +806,7 @@ Questa situazione non è così ipotetica perché il 2017 è stato segnato da una
 
 In seguito a questa vittoria, i nodi hanno attivato un aggiornamento chiamato SegWit, aprendo la strada all'implementazione di Lightning Network, una rete di pagamento Bitcoin istantanea che utilizza la blockchain di Bitcoin. Questa situazione dimostra che gli utenti, grazie ai loro nodi, hanno un potere reale all'interno di Bitcoin, che permette loro di affrontare le grandi istituzioni.
 
-### Riassunto nel poster!
 
-![i nodi Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## I minatori
 
@@ -885,7 +877,6 @@ Anche nel caso di un attacco del 51%, cioè quando un agente possiede più della
 
 La teoria dei giochi applicata a Bitcoin esclude i minatori disonesti. I minatori utilizzano macchine ASIC per estrarre e ricevono una ricompensa in caso di successo. Inoltre, spesso si uniscono in pool di mining per condividere la potenza di calcolo ed ottenere ricompense minori ma più regolari. Il mining di Bitcoin è un processo con un alto costo energetico, ma essenziale per il funzionamento e la sicurezza della rete Bitcoin. La prova del lavoro e la blockchain risolvono il problema della doppia spesa e garantiscono l'autenticità delle informazioni senza bisogno di terze parti di fiducia. La spesa energetica è necessaria per produrre le informazioni, ma la verifica delle informazioni ha un costo trascurabile. Questa asimmetria garantisce la sicurezza della rete. Pertanto, è più economicamente conveniente seguire le regole del consenso piuttosto che infrangerle.
 
-![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
 Se desideri approfondire l'argomento specifico del mining su Bitcoin, puoi consultare il nostro corso MIN 201. Scoprirai il funzionamento e il ruolo del Proof-of-Work, nonché i meccanismi dell'industria del mining. Ti spieghiamo anche come trasformare un ASIC in un sistema di riscaldamento, per minare i tuoi primi satoshi riscaldando la tua casa!
 
@@ -937,7 +928,6 @@ La tecnologia di Bitcoin è spesso fraintesa e le critiche al suo impatto ecolog
 
 > Seguite una delle massime di Bitcoin: non fidarti, verificalo! (Dont trust, verify!)
 
-![Bitcoin & écologie](assets/posters/fr/14_minage_et_ecologie_crop.webp)
 
 ### Breve riassunto degli aspetti tecnici di Bitcoin
 
@@ -1039,11 +1029,11 @@ Affronteremo questo argomento in dettaglio in un altro corso, ma per semplificar
 
 - Soluzione online semplice: OpenNode
 
-https://planb.network/tutorials/merchant/open-node
+https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Soluzione per commercianti amatoriali: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Soluzione per grandi strutture o appassionati di Bitcoin: BTCpay Server
 
@@ -1249,7 +1239,6 @@ In conclusione, Lightning Network apre una moltitudine di entusiasmanti casi d'u
 
 Come diceva Morpheus a Neo: "Prendi la pillola blu, la storia finisce qui, ti svegli nel tuo letto e puoi credere quello che vuoi. Prendi la pillola rossa, resti nel Paese delle Meraviglie e ti mostro fino a che punto arriva la tana del coniglio." Siete pronti ad esplorare la tana del coniglio di Bitcoin? Fate attenzione, potreste ritrovare la vostra libertà finanziaria!
 
-![pillola rossa](assets/posters/fr/2_pilluleorange.webp)
 
 ### Il futuro tecnologico e le sue implicazioni
 
@@ -1309,44 +1298,17 @@ Bitcoin non può più essere fermato e non può più essere censurato. È una ri
 
 Cambiare il sistema finanziario richiede di cambiare la valuta. Satoshi ha creato Bitcoin nel 2008 per offrire un tentativo in tal senso. Avere accesso a denaro facile e "magico" corrompe. Bitcoin è quindi un'alternativa per costruire un nuovo sistema monetario neutrale. Bitcoin consente l'emancipazione dal sistema bancario. È un fenomeno sociale che ci porta a partecipare a una rivoluzione pacifica. Sei pronto a unirti?
 
-## Ringraziamenti e continua a scavare nella tana del coniglio
+# Conclusione
 
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
+<partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-### Vai oltre
-
-Congratulazioni per aver completato questa formazione BTC 101! Spero sinceramente che ti sia piaciuta e abbia aperto delle porte. La tua scoperta di Bitcoin è solo all'inizio e ti invito a scoprire tutte le altre formazioni disponibili nell'università.
-
-Per impostare il tuo piano Bitcoin:
-
-https://planb.network/courses/btc102
-
-Per scoprire il Lightning Network, una rete di pagamenti di secondo livello:
-
-https://planb.network/courses/lnp201
-
-Per approfondire l'economia austriaca:
-
-https://planb.network/courses/eco201
-
-Per aggiornare la tua sicurezza digitale:
-
-https://planb.network/courses/scu101
-
-Per saperne di più sul mining:
-
-https://planb.network/courses/min201
-
-e molto altro ancora...
-
-
-
-## Valuta il corso
+## Valutazione del corso
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Esame Finale
+## Esame finale
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 <isCourseExam>true</isCourseExam>
 
@@ -1354,7 +1316,24 @@ e molto altro ancora...
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-**Congratulazioni per aver completato questo corso!**
+Congratulazioni per aver completato il corso BTC 101! Spero di cuore che ti sia piaciuto e che ti abbia aperto nuove porte. La tua scoperta di Bitcoin è solo all'inizio e ti invito a esplorare tutti gli altri corsi disponibili su Plan ₿ Network:
 
-Ti preghiamo di notare che questo capitolo è attualmente in costruzione e una versione migliorata arriverà presto. Nel frattempo, se sei desideroso di continuare il tuo viaggio nel Bitcoin, ti invitiamo a esplorare gli altri corsi e tutorial disponibili sulla nostra piattaforma. Continua così e buon apprendimento!
+#### Ottieni e proteggi i tuoi primi bitcoin con
 
+https://planb.network/courses/btc102
+
+#### Scopri il Lightning Network con
+
+https://planb.network/courses/lnp201
+
+#### Scopri la Scuola Austriaca di pensiero economico con
+
+https://planb.network/courses/eco201
+
+#### Aggiorna la tua sicurezza online con
+
+https://planb.network/courses/scu101
+
+#### Comprendi le basi di Bitcoin e costruisci il tuo riscaldamento domestico con
+
+https://planb.network/courses/min201

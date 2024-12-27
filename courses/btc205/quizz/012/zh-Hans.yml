@@ -1,8 +1,0 @@
-question: 哪种P2P解决方案可以通过Telegram进行非KYC比特币购买？
-answer: LNP2PBot
-wrong_answers:
-  - Bisq
-  - RoboSat
-  - Peach
-explanation:
-  根据章节内容，LNP2PBot可以通过Telegram进行非KYC比特币购买。

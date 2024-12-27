@@ -270,9 +270,11 @@ Những điểm vào này gần như không thể tránh khỏi trong việc s�
 Do đó, chúng ta cũng cần phải có khả năng đối mặt với phân tích chuỗi trong việc sử dụng Bitcoin của mình. Làm được điều đó, chúng ta có thể giảm thiểu việc các hoạt động của mình bị thu thập và hạn chế ảnh hưởng của một điểm vào đối với quyền riêng tư của chúng ta.
 ![BTC204](assets/notext/31/5.webp)
 
-Thực ra, để đối phó tốt hơn với phân tích chuỗi, cách tiếp cận tốt nhất là nắm bắt được các phương pháp đang được dùng trong phân tích chuỗi. Nếu muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn phải hiểu những phương pháp này. Điều này sẽ cho phép bạn hiểu rõ hơn về các kỹ thuật như [trộn coin - trộn coin](https://planb.network/fr/tutorials/privacy/trộn coin-samourai-wallet) hoặc [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (các kỹ thuật mà chúng ta sẽ nghiên cứu trong các phần cuối của khóa học), và giảm thiểu những sai lầm có thể mắc phải.
+Thực ra, để đối phó tốt hơn với phân tích chuỗi, cách tiếp cận tốt nhất là nắm bắt được các phương pháp đang được dùng trong phân tích chuỗi. Nếu muốn biết cách cải thiện quyền riêng tư của mình trên Bitcoin, bạn phải hiểu những phương pháp này. Điều này sẽ cho phép bạn hiểu rõ hơn về các kỹ thuật như trộn coin - trộn coin hoặc payjoin (các kỹ thuật mà chúng ta sẽ nghiên cứu trong các phần cuối của khóa học), và giảm thiểu những sai lầm có thể mắc phải.
 Trong phần này, chúng ta có thể ví dụ như việc mã hóa và giải mã mã hóa. Một nhà mã hóa giỏi trước hết phải là một nhà phân tích mã hóa giỏi. Để tưởng tượng ra một thuật toán mã hóa mới, người ta phải biết nó sẽ phải đối mặt với những cuộc tấn công nào, và cũng phải nghiên cứu tại sao các thuật toán trước đó bị phá vỡ. Nguyên tắc tương tự áp dụng cho quyền riêng tư trên mạng lưới Bitcoin. Hiểu biết về các phương pháp phân tích chuỗi là chìa khóa để bảo vệ chống lại nó. Đó là lý do tại sao tôi đề xuất một phần hoàn chỉnh về phân tích chuỗi trong khóa học này.
 ### Các phương pháp phân tích blockchain
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Quan trọng là chúng ta cần hiểu được rằng phân tích chuỗi không phải là một môn khoa học chính xác. Nó dựa trên các quy tắc suy luận từ các quan sát trước đó hoặc các diễn giải logic. Những quy tắc này cho phép đạt được kết quả khá đáng tin cậy, nhưng không bao giờ là với độ chính xác tuyệt đối cả. Nói cách khác, **phân tích chuỗi luôn tồn tại yếu tố xác suất trong các kết luận được đưa ra**. Ví dụ, có thể ước lượng với độ chắc chắn nhiều hay ít rằng hai địa chỉ thuộc về cùng một thực thể, nhưng sự chắc chắn tuyệt đối luôn nằm ngoài tầm với.
 
@@ -1057,7 +1059,9 @@ Tất cả các phương pháp tự động lựa chọn UTXO này có thể hi�
 
 ### Hướng dẫn về gán nhãn UTXO
 
-Nếu bạn muốn học cách gắn nhãn cho UTXO của mình, chúng tôi đã tạo một hướng dẫn đầy đủ liên quan tới các phần mềm ví Bitcoin phổ biến hiện nay. Tìm hiểu [bằng cách nhấp vào đây](https://planb.network/tutorials/privacy/utxo-labelling).
+Nếu bạn muốn học cách gắn nhãn cho UTXO của mình, chúng tôi đã tạo một hướng dẫn đầy đủ liên quan tới các phần mềm ví Bitcoin phổ biến hiện nay. Tìm hiểu bằng cách nhấp vào đây.
+
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC và xác định danh tính của chủ khoá
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1177,26 +1181,38 @@ Một lần nữa, một nhược điểm khác của việc mua bán P2P là gi
 
 Về giải pháp, cá nhân tôi luôn sử dụng [Bisq](https://bisq.network/) và rất hài lòng với nó. Hệ thống của họ được thiết lập tốt và có vẻ đáng tin cậy. Tuy nhiên, Bisq chỉ có sẵn trên máy tính cá nhân và giao diện của nó có thể quá phức tạp đối với người mới bắt đầu. Một nhược điểm khác là Bisq chỉ hoạt động với giao dịch trên chuỗi, có thể trở nên tốn kém trong những thời kỳ phí giao dịch Bitcoin cao.
 
-[-> Khám phá hướng dẫn của chúng tôi về Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+-> Khám phá hướng dẫn của chúng tôi về Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Đối với một lựa chọn đơn giản hơn, bạn có thể thử [Peach](https://peachbitcoin.com/), một ứng dụng di động giúp kết nối người mua và người bán với hệ thống giải quyết tranh chấp tích hợp. Quy trình này dễ hiểu hơn so với Bisq.
 
-[-> Khám phá hướng dẫn của chúng tôi về Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+-> Khám phá hướng dẫn của chúng tôi về Peach.
 Một lựa chọn trực tuyến khác là [HodlHodl](https://hodlhodl.com/), một nền tảng đã có uy tín tốt và cung cấp tính thanh khoản tốt, mặc dù cá nhân tôi chưa từng trải nghiệm.
 
-[-> Khám phá hướng dẫn của chúng tôi về HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+-> Khám phá hướng dẫn của chúng tôi về HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Đối với các giải pháp dựa trên Lightning Network, bạn có thể thử [RoboSats](https://learn.robosats.com/) và [LNP2PBot](https://lnp2pbot.com/). RoboSats có thể truy cập qua một trang web và tương đối dễ sử dụng. LNP2PBot thì đặc biệt hơn, vì nó hoạt động thông qua một hệ thống trao đổi trên ứng dụng nhắn tin Telegram.
 
-[-> Khám phá hướng dẫn của chúng tôi về RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Khám phá hướng dẫn của chúng tôi về LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+-> Khám phá hướng dẫn của chúng tôi về RoboSats.
+-> Khám phá hướng dẫn của chúng tôi về LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ### Các nền tảng giao dịch được quản lý nhưng không yêu cầu KYC
 
 Tùy thuộc vào quốc gia bạn sống, bạn có thể có quyền truy cập vào các nền tảng được quản lý không yêu cầu thủ tục KYC để mua hoặc bán bitcoin. Ở Thụy Sĩ, ví dụ, bạn có thể sử dụng các nền tảng như [Relai](https://relai.app/) và [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Khám phá hướng dẫn của chúng tôi về Relai.](https://planb.network/en/tutorials/exchange/relai)
+-> Khám phá hướng dẫn của chúng tôi về Relai.
 Như chúng ta đã thấy trong chương trước, loại nền tảng này giúp bạn tránh được rủi ro liên quan đến các thủ tục KYC, nhưng chúng lại mang lại mức độ rủi ro cao hơn trong việc dễ bị xác định danh tính chủ khoá. Về mặt bảo mật thông tin cá nhân trên Bitcoin, những nền tảng này do đó cung cấp bảo vệ tốt hơn so với các phương pháp mua bán có KYC, nhưng chúng kém hấp dẫn hơn so với giao dịch P2P.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 Tuy nhiên, về mặt an toàn cá nhân, việc sử dụng những nền tảng này ít rủi ro hơn đáng kể so với giao dịch P2P. Chúng cũng thường dễ sử dụng hơn so với các nền tảng hỗ trợ giao dịch P2P.
 
@@ -1216,6 +1232,8 @@ Cách tốt nhất để tiêu bitcoin rõ ràng là sử dụng trực tiếp b
 
 Một số nền tảng không yêu cầu thủ tục KYC cung cấp khả năng đổi bitcoin lấy thẻ quà tặng có thể sử dụng ở các cửa hàng lớn. Trong số các nền tảng này, chúng ta có thể tìm thấy [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), và [Bitrefill](https://www.bitrefill.com/). Những nền tảng này giúp việc sử dụng bitcoin vào các giao dịch hàng ngày của bạn trở nên dễ dàng hơn bằng cách cho phép bạn tiếp cận với một loạt sản phẩm và dịch vụ mà không cần phải chuyển đổi sang tiền pháp định.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Các phương pháp mua bán khác
@@ -1224,7 +1242,9 @@ Trong số các phương pháp khác để mua bitcoin mà vẫn bảo vệ đư
 
 Một phương pháp khác bao gồm làm việc và nhận lương bằng bitcoin. Phương pháp mua bán này có thể thú vị, nhưng mức độ xác định danh tính yêu cầu thay đổi rất nhiều tùy theo hoàn cảnh.
 
-*Để viết chương này, tôi đã sử dụng khóa học [BTC205](https://planb.network/fr/courses/btc205) được tạo bởi [@pivi___](https://x.com/pivi___) trên PlanB Network (hiện chỉ có sẵn bằng tiếng Pháp).*
+*Để viết chương này, tôi đã sử dụng khóa học BTC205 được tạo bởi [@pivi___](https://x.com/pivi___) trên Plan ₿ Network (hiện chỉ có sẵn bằng tiếng Pháp).*
+
+
 
 ## Hợp nhất, quản lý UTXO và CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2487,7 +2507,15 @@ Những avatar này cũng có thể được biểu diễn dưới dạng hình 
 
 Mặc dù những robot này không có chức năng kỹ thuật cụ thể nào trong khuôn khổ của BIP47, chúng đóng vai trò trong việc tạo điều kiện cho các tương tác giữa người dùng bằng cách cung cấp một danh tính hình ảnh dễ nhận biết.
 
-Trong các phần tiếp theo của chương được dành riêng cho BIP47 này, chúng ta sẽ xem xét chi tiết cách thức hoạt động của nó, và nhấn mạnh đặc biệt vào các phương pháp mật mã học được sử dụng. Để hiểu đầy đủ những giải thích kỹ thuật này, điều cần thiết là phải hiểu trước cấu trúc của ví HD - ví phân cấp tất định, các quy trình phát sinh khóa, và các nguyên tắc cơ bản của mật mã học dựa trên đường cong e líp. Nếu bạn muốn tìm hiểu sâu hơn về những khái niệm này, một khóa học miễn phí khác có sẵn trên PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Tôi vẫn khuyên bạn nên theo dõi chúng, vì việc hiểu rõ cơ chế kỹ thuật của BIP47 sẽ giúp bạn dễ dàng hiểu các đề xuất tương tự khác mà chúng ta sẽ thảo luận trong các chương tiếp theo.
+---
+*Trong các phần tiếp theo của chương này dành riêng cho BIP47, chúng ta sẽ xem xét chi tiết cách nó hoạt động, với trọng tâm đặc biệt vào các phương pháp mã hóa được sử dụng. Để hiểu đầy đủ các giải thích có phần kỹ thuật này, điều quan trọng là phải hiểu trước cấu trúc của ví HD, quy trình dẫn xuất khóa và các nguyên tắc cơ bản của mật mã dựa trên đường cong elliptic. Nếu bạn muốn tìm hiểu sâu hơn về các khái niệm này, có một khóa học miễn phí khác có sẵn trên Plan ₿ Network:*
+
+https://planb.network/courses/cyp201
+
+*Tôi khuyến nghị bạn nên tham gia, vì việc hiểu cách thức hoạt động kỹ thuật của BIP47 sẽ giúp bạn dễ dàng hơn rất nhiều khi nắm bắt các đề xuất tương tự khác mà chúng ta sẽ thảo luận trong các chương tiếp theo.*
+
+---
+
 ### Mã thanh toán có thể sử dụng lại
 
 Như đã đề cập trước đó, mã thanh toán có thể sử dụng lại nằm ở độ sâu 3 của ví HD, làm cho nó tương đương với một `xpub`, cả về vị trí của nó trong cấu trúc ví và vai trò của nó.
@@ -3453,26 +3481,47 @@ Chúng tôi sẽ sớm cung cấp một hướng dẫn chi tiết về cách thi
 Vì tính năng này là mới, nên cần thận trọng và tránh sử dụng Silent Payments cho các khoản tiền lớn trên mainnet.
 
 *Để tạo chương này về Silent Payments, tôi đã sử dụng [trang giải thích Silent Payments](https://silentpayments.xyz/) và [tài liệu giải thích BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
-
 # Kết luận
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-## Đánh giá khóa học
+## Đánh giá khóa học này
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Kỳ thi cuối cùng
+## Bài kiểm tra cuối cùng
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Lời kết
+## Kết luận
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Chúc mừng bạn đã hoàn thành khóa đào tạo về quyền riêng tư Bitcoin này!
 
-Xin chúc mừng bạn đã hoàn thành khóa đào tạo này về quyền riêng tư trên mạng lưới Bitcoin!
+Trong khóa đào tạo này, chúng ta đã đề cập đến nhiều chủ đề nâng cao và kỹ thuật, nhưng không bắt buộc phải sử dụng tất cả các công cụ đã được giới thiệu. Mục tiêu chính là trao cho bạn quyền lựa chọn thông tin nào bạn muốn tiết lộ và thông tin nào bạn muốn giữ bí mật trong việc sử dụng Bitcoin của mình. Điều này thể hiện bản chất của việc bảo vệ quyền riêng tư. Để đưa ra quyết định sáng suốt về việc chia sẻ hoặc giấu thông tin nào, bạn cần nhận thức được những hệ quả từ hành động của chúng ta. Tôi hy vọng khóa đào tạo này đã giúp bạn có được những kiến thức đó.
 
-Chúng tôi đã đề cập đến nhiều chủ đề  nâng cao và thiên về kỹ thuật trong khoá này, nhưng bạn không nhất thiết phải sử dụng tất cả các công cụ được trình bày ở đây. Mục tiêu chính là trao quyền cho bạn để chọn lựa thông tin bạn muốn tiết lộ và thông tin bạn muốn giữ kín trong việc sử dụng Bitcoin của mình. Điều này thể hiện bản chất cốt lõi của việc bảo vệ quyền riêng tư. Để đưa ra quyết định thông tin nào nên chia sẻ hoặc giấu kín, cần phải nhận thức được hậu quả của các hành động của mình. Tôi hy vọng khóa đào tạo này đã giúp bạn có được những kiến thức này.
-Nếu tôi phải chọn phần quan trọng nhất của khóa đào tạo này, tôi sẽ chọn phần dành riêng cho phân tích chuỗi. Hiểu biết về các kỹ thuật mà kẻ tấn công tiềm năng của bạn sử dụng là cách tốt nhất để bảo vệ bản thân. Do đó, lời khuyên của tôi sẽ là xem xét kỹ lưỡng phần này và cố gắng nắm bắt tất cả các chi tiết.
-Trong khóa đào tạo này, chúng tôi chỉ tập trung vào vấn đề quyền riêng tư của Bitcoin trên chuỗi chính. Các vấn đề về riêng tư trên các hệ thống lớp thứ hai, như Lightning Network và sidechains, cũng rất quan trọng và có những đặc điểm cụ thể. Mặc dù việc sử dụng các giao dịch ngoại tuyến có thể là một chiến lược hiệu quả để lách qua nhiều rủi ro về khả năng theo dõi trên mạng lưới Bitcoin mà chúng ta đã nghiên cứu, nó cũng đưa bạn đến với những rủi ro khác mà chúng ta cần nhận biết. Đó là lý do tại sao những chủ đề này sẽ được đề cập trong một khóa đào tạo chuyên sâu trong tương lai trên PlanB Network.
+Nếu phải chọn phần quan trọng nhất của khóa đào tạo này, tôi sẽ chọn phần dành cho phân tích chuỗi. Hiểu được các kỹ thuật mà những kẻ tấn công tiềm năng sử dụng là cách tốt nhất để bảo vệ bạn khỏi họ. Vì vậy, lời khuyên của tôi là xem xét kỹ phần này và cố gắng nắm bắt tất cả các chi tiết của nó.
 
-Nếu bạn thích khóa đào tạo này, tôi sẽ rất biết ơn nếu bạn có thể chia sẻ nó với bạn bè của bạn và trên mạng xã hội. Cảm ơn bạn! :)
+Trong khóa đào tạo này, chúng ta chỉ tập trung vào quyền riêng tư của Bitcoin trên chuỗi chính. Các vấn đề về quyền riêng tư trên các hệ thống lớp hai, như Lightning Network và sidechains, cũng quan trọng và có những đặc điểm rất riêng biệt. Mặc dù việc sử dụng các giao dịch ngoài chuỗi có thể là một chiến lược hiệu quả để tránh nhiều rủi ro về khả năng theo dõi Bitcoin mà chúng ta đã nghiên cứu, nó khiến bạn phải đối mặt với những rủi ro khác mà cũng cần thiết phải biết. Đó là lý do tại sao những chủ đề này sẽ được đề cập trong khóa đào tạo chuyên biệt trong tương lai trên Plan ₿ Network.
+
+Nếu bạn thích khóa đào tạo này, tôi sẽ rất biết ơn nếu bạn chia sẻ nó với người thân và trên mạng xã hội của bạn. Cảm ơn! :)
+
+Để tiếp tục đào sâu kiến thức của bạn trong vũ trụ Bitcoin, chúng tôi mời bạn khám phá các khóa học khác có sẵn trên Plan ₿ Network như:
+
+#### Hiểu cách hoạt động của ví Bitcoin với
+https://planb.network/courses/cyp201
+
+#### Học cách tạo cộng đồng Bitcoin của bạn với
+https://planb.network/courses/btc302
+
+#### Khám phá lịch sử nguồn gốc của Bitcoin với
+https://planb.network/courses/his201
+
+#### Cấu hình máy chủ thanh toán BTC với
+https://planb.network/courses/btc305
+
+#### Khám phá Lightning Network với
+https://planb.network/courses/lnp201
+
+#### Khám phá sự phát triển của tự do qua các thời đại với
+https://planb.network/courses/phi201
+
+

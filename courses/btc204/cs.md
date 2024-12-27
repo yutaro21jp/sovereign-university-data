@@ -292,8 +292,12 @@ Tyto vstupní body jsou téměř nevyhnutelné při používání Bitcoinu. Ačk
 Je tedy také nutné být schopen čelit analýze blockchainu při našem používání Bitcoinu. Postupem tohoto způsobu můžeme minimalizovat agregaci našich aktivit a omezit dopad vstupního bodu na naše soukromí.
 ![BTC204](assets/notext/31/5.webp)
 
-Skutečně, pro lepší čelbu analýze blockchainu, jaký lepší přístup, než se seznámit s metodami používanými v analýze blockchainu? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte tyto metody pochopit. To vám umožní lépe pochopit techniky jako [coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) nebo [payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (techniky, které prozkoumáme v posledních částech školení) a snížit chyby, které byste mohli udělat.
+Skutečně, pro lepší čelbu analýze blockchainu, jaký lepší přístup, než se seznámit s metodami používanými v analýze blockchainu? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte tyto metody pochopit. To vám umožní lépe pochopit techniky jako coinjoin nebo payjoin (techniky, které prozkoumáme v posledních částech školení) a snížit chyby, které byste mohli udělat.
 V tomto můžeme udělat analogii s kryptografií a kryptoanalýzou. Dobrý kryptograf je především dobrý kryptoanalytik. Aby si někdo dokázal představit nový šifrovací algoritmus, musí vědět, jakým útokům bude čelit, a také studovat, proč byly předchozí algoritmy prolomeny. Stejný princip platí pro soukromí na Bitcoinu. Porozumění metodám analýzy blockchainu je klíčem k ochraně proti němu. Proto navrhuji celou sekci o analýze blockchainu v tomto školení.
+
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+
+https://planb.network/fr/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 ### Metody analýzy blockchainu
 
@@ -1077,7 +1081,7 @@ Všechny tyto metody automatického výběru UTXO mohou být účinné při sni�
 
 Pokud se chcete dozvědět, jak označit své UTXO, připravili jsme kompletní návod pro hlavní dostupné Bitcoin peněženky:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC a identifikace klíčů
 
@@ -1203,18 +1207,28 @@ Opět se ukazuje, že další nevýhodou nákupů P2P je, že cena je často vy�
 
 Pokud jde o řešení, osobně jsem vždy používal [Bisq](https://bisq.network/) a jsem s ním velmi spokojen. Jejich systém je dobře zavedený a zdá se být spolehlivý. Bisq je však dostupný pouze na PC a jeho rozhraní může být pro začátečníky příliš složité. Další nevýhodou je, že Bisq funguje pouze s onchain transakcemi, což může být nákladné během období vysokých transakčních poplatků na Bitcoinu.
 
-[-> Objevte náš tutoriál na Bisq.](https://planb.network/en/tutorials/exchange/bisq)
+-> Objevte náš tutoriál na Bisq.
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Pro jednodušší možnost můžete vyzkoušet [Peach](https://peachbitcoin.com/), mobilní aplikaci, která usnadňuje spojení mezi kupujícími a prodejci s integrovaným systémem řešení sporů. Proces je intuitivnější než u Bisq.
 
-[-> Objevte náš tutoriál na Peach.](https://planb.network/en/tutorials/exchange/peach-wallet)
+-> Objevte náš tutoriál na Peach.
 Další online možností je [HodlHodl](https://hodlhodl.com/), dobře zavedená platforma, která nabízí dobrou likviditu, ačkoli jsem ji osobně netestoval.
-[-> Objevte náš tutoriál na HodlHodl.](https://planb.network/en/tutorials/exchange/hodlhodl)
+-> Objevte náš tutoriál na HodlHodl.
+
+https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Pro řešení založená na Lightning Network můžete vyzkoušet [RoboSats](https://learn.robosats.com/) a [LNP2PBot](https://lnp2pbot.com/). RoboSats je přístupný přes webové stránky a je relativně jednoduchý na použití. LNP2PBot je atypičtější, protože funguje prostřednictvím systému výměny na aplikaci pro zasílání zpráv Telegram.
 
-[-> Objevte náš tutoriál na RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
-[-> Objevte náš tutoriál na LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
+-> Objevte náš tutoriál na RoboSats.
+-> Objevte náš tutoriál na LNP2PBot.
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-6b12c3af-b787-4bd1-8f78-72a8f0ad215f
 
 ![BTC204](assets/notext/44/08.webp)
 
@@ -1222,9 +1236,11 @@ Pro řešení založená na Lightning Network můžete vyzkoušet [RoboSats](htt
 
 V závislosti na zemi, ve které žijete, můžete mít přístup k regulovaným platformám, které nevyžadují proceduru KYC pro nákup nebo prodej bitcoinů. Ve Švýcarsku můžete například používat platformy jako [Relai](https://relai.app/) a [MtPelerin](https://www.mtpelerin.com/).
 
-[-> Objevte náš tutoriál na Relai.](https://planb.network/en/tutorials/exchange/relai)
+-> Objevte náš tutoriál na Relai.
 Jak jsme viděli v předchozí kapitole, tento typ platformy vás ušetří rizik spojených s postupy KYC, ale představují vyšší úroveň rizika pro klíčovou identifikaci. Pokud jde o soukromí na Bitcoinu, tyto platformy tedy nabízejí lepší ochranu než metody nákupu s KYC, ale nejsou tak zajímavé jako P2P burzy.
 Nicméně, pokud jde o osobní bezpečnost, používání těchto platforem je výrazně méně rizikové než P2P burzy. Jsou také často jednodušší na používání než platformy, které usnadňují P2P výměny.
+
+https://planb.network/tutorials/exchange/centralized/relai-2f202e4b-9711-4dd9-85b6-e61868c70b8e
 
 ### Bankomaty
 
@@ -1242,6 +1258,8 @@ Nejlepší způsob, jak utratit BTC, je samozřejmě použít Bitcoin přímo ne
 
 Několik platforem, které nevyžadují postup KYC, nabízí možnost výměny bitcoinů za dárkové karty, které lze použít ve velkých obchodech. Mezi tyto platformy patří [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/), a [Bitrefill](https://www.bitrefill.com/). Tyto platformy velmi usnadňují každodenní používání vašich bitcoinů tím, že vám umožňují přístup k široké škále produktů a služeb bez nutnosti konverze do fiat měny.
 
+https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 ![BTC204](assets/notext/44/10.webp)
 
 ### Další metody získání
@@ -1250,7 +1268,9 @@ Mezi další metody získání bitcoinů při ochraně vašeho soukromí patří
 
 Další metoda spočívá v práci výměnou za bitcoiny. Tato metoda získání může být zajímavá, ale stupeň vyžadované identifikace se velmi liší v závislosti na okolnostech.
 
-\_K napsání této kapitoly jsem využil kurz [BTC205](https://planb.network/fr/courses/btc205) vytvořený [@pivi\_\_\_](https://x.com/pivi___) na PlanB Network (zatím dostupný pouze ve francouzštině).\_
+\_K napsání této kapitoly jsem využil kurz BTC205 vytvořený [@pivi\_\_\_](https://x.com/pivi___) na Plan ₿ Network (zatím dostupný pouze ve francouzštině).\_
+
+
 
 ## Konsolidace, Správa UTXO a CIOH
 
@@ -1804,11 +1824,11 @@ Pozorně sledujeme vývoj této kauzy i vývoj přidružených nástrojů. Ujist
 
 V další kapitole se dozvíme, co jsou "anonsety", jak se tyto ukazatele vypočítávají a jak nám mohou pomoci odhadnout účinnost cyklů coinjoin.
 
-https://planb.network/tutorials/privacy/coinjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
 
-https://planb.network/tutorials/privacy/coinjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 ## Sady anonymity
 
@@ -1876,7 +1896,7 @@ Je možné ručně vypočítat své anonsety pomocí prohlížeče bloků pro ma
 
 Jak jsme viděli v této kapitole, anonsety lze vypočítat pouze v případě, že existuje určitá homogenita ve struktuře coinjoinů. A přesně v další kapitole se dozvíme, jak kvantifikovat tuto homogenitu v Bitcoinové transakci, ať už jde o coinjoin nebo tradičnější transakci.
 
-https://planb.network/tutorials/privacy/wst-anonsets
+https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
 
 ## Entropie
 
@@ -2105,7 +2125,7 @@ Bohužel, po zatčení zakladatelů Samourai, tyto nástroje momentálně nejsou
 
 Nyní, když jsme podrobně diskutovali o coinjoinech, prozkoumáme v poslední části našeho školení další dostupné techniky soukromí na Bitcoinu. Budeme zkoumat payjoiny, specifické typy transakcí pseudo-coinjoin, protokoly s pevnou adresou, stejně jako opatření zaměřená na zvýšení soukromí ne na úrovni transakce, ale na úrovni sítě uzlů.
 
-https://planb.network/tutorials/privacy/boltzmann-entropy
+https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
 
 # Porozumění významu dalších pokročilých technik soukromí
 
@@ -2185,9 +2205,9 @@ Obtížnost používání payjoin spočívá v jeho závislosti na účasti obch
 
 Řešením by mohlo být použití transakčních struktur, které zavádějí nejednoznačnost v analýze řetězce bez nutnosti spolupráce příjemce. To by nám umožnilo zlepšit soukromí našich plateb bez závislosti na aktivní účasti obchodníků. To je přesně to, co budeme studovat v další kapitole.
 
-https://planb.network/tutorials/privacy/payjoin-sparrow-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
-https://planb.network/tutorials/privacy/payjoin-samourai-wallet
+https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Mini-coinjoiny pro platby
 
@@ -2294,9 +2314,9 @@ Je také možné manuálně provést tento typ transakce z jakéhokoli softwaru 
 
 V další kapitole se budeme věnovat další technice ochrany soukromí, která je relativně neznámá, ale je velmi užitečná v doplnění toho, co jsme již studovali.
 
-https://planb.network/tutorials/privacy/stonewall
+https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/stonewall-x2
+https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Ricochets
 
@@ -2361,7 +2381,7 @@ Ricochet jednoduše zahrnuje poslání bitcoinů sami sobě. Je zcela možné pr
 
 V následující kapitole prozkoumáme různé techniky pro tajné převody majetku. Tyto metody se radikálně liší od těch, které jsme dosud zkoumali, jak z hlediska provozu, tak výsledků.
 
-https://planb.network/tutorials/privacy/ricochet
+https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Tajné převody majetku
 
@@ -2587,7 +2607,17 @@ Tyto avatary mohou být také reprezentovány ve formě obrázků:
 ![BTC204](assets/notext/66/6.webp)
 
 Ačkoliv tyto roboty nemají v rámci BIP47 specifickou technickou funkcionalitu, hrají roli ve zjednodušení interakcí mezi uživateli tím, že nabízejí snadno rozpoznatelnou vizuální identitu.
-V následujících částech této kapitoly věnované BIP47 podrobně prozkoumáme, jak to funguje, s osobitým důrazem na použité kryptografické metody. Abychom plně pochopili tyto poněkud technické vysvětlení, je nezbytné nejprve porozumět struktuře HD peněženek, procesům derivace klíčů a základním principům kryptografie založené na eliptických křivkách. Pokud se chcete do těchto konceptů ponořit hlouběji, další bezplatný kurz je k dispozici na PlanB Network: [CRYPTO 301](https://planb.network/en/courses/crypto301). Přesto vám doporučuji je sledovat, protože pochopení technického fungování BIP47 vám velmi usnadní pochopení dalších podobných návrhů, o kterých budeme diskutovat v následujících kapitolách.
+
+
+---
+*V následujících částech této kapitoly věnované BIP47 podrobně prozkoumáme jeho fungování, přičemž se zaměříme zejména na použité kryptografické metody. Abychom tyto poněkud technické vysvětlení plně pochopili, je důležité nejprve porozumět struktuře HD peněženek, procesům odvození klíčů a základním principům kryptografie založené na eliptických křivkách. Pokud si přejete tyto koncepty prohloubit, na Plan ₿ Network je k dispozici další bezplatné školení:*
+
+https://planb.network/courses/cyp201
+
+*Doporučuji je absolvovat, protože pochopením technického fungování BIP47 snáze porozumíte dalším podobným návrhům, o kterých budeme hovořit v následujících kapitolách.*
+
+---
+
 
 ### Opakovaně použitelný platební kód
 
@@ -3317,7 +3347,7 @@ Bob může poté vrátit Alice peníze stejným způsobem, jakým mu poslala pla
 ![BTC204](assets/cs/66/26.webp)
 _Velké poděkování [Fanis Michalakis](https://x.com/FanisMichalakis) za jeho recenzi a cenné odborné rady k článku, který inspiroval k napsání této kapitoly!_
 
-https://planb.network/tutorials/privacy/paynym-bip47
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Tiché platby
 
@@ -3694,8 +3724,7 @@ _K vytvoření této kapitoly o Silent Payments jsem použil [web s vysvětlení
 # Závěr
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
-
-## Ohodnoťte kurz
+## Ohodnoťte tento kurz
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -3703,14 +3732,38 @@ _K vytvoření této kapitoly o Silent Payments jsem použil [web s vysvětlení
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Poslední slovo
+## Závěr
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
+Gratulujeme k dokončení tohoto školení o soukromí Bitcoinu!
 
-Gratuluji k dokončení tohoto školení o soukromí v Bitcoinu!
+V tomto školení jsme se zabývali mnoha pokročilými a technickými tématy, ale není nutné používat všechny představené nástroje. Hlavním cílem bylo dát vám možnost vybrat si, které informace chcete zveřejnit a které raději zachovat důvěrné při používání Bitcoinu. To ztělesňuje samotnou podstatu ochrany soukromí. Pro informované rozhodování o tom, které informace sdílet nebo skrýt, je nutné si být vědom důsledků našich činů. Doufám, že vám toto školení pomohlo získat tyto znalosti.
 
-Probrali jsme mnoho pokročilých a technických témat v tomto školení, ale není nezbytné používat všechny prezentované nástroje. Hlavním cílem bylo poskytnout vám možnost vybrat si, které informace chcete zveřejnit a které informace dáváte přednost udržet v soukromí při používání Bitcoinu. To je samotná podstata ochrany soukromí. Abychom mohli dělat informovaná rozhodnutí o tom, které informace sdílet nebo skrývat, je nutné být si vědom důsledků našich akcí. Doufám, že vám toto školení pomohlo získat tuto znalost.
-Pokud bych měl vybrat nejdůležitější část tohoto školení, vybral bych sekci věnovanou analýze řetězců. Porozumění technikám používaným vašimi potenciálními útočníky je nejlepší způsob, jak se chránit. Proto bych vám doporučil pečlivě si tuto část projít a pokusit se pochopit všechny její detaily.
-V tomto školení jsme se zaměřili výhradně na soukromí Bitcoinu na hlavním řetězci. Problémy soukromí na systémech druhé vrstvy, jako je Lightning Network a sidechainy, jsou také významné a mají velmi specifické charakteristiky. Ačkoliv použití transakcí mimo hlavní řetězec může být efektivní strategií, jak se vyhnout mnoha rizikům sledovatelnosti na Bitcoinu, které jsme studovali, vystavuje vás to jiným rizikům, o kterých je také důležité vědět. Proto budou tyto témata pokryta v budoucím specializovaném školení na PlanB Network.
+Pokud bych měl vybrat nejdůležitější část tohoto školení, vybral bych sekci věnovanou analýze blockchainu. Porozumění technikám používaným vašimi potenciálními útočníky je nejlepší způsob, jak se před nimi chránit. Moje rada by tedy byla pečlivě si tuto část projít a snažit se pochopit všechny její detaily.
 
-Pokud se vám toto školení líbilo, byl bych velmi vděčný, pokud byste jej mohli sdílet s přáteli a na sociálních médiích. Děkuji! :)
+V tomto školení jsme se zaměřili výhradně na soukromí Bitcoinu na hlavním řetězci. Otázky soukromí na systémech druhé vrstvy, jako jsou Lightning Network a sidechains, jsou také důležité a mají velmi specifické charakteristiky. Zatímco používání off-chain transakcí může být účinnou strategií k obejití mnoha rizik sledovatelnosti Bitcoinu, která jsme studovali, vystavuje vás to jiným rizikům, která je také důležité znát. Proto budou tato témata pokryta v budoucím specializovaném školení na Plan ₿ Network.
+
+Pokud se vám toto školení líbilo, budu vám velmi vděčný, pokud ho budete sdílet se svými blízkými a na sociálních sítích. Děkuji! :)
+
+Pro další prohlubování vašich znalostí ve světě Bitcoinu vás zveme k prozkoumání dalších kurzů dostupných na Plan ₿ Network, jako jsou:
+
+#### Pochopte, jak funguje Bitcoin peněženka s
+https://planb.network/courses/cyp201
+
+#### Naučte se vytvořit svou Bitcoin komunitu s
+https://planb.network/courses/btc302
+
+#### Objevte historii počátků Bitcoinu s
+https://planb.network/courses/his201
+
+#### Nakonfigurujte BTC platební server s
+https://planb.network/courses/btc305
+
+#### Objevte Lightning Network s
+https://planb.network/courses/lnp201
+
+#### Objevte vývoj svobody napříč věky s
+https://planb.network/courses/phi201
 $$
+
+
+

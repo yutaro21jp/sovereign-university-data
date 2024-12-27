@@ -1,9 +1,0 @@
-question: RoboSat P2P解决方案的一个缺点是什么？
-answer: 协议因单一协调器而脆弱。
-wrong_answers:
-  - 它需要一个账户才能操作。
-  - 它不使用闪电网络。
-  - 它不是开源的。
-explanation: |
-  该章节提到RoboSat的一个缺点是其协议因单一协调器而脆弱。
-reviewed: false
